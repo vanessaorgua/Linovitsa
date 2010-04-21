@@ -1,5 +1,6 @@
 <RCC>
-    <qresource prefix="/mnemo">
-	<file>one.svg</file>
-    </qresource>
+  <qresource prefix="/mnemo">
+    <file>one.svg</file>
+    <file>mnemo.svg</file>
+  </qresource>
 </RCC>
