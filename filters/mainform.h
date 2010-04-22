@@ -4,13 +4,13 @@
 
 //#include "../../lib/trend.h"
 
-class RIoNetClient;
+class IoNetClient;
 
 class mMainForm: public QWidget // ,public Ui::Form
 {
     Q_OBJECT
 public:
-	mMainForm(RIoNetClient *source=NULL,QWidget *p=NULL);
+        mMainForm(IoNetClient &source,QWidget *p=NULL);
 	~mMainForm();
 	
 public slots:
@@ -24,7 +24,7 @@ public slots:
     
 private:
     
-    RIoNetClient *src; // вказівник на джерело даних
+    IoNetClient &src; // вказівник на джерело даних
 
     //TrendWindow *pTrw; // вказівник на вікно трендів
     //struct trendinfo tp;

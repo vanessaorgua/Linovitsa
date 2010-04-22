@@ -6,7 +6,7 @@ TEMPLATE = app
 TARGET = 
 DEPENDPATH += . mnemo
 INCLUDEPATH += .
-QT += sql
+QT += sql network
 
 # Input
 HEADERS += mainform.h mnemo.h
@@ -32,5 +32,7 @@ RCC_DIR = build
 #    list.txt \
 
 QMAKE_LIBDIR += ../../lib
+
 LIBS += -lrcada_client
-INCLUDEPATH += ../../lib
+
+INCLUDEPATH += ../../lib/include

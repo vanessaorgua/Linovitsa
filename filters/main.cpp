@@ -2,7 +2,8 @@
 //#include <QTranslator>
 #include <QtSql>
 
-//#include "RIoNetClient.h"
+#include <IoNetClient.h>
+
 #include "mainform.h"
 
 int main(int argc,char **argv)
@@ -14,7 +15,7 @@ int main(int argc,char **argv)
 
     QSettings s;
     
-    //RIoNetClient net(s.value("/ioserv/hostname","localhost").toString());
+    IoNetClient net(s.value("/ioserv/hostname","localhost").toString());
 
 //    QSqlDatabase dbs=QSqlDatabase::addDatabase("QMYSQL");
 
@@ -40,7 +41,7 @@ int main(int argc,char **argv)
 
     QTextCodec::setCodecForTr(QTextCodec::codecForName("UTF-8"));
     
-    mMainForm *mainForm = new mMainForm();
+    mMainForm *mainForm = new mMainForm(net);
     
     main.addWidget(mainForm);
     main.setCurrentWidget(mainForm);

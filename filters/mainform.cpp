@@ -5,8 +5,10 @@
 #include <QDebug>
 
 #include <QMessageBox>
+#include <IoNetClient.h>
 
-mMainForm::mMainForm(RIoNetClient *source,QWidget *p): QWidget(p)
+
+mMainForm::mMainForm(IoNetClient &source,QWidget *p): QWidget(p)
 ,src(source),m_ui(new Ui::Form)
 {
 
@@ -25,7 +27,7 @@ mMainForm::mMainForm(RIoNetClient *source,QWidget *p): QWidget(p)
     connect (m_ui->Exit,SIGNAL(clicked()),this,SLOT(slotExit()));
     
     // відобразити мнемосхему
-    m_ui->stackedMnemo->addWidget(new Mnemo(this));
+    m_ui->stackedMnemo->addWidget(new Mnemo(src,this));
 
     
     

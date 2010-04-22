@@ -33,11 +33,16 @@
   <widget class="QPushButton" name="bn_F_1">
    <property name="geometry">
     <rect>
-     <x>82</x>
-     <y>307</y>
+     <x>228</x>
+     <y>285</y>
      <width>70</width>
      <height>77</height>
     </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>16</pointsize>
+    </font>
    </property>
    <property name="styleSheet">
     <string notr="true">QPushButton{
@@ -66,14 +71,14 @@ QPushButton:pressed
 </string>
    </property>
    <property name="text">
-    <string/>
+    <string>1</string>
    </property>
   </widget>
   <widget class="QCheckBox" name="cb_Cl_1_1">
    <property name="geometry">
     <rect>
-     <x>59</x>
-     <y>274</y>
+     <x>205</x>
+     <y>252</y>
      <width>20</width>
      <height>32</height>
     </rect>
@@ -113,8 +118,8 @@ QCheckBox:indicator
   <widget class="QCheckBox" name="cb_Vl_1_1">
    <property name="geometry">
     <rect>
-     <x>78</x>
-     <y>282</y>
+     <x>224</x>
+     <y>260</y>
      <width>16</width>
      <height>16</height>
     </rect>
@@ -151,11 +156,16 @@ QCheckBox:indicator
   <widget class="QPushButton" name="bn_F_2">
    <property name="geometry">
     <rect>
-     <x>238</x>
-     <y>307</y>
+     <x>361</x>
+     <y>285</y>
      <width>70</width>
      <height>77</height>
     </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>16</pointsize>
+    </font>
    </property>
    <property name="styleSheet">
     <string notr="true">QPushButton{
@@ -184,17 +194,22 @@ QPushButton:pressed
 </string>
    </property>
    <property name="text">
-    <string/>
+    <string>2</string>
    </property>
   </widget>
   <widget class="QPushButton" name="bn_F_3">
    <property name="geometry">
     <rect>
-     <x>388</x>
-     <y>307</y>
+     <x>488</x>
+     <y>285</y>
      <width>70</width>
      <height>77</height>
     </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>16</pointsize>
+    </font>
    </property>
    <property name="styleSheet">
     <string notr="true">QPushButton{
@@ -223,17 +238,22 @@ QPushButton:pressed
 </string>
    </property>
    <property name="text">
-    <string/>
+    <string>3</string>
    </property>
   </widget>
   <widget class="QPushButton" name="bn_F_4">
    <property name="geometry">
     <rect>
-     <x>542</x>
-     <y>307</y>
+     <x>618</x>
+     <y>285</y>
      <width>70</width>
      <height>77</height>
     </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>16</pointsize>
+    </font>
    </property>
    <property name="styleSheet">
     <string notr="true">QPushButton{
@@ -262,17 +282,22 @@ QPushButton:pressed
 </string>
    </property>
    <property name="text">
-    <string/>
+    <string>4</string>
    </property>
   </widget>
   <widget class="QPushButton" name="bn_F_5">
    <property name="geometry">
     <rect>
-     <x>694</x>
-     <y>307</y>
+     <x>748</x>
+     <y>285</y>
      <width>70</width>
      <height>77</height>
     </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>16</pointsize>
+    </font>
    </property>
    <property name="styleSheet">
     <string notr="true">QPushButton{
@@ -301,17 +326,22 @@ QPushButton:pressed
 </string>
    </property>
    <property name="text">
-    <string/>
+    <string>5</string>
    </property>
   </widget>
   <widget class="QPushButton" name="bn_F_6">
    <property name="geometry">
     <rect>
-     <x>848</x>
-     <y>306</y>
+     <x>879</x>
+     <y>284</y>
      <width>70</width>
      <height>77</height>
     </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>16</pointsize>
+    </font>
    </property>
    <property name="styleSheet">
     <string notr="true">QPushButton{
@@ -340,17 +370,22 @@ QPushButton:pressed
 </string>
    </property>
    <property name="text">
-    <string/>
+    <string>6</string>
    </property>
   </widget>
   <widget class="QPushButton" name="bn_F_7">
    <property name="geometry">
     <rect>
-     <x>1002</x>
-     <y>307</y>
+     <x>1010</x>
+     <y>285</y>
      <width>70</width>
      <height>77</height>
     </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>16</pointsize>
+    </font>
    </property>
    <property name="styleSheet">
     <string notr="true">QPushButton{
@@ -379,17 +414,22 @@ QPushButton:pressed
 </string>
    </property>
    <property name="text">
-    <string/>
+    <string>7</string>
    </property>
   </widget>
   <widget class="QPushButton" name="bn_F_8">
    <property name="geometry">
     <rect>
-     <x>1156</x>
-     <y>307</y>
+     <x>1142</x>
+     <y>285</y>
      <width>70</width>
      <height>77</height>
     </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>16</pointsize>
+    </font>
    </property>
    <property name="styleSheet">
     <string notr="true">QPushButton{
@@ -418,14 +458,14 @@ QPushButton:pressed
 </string>
    </property>
    <property name="text">
-    <string/>
+    <string>8</string>
    </property>
   </widget>
   <widget class="QCheckBox" name="cb_Cl_1_2">
    <property name="geometry">
     <rect>
-     <x>59</x>
-     <y>390</y>
+     <x>205</x>
+     <y>367</y>
      <width>20</width>
      <height>32</height>
     </rect>
@@ -465,8 +505,8 @@ QCheckBox:indicator
   <widget class="QCheckBox" name="cb_Vl_1_2">
    <property name="geometry">
     <rect>
-     <x>78</x>
-     <y>398</y>
+     <x>224</x>
+     <y>375</y>
      <width>16</width>
      <height>16</height>
     </rect>
@@ -503,8 +543,8 @@ QCheckBox:indicator
   <widget class="QCheckBox" name="cb_Cl_1_3">
    <property name="geometry">
     <rect>
-     <x>110</x>
-     <y>390</y>
+     <x>256</x>
+     <y>367</y>
      <width>20</width>
      <height>32</height>
     </rect>
@@ -544,8 +584,8 @@ QCheckBox:indicator
   <widget class="QCheckBox" name="cb_Vl_1_3">
    <property name="geometry">
     <rect>
-     <x>129</x>
-     <y>398</y>
+     <x>275</x>
+     <y>375</y>
      <width>16</width>
      <height>16</height>
     </rect>
@@ -582,8 +622,8 @@ QCheckBox:indicator
   <widget class="QCheckBox" name="cb_Cl_2_1">
    <property name="geometry">
     <rect>
-     <x>213</x>
-     <y>274</y>
+     <x>336</x>
+     <y>252</y>
      <width>20</width>
      <height>32</height>
     </rect>
@@ -623,8 +663,8 @@ QCheckBox:indicator
   <widget class="QCheckBox" name="cb_Vl_2_1">
    <property name="geometry">
     <rect>
-     <x>232</x>
-     <y>282</y>
+     <x>355</x>
+     <y>260</y>
      <width>16</width>
      <height>16</height>
     </rect>
@@ -661,8 +701,8 @@ QCheckBox:indicator
   <widget class="QCheckBox" name="cb_Cl_2_2">
    <property name="geometry">
     <rect>
-     <x>213</x>
-     <y>390</y>
+     <x>336</x>
+     <y>367</y>
      <width>20</width>
      <height>32</height>
     </rect>
@@ -702,8 +742,8 @@ QCheckBox:indicator
   <widget class="QCheckBox" name="cb_Vl_2_2">
    <property name="geometry">
     <rect>
-     <x>232</x>
-     <y>398</y>
+     <x>355</x>
+     <y>375</y>
      <width>16</width>
      <height>16</height>
     </rect>
@@ -740,8 +780,8 @@ QCheckBox:indicator
   <widget class="QCheckBox" name="cb_Cl_2_3">
    <property name="geometry">
     <rect>
-     <x>262</x>
-     <y>390</y>
+     <x>385</x>
+     <y>367</y>
      <width>20</width>
      <height>32</height>
     </rect>
@@ -781,8 +821,8 @@ QCheckBox:indicator
   <widget class="QCheckBox" name="cb_Vl_2_3">
    <property name="geometry">
     <rect>
-     <x>281</x>
-     <y>398</y>
+     <x>404</x>
+     <y>375</y>
      <width>16</width>
      <height>16</height>
     </rect>
@@ -819,8 +859,8 @@ QCheckBox:indicator
   <widget class="QCheckBox" name="cb_Cl_3_1">
    <property name="geometry">
     <rect>
-     <x>366</x>
-     <y>274</y>
+     <x>466</x>
+     <y>252</y>
      <width>20</width>
      <height>32</height>
     </rect>
@@ -860,8 +900,8 @@ QCheckBox:indicator
   <widget class="QCheckBox" name="cb_Vl_3_1">
    <property name="geometry">
     <rect>
-     <x>385</x>
-     <y>282</y>
+     <x>485</x>
+     <y>260</y>
      <width>16</width>
      <height>16</height>
     </rect>
@@ -898,8 +938,8 @@ QCheckBox:indicator
   <widget class="QCheckBox" name="cb_Cl_3_2">
    <property name="geometry">
     <rect>
-     <x>366</x>
-     <y>390</y>
+     <x>466</x>
+     <y>367</y>
      <width>20</width>
      <height>32</height>
     </rect>
@@ -939,8 +979,8 @@ QCheckBox:indicator
   <widget class="QCheckBox" name="cb_Vl_3_2">
    <property name="geometry">
     <rect>
-     <x>385</x>
-     <y>398</y>
+     <x>485</x>
+     <y>375</y>
      <width>16</width>
      <height>16</height>
     </rect>
@@ -977,8 +1017,8 @@ QCheckBox:indicator
   <widget class="QCheckBox" name="cb_Cl_3_3">
    <property name="geometry">
     <rect>
-     <x>416</x>
-     <y>390</y>
+     <x>516</x>
+     <y>367</y>
      <width>20</width>
      <height>32</height>
     </rect>
@@ -1018,8 +1058,8 @@ QCheckBox:indicator
   <widget class="QCheckBox" name="cb_Vl_3_3">
    <property name="geometry">
     <rect>
-     <x>435</x>
-     <y>398</y>
+     <x>535</x>
+     <y>375</y>
      <width>16</width>
      <height>16</height>
     </rect>
@@ -1056,8 +1096,8 @@ QCheckBox:indicator
   <widget class="QCheckBox" name="cb_Cl_4_1">
    <property name="geometry">
     <rect>
-     <x>520</x>
-     <y>274</y>
+     <x>596</x>
+     <y>252</y>
      <width>20</width>
      <height>32</height>
     </rect>
@@ -1097,8 +1137,8 @@ QCheckBox:indicator
   <widget class="QCheckBox" name="cb_Vl_4_1">
    <property name="geometry">
     <rect>
-     <x>539</x>
-     <y>282</y>
+     <x>615</x>
+     <y>260</y>
      <width>16</width>
      <height>16</height>
     </rect>
@@ -1135,8 +1175,8 @@ QCheckBox:indicator
   <widget class="QCheckBox" name="cb_Cl_4_2">
    <property name="geometry">
     <rect>
-     <x>520</x>
-     <y>390</y>
+     <x>596</x>
+     <y>367</y>
      <width>20</width>
      <height>32</height>
     </rect>
@@ -1176,8 +1216,8 @@ QCheckBox:indicator
   <widget class="QCheckBox" name="cb_Vl_4_2">
    <property name="geometry">
     <rect>
-     <x>539</x>
-     <y>398</y>
+     <x>615</x>
+     <y>375</y>
      <width>16</width>
      <height>16</height>
     </rect>
@@ -1214,8 +1254,8 @@ QCheckBox:indicator
   <widget class="QCheckBox" name="cb_Cl_4_3">
    <property name="geometry">
     <rect>
-     <x>569</x>
-     <y>390</y>
+     <x>645</x>
+     <y>367</y>
      <width>20</width>
      <height>32</height>
     </rect>
@@ -1255,8 +1295,8 @@ QCheckBox:indicator
   <widget class="QCheckBox" name="cb_Vl_4_3">
    <property name="geometry">
     <rect>
-     <x>588</x>
-     <y>398</y>
+     <x>664</x>
+     <y>375</y>
      <width>16</width>
      <height>16</height>
     </rect>
@@ -1293,8 +1333,8 @@ QCheckBox:indicator
   <widget class="QCheckBox" name="cb_Cl_5_1">
    <property name="geometry">
     <rect>
-     <x>673</x>
-     <y>274</y>
+     <x>727</x>
+     <y>252</y>
      <width>20</width>
      <height>32</height>
     </rect>
@@ -1334,8 +1374,8 @@ QCheckBox:indicator
   <widget class="QCheckBox" name="cb_Vl_5_1">
    <property name="geometry">
     <rect>
-     <x>692</x>
-     <y>282</y>
+     <x>746</x>
+     <y>260</y>
      <width>16</width>
      <height>16</height>
     </rect>
@@ -1372,8 +1412,8 @@ QCheckBox:indicator
   <widget class="QCheckBox" name="cb_Cl_5_2">
    <property name="geometry">
     <rect>
-     <x>673</x>
-     <y>390</y>
+     <x>727</x>
+     <y>367</y>
      <width>20</width>
      <height>32</height>
     </rect>
@@ -1413,8 +1453,8 @@ QCheckBox:indicator
   <widget class="QCheckBox" name="cb_Vl_5_2">
    <property name="geometry">
     <rect>
-     <x>692</x>
-     <y>398</y>
+     <x>746</x>
+     <y>375</y>
      <width>16</width>
      <height>16</height>
     </rect>
@@ -1451,8 +1491,8 @@ QCheckBox:indicator
   <widget class="QCheckBox" name="cb_Cl_5_3">
    <property name="geometry">
     <rect>
-     <x>722</x>
-     <y>390</y>
+     <x>776</x>
+     <y>367</y>
      <width>20</width>
      <height>32</height>
     </rect>
@@ -1492,8 +1532,8 @@ QCheckBox:indicator
   <widget class="QCheckBox" name="cb_Vl_5_3">
    <property name="geometry">
     <rect>
-     <x>741</x>
-     <y>398</y>
+     <x>795</x>
+     <y>375</y>
      <width>16</width>
      <height>16</height>
     </rect>
@@ -1530,8 +1570,8 @@ QCheckBox:indicator
   <widget class="QCheckBox" name="cb_Cl_6_1">
    <property name="geometry">
     <rect>
-     <x>826</x>
-     <y>274</y>
+     <x>857</x>
+     <y>252</y>
      <width>20</width>
      <height>32</height>
     </rect>
@@ -1571,8 +1611,8 @@ QCheckBox:indicator
   <widget class="QCheckBox" name="cb_Vl_6_1">
    <property name="geometry">
     <rect>
-     <x>845</x>
-     <y>282</y>
+     <x>876</x>
+     <y>260</y>
      <width>16</width>
      <height>16</height>
     </rect>
@@ -1609,8 +1649,8 @@ QCheckBox:indicator
   <widget class="QCheckBox" name="cb_Cl_6_2">
    <property name="geometry">
     <rect>
-     <x>826</x>
-     <y>390</y>
+     <x>857</x>
+     <y>367</y>
      <width>20</width>
      <height>32</height>
     </rect>
@@ -1650,8 +1690,8 @@ QCheckBox:indicator
   <widget class="QCheckBox" name="cb_Vl_6_2">
    <property name="geometry">
     <rect>
-     <x>845</x>
-     <y>398</y>
+     <x>876</x>
+     <y>375</y>
      <width>16</width>
      <height>16</height>
     </rect>
@@ -1688,8 +1728,8 @@ QCheckBox:indicator
   <widget class="QCheckBox" name="cb_Cl_6_3">
    <property name="geometry">
     <rect>
-     <x>876</x>
-     <y>390</y>
+     <x>907</x>
+     <y>367</y>
      <width>20</width>
      <height>32</height>
     </rect>
@@ -1729,8 +1769,8 @@ QCheckBox:indicator
   <widget class="QCheckBox" name="cb_Vl_6_3">
    <property name="geometry">
     <rect>
-     <x>895</x>
-     <y>398</y>
+     <x>926</x>
+     <y>375</y>
      <width>16</width>
      <height>16</height>
     </rect>
@@ -1767,8 +1807,8 @@ QCheckBox:indicator
   <widget class="QCheckBox" name="cb_Cl_7_1">
    <property name="geometry">
     <rect>
-     <x>980</x>
-     <y>274</y>
+     <x>988</x>
+     <y>252</y>
      <width>20</width>
      <height>32</height>
     </rect>
@@ -1808,8 +1848,8 @@ QCheckBox:indicator
   <widget class="QCheckBox" name="cb_Vl_7_1">
    <property name="geometry">
     <rect>
-     <x>999</x>
-     <y>282</y>
+     <x>1007</x>
+     <y>260</y>
      <width>16</width>
      <height>16</height>
     </rect>
@@ -1846,8 +1886,8 @@ QCheckBox:indicator
   <widget class="QCheckBox" name="cb_Cl_7_2">
    <property name="geometry">
     <rect>
-     <x>980</x>
-     <y>390</y>
+     <x>988</x>
+     <y>367</y>
      <width>20</width>
      <height>32</height>
     </rect>
@@ -1887,8 +1927,8 @@ QCheckBox:indicator
   <widget class="QCheckBox" name="cb_Vl_7_2">
    <property name="geometry">
     <rect>
-     <x>999</x>
-     <y>398</y>
+     <x>1007</x>
+     <y>375</y>
      <width>16</width>
      <height>16</height>
     </rect>
@@ -1925,8 +1965,8 @@ QCheckBox:indicator
   <widget class="QCheckBox" name="cb_Cl_7_3">
    <property name="geometry">
     <rect>
-     <x>1029</x>
-     <y>390</y>
+     <x>1037</x>
+     <y>367</y>
      <width>20</width>
      <height>32</height>
     </rect>
@@ -1966,8 +2006,8 @@ QCheckBox:indicator
   <widget class="QCheckBox" name="cb_Vl_7_3">
    <property name="geometry">
     <rect>
-     <x>1048</x>
-     <y>398</y>
+     <x>1056</x>
+     <y>375</y>
      <width>16</width>
      <height>16</height>
     </rect>
@@ -2004,8 +2044,8 @@ QCheckBox:indicator
   <widget class="QCheckBox" name="cb_Cl_8_1">
    <property name="geometry">
     <rect>
-     <x>1133</x>
-     <y>274</y>
+     <x>1119</x>
+     <y>252</y>
      <width>20</width>
      <height>32</height>
     </rect>
@@ -2042,11 +2082,11 @@ QCheckBox:indicator
     <string>CheckBox</string>
    </property>
   </widget>
-  <widget class="QCheckBox" name="cb_Vl_7_4">
+  <widget class="QCheckBox" name="cb_Vl_8_1">
    <property name="geometry">
     <rect>
-     <x>1152</x>
-     <y>282</y>
+     <x>1138</x>
+     <y>260</y>
      <width>16</width>
      <height>16</height>
     </rect>
@@ -2083,8 +2123,8 @@ QCheckBox:indicator
   <widget class="QCheckBox" name="cb_Cl_8_2">
    <property name="geometry">
     <rect>
-     <x>1133</x>
-     <y>390</y>
+     <x>1119</x>
+     <y>367</y>
      <width>20</width>
      <height>32</height>
     </rect>
@@ -2124,8 +2164,8 @@ QCheckBox:indicator
   <widget class="QCheckBox" name="cb_Vl_8_2">
    <property name="geometry">
     <rect>
-     <x>1152</x>
-     <y>398</y>
+     <x>1138</x>
+     <y>375</y>
      <width>16</width>
      <height>16</height>
     </rect>
@@ -2162,8 +2202,8 @@ QCheckBox:indicator
   <widget class="QCheckBox" name="cb_Cl_8_3">
    <property name="geometry">
     <rect>
-     <x>1183</x>
-     <y>390</y>
+     <x>1169</x>
+     <y>367</y>
      <width>20</width>
      <height>32</height>
     </rect>
@@ -2203,8 +2243,8 @@ QCheckBox:indicator
   <widget class="QCheckBox" name="cb_Vl_8_3">
    <property name="geometry">
     <rect>
-     <x>1202</x>
-     <y>398</y>
+     <x>1188</x>
+     <y>375</y>
      <width>16</width>
      <height>16</height>
     </rect>
@@ -2255,9 +2295,9 @@ QCheckBox:indicator
    <property name="geometry">
     <rect>
      <x>261</x>
-     <y>502</y>
+     <y>481</y>
      <width>756</width>
-     <height>208</height>
+     <height>229</height>
     </rect>
    </property>
    <property name="frameShape">
@@ -2270,16 +2310,21 @@ QCheckBox:indicator
   <widget class="QFrame" name="Parameters">
    <property name="geometry">
     <rect>
-     <x>190</x>
-     <y>28</y>
-     <width>910</width>
-     <height>144</height>
+     <x>234</x>
+     <y>25</y>
+     <width>863</width>
+     <height>109</height>
     </rect>
    </property>
    <property name="font">
     <font>
      <pointsize>12</pointsize>
     </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QFrame {
+	background-color: rgb(238, 231, 255);
+}</string>
    </property>
    <property name="frameShape">
     <enum>QFrame::Panel</enum>
@@ -2308,65 +2353,117 @@ QCheckBox:indicator
      </widget>
     </item>
     <item row="0" column="2" rowspan="2">
-     <widget class="QFrame" name="frame_3">
+     <widget class="QFrame" name="frame_2">
       <property name="frameShape">
        <enum>QFrame::Box</enum>
       </property>
       <property name="frameShadow">
        <enum>QFrame::Raised</enum>
       </property>
-      <layout class="QGridLayout" name="gridLayout">
-       <item row="0" column="0">
-        <widget class="QLabel" name="label_3">
+      <layout class="QGridLayout" name="gridLayout_3">
+       <item row="0" column="1" rowspan="2">
+        <widget class="QComboBox" name="bx_Nc_zd">
+         <item>
+          <property name="text">
+           <string>1</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>1/2</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>1/3</string>
+          </property>
+         </item>
+        </widget>
+       </item>
+       <item row="0" column="3" rowspan="2">
+        <widget class="QLabel" name="label_9">
          <property name="text">
-          <string>Partial emptying time</string>
+          <string>Specified</string>
          </property>
-        </widget>
-       </item>
-       <item row="0" column="1">
-        <widget class="QLineEdit" name="lineEdit_2">
          <property name="alignment">
           <set>Qt::AlignCenter</set>
          </property>
         </widget>
        </item>
-       <item row="1" column="0">
-        <widget class="QLabel" name="label_4">
+       <item row="0" column="5" rowspan="2">
+        <widget class="QLabel" name="label_10">
          <property name="text">
-          <string>Unloading time</string>
+          <string>Left</string>
          </property>
-        </widget>
-       </item>
-       <item row="1" column="1">
-        <widget class="QLineEdit" name="lineEdit_3">
          <property name="alignment">
           <set>Qt::AlignCenter</set>
          </property>
         </widget>
        </item>
-       <item row="0" column="2">
-        <widget class="QLineEdit" name="lineEdit_11">
+       <item row="4" column="0" colspan="3">
+        <widget class="QLabel" name="label_8">
+         <property name="text">
+          <string>Volume</string>
+         </property>
+        </widget>
+       </item>
+       <item row="4" column="5">
+        <widget class="QLineEdit" name="le_Q">
          <property name="alignment">
           <set>Qt::AlignCenter</set>
          </property>
         </widget>
        </item>
-       <item row="1" column="2">
-        <widget class="QLineEdit" name="lineEdit_12">
+       <item row="2" column="5">
+        <widget class="QLineEdit" name="le_Tper">
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
+         </property>
+        </widget>
+       </item>
+       <item row="4" column="3">
+        <widget class="QLineEdit" name="le_Q_zd">
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
+         </property>
+        </widget>
+       </item>
+       <item row="2" column="3">
+        <widget class="QLineEdit" name="le_Tper_zd">
          <property name="alignment">
           <set>Qt::AlignCenter</set>
          </property>
         </widget>
        </item>
        <item row="2" column="0" colspan="3">
-        <spacer name="verticalSpacer">
+        <widget class="QLabel" name="label_7">
+         <property name="text">
+          <string>Time between regeneration</string>
+         </property>
+        </widget>
+       </item>
+       <item row="1" column="2">
+        <spacer name="horizontalSpacer">
          <property name="orientation">
-          <enum>Qt::Vertical</enum>
+          <enum>Qt::Horizontal</enum>
          </property>
          <property name="sizeHint" stdset="0">
           <size>
-           <width>20</width>
-           <height>40</height>
+           <width>40</width>
+           <height>20</height>
+          </size>
+         </property>
+        </spacer>
+       </item>
+       <item row="1" column="0">
+        <spacer name="horizontalSpacer_2">
+         <property name="orientation">
+          <enum>Qt::Horizontal</enum>
+         </property>
+         <property name="sizeHint" stdset="0">
+          <size>
+           <width>40</width>
+           <height>20</height>
           </size>
          </property>
         </spacer>
@@ -2391,7 +2488,7 @@ QCheckBox:indicator
         </widget>
        </item>
        <item row="0" column="1">
-        <widget class="QLineEdit" name="lineEdit_4">
+        <widget class="QLineEdit" name="le_NomCur">
          <property name="sizePolicy">
           <sizepolicy hsizetype="Minimum" vsizetype="Fixed">
            <horstretch>0</horstretch>
@@ -2417,7 +2514,7 @@ QCheckBox:indicator
         </widget>
        </item>
        <item row="1" column="1">
-        <widget class="QLineEdit" name="lineEdit_5">
+        <widget class="QLineEdit" name="le_r_l">
          <property name="sizePolicy">
           <sizepolicy hsizetype="Minimum" vsizetype="Fixed">
            <horstretch>0</horstretch>
@@ -2439,95 +2536,53 @@ QCheckBox:indicator
      </widget>
     </item>
     <item row="1" column="1">
-     <widget class="QFrame" name="frame_2">
+     <widget class="QFrame" name="frame_3">
       <property name="frameShape">
        <enum>QFrame::Box</enum>
       </property>
       <property name="frameShadow">
        <enum>QFrame::Raised</enum>
       </property>
-      <layout class="QGridLayout" name="gridLayout_3">
-       <item row="0" column="0" rowspan="2">
-        <widget class="QComboBox" name="comboBox">
-         <property name="sizeAdjustPolicy">
-          <enum>QComboBox::AdjustToMinimumContentsLength</enum>
-         </property>
-         <item>
-          <property name="text">
-           <string>1</string>
-          </property>
-         </item>
-         <item>
-          <property name="text">
-           <string>1/2</string>
-          </property>
-         </item>
-         <item>
-          <property name="text">
-           <string>1/3</string>
-          </property>
-         </item>
-        </widget>
-       </item>
-       <item row="0" column="1" rowspan="2">
-        <widget class="QLabel" name="label_9">
+      <layout class="QGridLayout" name="gridLayout">
+       <item row="0" column="0">
+        <widget class="QLabel" name="label_3">
          <property name="text">
-          <string>Specified</string>
+          <string>Partial emptying time</string>
          </property>
+        </widget>
+       </item>
+       <item row="0" column="1">
+        <widget class="QLineEdit" name="le_T_v2_zd">
          <property name="alignment">
           <set>Qt::AlignCenter</set>
          </property>
         </widget>
        </item>
-       <item row="0" column="3" rowspan="2">
-        <widget class="QLabel" name="label_10">
+       <item row="1" column="0">
+        <widget class="QLabel" name="label_4">
          <property name="text">
-          <string>Left</string>
+          <string>Unloading time</string>
          </property>
+        </widget>
+       </item>
+       <item row="1" column="1">
+        <widget class="QLineEdit" name="le_T_v3_zd">
          <property name="alignment">
           <set>Qt::AlignCenter</set>
          </property>
         </widget>
        </item>
-       <item row="4" column="0">
-        <widget class="QLabel" name="label_8">
-         <property name="text">
-          <string>Volume</string>
-         </property>
-        </widget>
-       </item>
-       <item row="4" column="3">
-        <widget class="QLineEdit" name="lineEdit_9">
+       <item row="0" column="2">
+        <widget class="QLineEdit" name="le_T_v2">
          <property name="alignment">
           <set>Qt::AlignCenter</set>
          </property>
         </widget>
        </item>
-       <item row="2" column="3">
-        <widget class="QLineEdit" name="lineEdit_7">
+       <item row="1" column="2">
+        <widget class="QLineEdit" name="le_T_v3">
          <property name="alignment">
           <set>Qt::AlignCenter</set>
-         </property>
-        </widget>
-       </item>
-       <item row="4" column="1">
-        <widget class="QLineEdit" name="lineEdit_8">
-         <property name="alignment">
-          <set>Qt::AlignCenter</set>
-         </property>
-        </widget>
-       </item>
-       <item row="2" column="1">
-        <widget class="QLineEdit" name="lineEdit_6">
-         <property name="alignment">
-          <set>Qt::AlignCenter</set>
-         </property>
-        </widget>
-       </item>
-       <item row="2" column="0">
-        <widget class="QLabel" name="label_7">
-         <property name="text">
-          <string>Time between regeneration</string>
          </property>
         </widget>
        </item>
@@ -2535,6 +2590,780 @@ QCheckBox:indicator
      </widget>
     </item>
    </layout>
+  </widget>
+  <widget class="QProgressBar" name="pb_L_nz">
+   <property name="geometry">
+    <rect>
+     <x>148</x>
+     <y>92</y>
+     <width>20</width>
+     <height>63</height>
+    </rect>
+   </property>
+   <property name="palette">
+    <palette>
+     <active>
+      <colorrole role="WindowText">
+       <brush brushstyle="SolidPattern">
+        <color alpha="255">
+         <red>20</red>
+         <green>19</green>
+         <blue>18</blue>
+        </color>
+       </brush>
+      </colorrole>
+      <colorrole role="Text">
+       <brush brushstyle="SolidPattern">
+        <color alpha="255">
+         <red>20</red>
+         <green>19</green>
+         <blue>18</blue>
+        </color>
+       </brush>
+      </colorrole>
+      <colorrole role="ButtonText">
+       <brush brushstyle="SolidPattern">
+        <color alpha="255">
+         <red>20</red>
+         <green>19</green>
+         <blue>18</blue>
+        </color>
+       </brush>
+      </colorrole>
+      <colorrole role="Base">
+       <brush brushstyle="SolidPattern">
+        <color alpha="255">
+         <red>255</red>
+         <green>255</green>
+         <blue>255</blue>
+        </color>
+       </brush>
+      </colorrole>
+      <colorrole role="Window">
+       <brush brushstyle="SolidPattern">
+        <color alpha="255">
+         <red>228</red>
+         <green>228</green>
+         <blue>228</blue>
+        </color>
+       </brush>
+      </colorrole>
+      <colorrole role="Highlight">
+       <brush brushstyle="SolidPattern">
+        <color alpha="255">
+         <red>255</red>
+         <green>0</green>
+         <blue>0</blue>
+        </color>
+       </brush>
+      </colorrole>
+     </active>
+     <inactive>
+      <colorrole role="WindowText">
+       <brush brushstyle="SolidPattern">
+        <color alpha="255">
+         <red>20</red>
+         <green>19</green>
+         <blue>18</blue>
+        </color>
+       </brush>
+      </colorrole>
+      <colorrole role="Text">
+       <brush brushstyle="SolidPattern">
+        <color alpha="255">
+         <red>20</red>
+         <green>19</green>
+         <blue>18</blue>
+        </color>
+       </brush>
+      </colorrole>
+      <colorrole role="ButtonText">
+       <brush brushstyle="SolidPattern">
+        <color alpha="255">
+         <red>20</red>
+         <green>19</green>
+         <blue>18</blue>
+        </color>
+       </brush>
+      </colorrole>
+      <colorrole role="Base">
+       <brush brushstyle="SolidPattern">
+        <color alpha="255">
+         <red>255</red>
+         <green>255</green>
+         <blue>255</blue>
+        </color>
+       </brush>
+      </colorrole>
+      <colorrole role="Window">
+       <brush brushstyle="SolidPattern">
+        <color alpha="255">
+         <red>228</red>
+         <green>228</green>
+         <blue>228</blue>
+        </color>
+       </brush>
+      </colorrole>
+      <colorrole role="Highlight">
+       <brush brushstyle="SolidPattern">
+        <color alpha="255">
+         <red>255</red>
+         <green>0</green>
+         <blue>0</blue>
+        </color>
+       </brush>
+      </colorrole>
+     </inactive>
+     <disabled>
+      <colorrole role="WindowText">
+       <brush brushstyle="SolidPattern">
+        <color alpha="255">
+         <red>0</red>
+         <green>255</green>
+         <blue>127</blue>
+        </color>
+       </brush>
+      </colorrole>
+      <colorrole role="Text">
+       <brush brushstyle="SolidPattern">
+        <color alpha="255">
+         <red>0</red>
+         <green>255</green>
+         <blue>127</blue>
+        </color>
+       </brush>
+      </colorrole>
+      <colorrole role="ButtonText">
+       <brush brushstyle="SolidPattern">
+        <color alpha="255">
+         <red>0</red>
+         <green>255</green>
+         <blue>127</blue>
+        </color>
+       </brush>
+      </colorrole>
+      <colorrole role="Base">
+       <brush brushstyle="SolidPattern">
+        <color alpha="255">
+         <red>228</red>
+         <green>228</green>
+         <blue>228</blue>
+        </color>
+       </brush>
+      </colorrole>
+      <colorrole role="Window">
+       <brush brushstyle="SolidPattern">
+        <color alpha="255">
+         <red>228</red>
+         <green>228</green>
+         <blue>228</blue>
+        </color>
+       </brush>
+      </colorrole>
+      <colorrole role="Highlight">
+       <brush brushstyle="SolidPattern">
+        <color alpha="255">
+         <red>0</red>
+         <green>0</green>
+         <blue>128</blue>
+        </color>
+       </brush>
+      </colorrole>
+     </disabled>
+    </palette>
+   </property>
+   <property name="maximum">
+    <number>4000</number>
+   </property>
+   <property name="value">
+    <number>1200</number>
+   </property>
+   <property name="textVisible">
+    <bool>false</bool>
+   </property>
+   <property name="orientation">
+    <enum>Qt::Vertical</enum>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="le_L_nz">
+   <property name="geometry">
+    <rect>
+     <x>137</x>
+     <y>64</y>
+     <width>45</width>
+     <height>24</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>10</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>12.3</string>
+   </property>
+   <property name="readOnly">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="le_L_nfs">
+   <property name="geometry">
+    <rect>
+     <x>12</x>
+     <y>618</y>
+     <width>45</width>
+     <height>24</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>10</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>12.3</string>
+   </property>
+   <property name="readOnly">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QProgressBar" name="pb_L_nfs">
+   <property name="geometry">
+    <rect>
+     <x>69</x>
+     <y>624</y>
+     <width>20</width>
+     <height>63</height>
+    </rect>
+   </property>
+   <property name="palette">
+    <palette>
+     <active>
+      <colorrole role="Base">
+       <brush brushstyle="SolidPattern">
+        <color alpha="255">
+         <red>255</red>
+         <green>255</green>
+         <blue>255</blue>
+        </color>
+       </brush>
+      </colorrole>
+      <colorrole role="Window">
+       <brush brushstyle="SolidPattern">
+        <color alpha="255">
+         <red>228</red>
+         <green>228</green>
+         <blue>228</blue>
+        </color>
+       </brush>
+      </colorrole>
+      <colorrole role="Highlight">
+       <brush brushstyle="SolidPattern">
+        <color alpha="255">
+         <red>255</red>
+         <green>0</green>
+         <blue>0</blue>
+        </color>
+       </brush>
+      </colorrole>
+     </active>
+     <inactive>
+      <colorrole role="Base">
+       <brush brushstyle="SolidPattern">
+        <color alpha="255">
+         <red>255</red>
+         <green>255</green>
+         <blue>255</blue>
+        </color>
+       </brush>
+      </colorrole>
+      <colorrole role="Window">
+       <brush brushstyle="SolidPattern">
+        <color alpha="255">
+         <red>228</red>
+         <green>228</green>
+         <blue>228</blue>
+        </color>
+       </brush>
+      </colorrole>
+      <colorrole role="Highlight">
+       <brush brushstyle="SolidPattern">
+        <color alpha="255">
+         <red>255</red>
+         <green>0</green>
+         <blue>0</blue>
+        </color>
+       </brush>
+      </colorrole>
+     </inactive>
+     <disabled>
+      <colorrole role="Base">
+       <brush brushstyle="SolidPattern">
+        <color alpha="255">
+         <red>228</red>
+         <green>228</green>
+         <blue>228</blue>
+        </color>
+       </brush>
+      </colorrole>
+      <colorrole role="Window">
+       <brush brushstyle="SolidPattern">
+        <color alpha="255">
+         <red>228</red>
+         <green>228</green>
+         <blue>228</blue>
+        </color>
+       </brush>
+      </colorrole>
+      <colorrole role="Highlight">
+       <brush brushstyle="SolidPattern">
+        <color alpha="255">
+         <red>0</red>
+         <green>0</green>
+         <blue>128</blue>
+        </color>
+       </brush>
+      </colorrole>
+     </disabled>
+    </palette>
+   </property>
+   <property name="maximum">
+    <number>4000</number>
+   </property>
+   <property name="value">
+    <number>1200</number>
+   </property>
+   <property name="textVisible">
+    <bool>false</bool>
+   </property>
+   <property name="orientation">
+    <enum>Qt::Vertical</enum>
+   </property>
+  </widget>
+  <widget class="QProgressBar" name="pb_L_ho">
+   <property name="geometry">
+    <rect>
+     <x>174</x>
+     <y>623</y>
+     <width>20</width>
+     <height>63</height>
+    </rect>
+   </property>
+   <property name="palette">
+    <palette>
+     <active>
+      <colorrole role="Base">
+       <brush brushstyle="SolidPattern">
+        <color alpha="255">
+         <red>255</red>
+         <green>255</green>
+         <blue>255</blue>
+        </color>
+       </brush>
+      </colorrole>
+      <colorrole role="Window">
+       <brush brushstyle="SolidPattern">
+        <color alpha="255">
+         <red>228</red>
+         <green>228</green>
+         <blue>228</blue>
+        </color>
+       </brush>
+      </colorrole>
+      <colorrole role="Highlight">
+       <brush brushstyle="SolidPattern">
+        <color alpha="255">
+         <red>255</red>
+         <green>155</green>
+         <blue>55</blue>
+        </color>
+       </brush>
+      </colorrole>
+     </active>
+     <inactive>
+      <colorrole role="Base">
+       <brush brushstyle="SolidPattern">
+        <color alpha="255">
+         <red>255</red>
+         <green>255</green>
+         <blue>255</blue>
+        </color>
+       </brush>
+      </colorrole>
+      <colorrole role="Window">
+       <brush brushstyle="SolidPattern">
+        <color alpha="255">
+         <red>228</red>
+         <green>228</green>
+         <blue>228</blue>
+        </color>
+       </brush>
+      </colorrole>
+      <colorrole role="Highlight">
+       <brush brushstyle="SolidPattern">
+        <color alpha="255">
+         <red>255</red>
+         <green>155</green>
+         <blue>55</blue>
+        </color>
+       </brush>
+      </colorrole>
+     </inactive>
+     <disabled>
+      <colorrole role="Base">
+       <brush brushstyle="SolidPattern">
+        <color alpha="255">
+         <red>228</red>
+         <green>228</green>
+         <blue>228</blue>
+        </color>
+       </brush>
+      </colorrole>
+      <colorrole role="Window">
+       <brush brushstyle="SolidPattern">
+        <color alpha="255">
+         <red>228</red>
+         <green>228</green>
+         <blue>228</blue>
+        </color>
+       </brush>
+      </colorrole>
+      <colorrole role="Highlight">
+       <brush brushstyle="SolidPattern">
+        <color alpha="255">
+         <red>0</red>
+         <green>0</green>
+         <blue>128</blue>
+        </color>
+       </brush>
+      </colorrole>
+     </disabled>
+    </palette>
+   </property>
+   <property name="maximum">
+    <number>4000</number>
+   </property>
+   <property name="value">
+    <number>1200</number>
+   </property>
+   <property name="textVisible">
+    <bool>false</bool>
+   </property>
+   <property name="orientation">
+    <enum>Qt::Vertical</enum>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="le_L_ho">
+   <property name="geometry">
+    <rect>
+     <x>117</x>
+     <y>617</y>
+     <width>45</width>
+     <height>24</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>10</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>12.3</string>
+   </property>
+   <property name="readOnly">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QProgressBar" name="pb_L_sus">
+   <property name="geometry">
+    <rect>
+     <x>1099</x>
+     <y>623</y>
+     <width>20</width>
+     <height>63</height>
+    </rect>
+   </property>
+   <property name="palette">
+    <palette>
+     <active>
+      <colorrole role="Base">
+       <brush brushstyle="SolidPattern">
+        <color alpha="255">
+         <red>255</red>
+         <green>255</green>
+         <blue>255</blue>
+        </color>
+       </brush>
+      </colorrole>
+      <colorrole role="Window">
+       <brush brushstyle="SolidPattern">
+        <color alpha="255">
+         <red>228</red>
+         <green>228</green>
+         <blue>228</blue>
+        </color>
+       </brush>
+      </colorrole>
+      <colorrole role="Highlight">
+       <brush brushstyle="SolidPattern">
+        <color alpha="255">
+         <red>128</red>
+         <green>33</green>
+         <blue>45</blue>
+        </color>
+       </brush>
+      </colorrole>
+     </active>
+     <inactive>
+      <colorrole role="Base">
+       <brush brushstyle="SolidPattern">
+        <color alpha="255">
+         <red>255</red>
+         <green>255</green>
+         <blue>255</blue>
+        </color>
+       </brush>
+      </colorrole>
+      <colorrole role="Window">
+       <brush brushstyle="SolidPattern">
+        <color alpha="255">
+         <red>228</red>
+         <green>228</green>
+         <blue>228</blue>
+        </color>
+       </brush>
+      </colorrole>
+      <colorrole role="Highlight">
+       <brush brushstyle="SolidPattern">
+        <color alpha="255">
+         <red>128</red>
+         <green>33</green>
+         <blue>45</blue>
+        </color>
+       </brush>
+      </colorrole>
+     </inactive>
+     <disabled>
+      <colorrole role="Base">
+       <brush brushstyle="SolidPattern">
+        <color alpha="255">
+         <red>228</red>
+         <green>228</green>
+         <blue>228</blue>
+        </color>
+       </brush>
+      </colorrole>
+      <colorrole role="Window">
+       <brush brushstyle="SolidPattern">
+        <color alpha="255">
+         <red>228</red>
+         <green>228</green>
+         <blue>228</blue>
+        </color>
+       </brush>
+      </colorrole>
+      <colorrole role="Highlight">
+       <brush brushstyle="SolidPattern">
+        <color alpha="255">
+         <red>0</red>
+         <green>0</green>
+         <blue>128</blue>
+        </color>
+       </brush>
+      </colorrole>
+     </disabled>
+    </palette>
+   </property>
+   <property name="maximum">
+    <number>4000</number>
+   </property>
+   <property name="value">
+    <number>1200</number>
+   </property>
+   <property name="textVisible">
+    <bool>false</bool>
+   </property>
+   <property name="orientation">
+    <enum>Qt::Vertical</enum>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="le_L_sus">
+   <property name="geometry">
+    <rect>
+     <x>1061</x>
+     <y>595</y>
+     <width>45</width>
+     <height>24</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>10</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>12.3</string>
+   </property>
+   <property name="readOnly">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QProgressBar" name="pb_L_cs">
+   <property name="geometry">
+    <rect>
+     <x>1211</x>
+     <y>623</y>
+     <width>20</width>
+     <height>63</height>
+    </rect>
+   </property>
+   <property name="palette">
+    <palette>
+     <active>
+      <colorrole role="Base">
+       <brush brushstyle="SolidPattern">
+        <color alpha="255">
+         <red>255</red>
+         <green>255</green>
+         <blue>255</blue>
+        </color>
+       </brush>
+      </colorrole>
+      <colorrole role="Window">
+       <brush brushstyle="SolidPattern">
+        <color alpha="255">
+         <red>228</red>
+         <green>228</green>
+         <blue>228</blue>
+        </color>
+       </brush>
+      </colorrole>
+     </active>
+     <inactive>
+      <colorrole role="Base">
+       <brush brushstyle="SolidPattern">
+        <color alpha="255">
+         <red>255</red>
+         <green>255</green>
+         <blue>255</blue>
+        </color>
+       </brush>
+      </colorrole>
+      <colorrole role="Window">
+       <brush brushstyle="SolidPattern">
+        <color alpha="255">
+         <red>228</red>
+         <green>228</green>
+         <blue>228</blue>
+        </color>
+       </brush>
+      </colorrole>
+     </inactive>
+     <disabled>
+      <colorrole role="Base">
+       <brush brushstyle="SolidPattern">
+        <color alpha="255">
+         <red>228</red>
+         <green>228</green>
+         <blue>228</blue>
+        </color>
+       </brush>
+      </colorrole>
+      <colorrole role="Window">
+       <brush brushstyle="SolidPattern">
+        <color alpha="255">
+         <red>228</red>
+         <green>228</green>
+         <blue>228</blue>
+        </color>
+       </brush>
+      </colorrole>
+     </disabled>
+    </palette>
+   </property>
+   <property name="maximum">
+    <number>4000</number>
+   </property>
+   <property name="value">
+    <number>1200</number>
+   </property>
+   <property name="textVisible">
+    <bool>false</bool>
+   </property>
+   <property name="orientation">
+    <enum>Qt::Vertical</enum>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="le_L_cs">
+   <property name="geometry">
+    <rect>
+     <x>1240</x>
+     <y>616</y>
+     <width>45</width>
+     <height>24</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>10</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>12.3</string>
+   </property>
+   <property name="readOnly">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QLCDNumber" name="ld_T_s">
+   <property name="geometry">
+    <rect>
+     <x>165</x>
+     <y>204</y>
+     <width>39</width>
+     <height>28</height>
+    </rect>
+   </property>
+   <property name="smallDecimalPoint">
+    <bool>false</bool>
+   </property>
+   <property name="numDigits">
+    <number>3</number>
+   </property>
+   <property name="digitCount">
+    <number>3</number>
+   </property>
+   <property name="segmentStyle">
+    <enum>QLCDNumber::Flat</enum>
+   </property>
+   <property name="value" stdset="0">
+    <double>123.000000000000000</double>
+   </property>
+   <property name="intValue" stdset="0">
+    <number>123</number>
+   </property>
+  </widget>
+  <widget class="QLCDNumber" name="ld_G_cs">
+   <property name="geometry">
+    <rect>
+     <x>1224</x>
+     <y>498</y>
+     <width>39</width>
+     <height>28</height>
+    </rect>
+   </property>
+   <property name="numDigits">
+    <number>3</number>
+   </property>
+   <property name="mode">
+    <enum>QLCDNumber::Dec</enum>
+   </property>
+   <property name="segmentStyle">
+    <enum>QLCDNumber::Flat</enum>
+   </property>
+   <property name="intValue" stdset="0">
+    <number>123</number>
+   </property>
   </widget>
  </widget>
  <resources>
