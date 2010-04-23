@@ -21,6 +21,8 @@ public:
 
 public slots:
     void updateData(); // слот обновляє дані на мнемосхемі
+    void updateTrChart(); // слот , який обновляє графіки
+    void slotFilter(); // реакція на кнопку-натискання фільтра
 
 private:
     Ui::mnemo *m_ui;

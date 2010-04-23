@@ -7,19 +7,37 @@
 
 #include <QVBoxLayout>
 
+#include "onefilter.h"
+
 Mnemo::Mnemo(IoNetClient &src, QWidget *p) : QLabel(p), m_ui(new Ui::mnemo),s(src)
 {
     m_ui->setupUi(this);
 
-    trc= new TrendChart(m_ui->Trend);
+    trc= new TrendChart(m_ui->Trend,600); // на десять хвилин
+
     QVBoxLayout *vbl1=new QVBoxLayout(m_ui->Trend);
     vbl1->addWidget(trc);
     m_ui->Trend->setLayout(vbl1);
 
     connect(&s,SIGNAL(updateData()),this,SLOT(updateData())); // при отриманні нових даних, засвітити їх на картинці
 
+    QTimer* t=new QTimer(this);
+    t->setInterval(5000);
+    t->start();
+    connect(t,SIGNAL(timeout()),this,SLOT(updateTrChart()));
+
+
+    connect(m_ui->bn_F_1,SIGNAL(clicked()),this,SLOT(slotFilter()));
+    connect(m_ui->bn_F_2,SIGNAL(clicked()),this,SLOT(slotFilter()));
+    connect(m_ui->bn_F_3,SIGNAL(clicked()),this,SLOT(slotFilter()));
+    connect(m_ui->bn_F_4,SIGNAL(clicked()),this,SLOT(slotFilter()));
+    connect(m_ui->bn_F_5,SIGNAL(clicked()),this,SLOT(slotFilter()));
+    connect(m_ui->bn_F_6,SIGNAL(clicked()),this,SLOT(slotFilter()));
+    connect(m_ui->bn_F_7,SIGNAL(clicked()),this,SLOT(slotFilter()));
+    connect(m_ui->bn_F_8,SIGNAL(clicked()),this,SLOT(slotFilter()));
+
     cb_all   // ініціалізувати масив, для того щоб потім за раз все завантажити
-  << m_ui->cb_Cl_1_1
+ << m_ui->cb_Cl_1_1
  << m_ui->cb_Cl_1_2
  << m_ui->cb_Cl_1_3
  << m_ui->cb_Cl_2_1
@@ -108,8 +126,16 @@ void Mnemo::updateData()
     m_ui->le_T_v2_zd->setText(QString("%1").arg(s[0]->getValue32("T_v2_zd")/1000));
     m_ui->le_T_v3_zd->setText(QString("%1").arg(s[0]->getValue32("T_v3_zd")/1000));
 
-    m_ui->le_T_v2->setText(QString("%1").arg(s[0]->getValue16(QString("T_v2_%1_e").arg(nc,1) )));
-    m_ui->le_T_v3->setText(QString("%1").arg(s[0]->getValue16(QString("T_v3_%1_e").arg(nc,1) )));
+    if(nc)
+    {
+        m_ui->le_T_v2->setText(QString("%1").arg(s[0]->getValue16(QString("T_v2_%1_e").arg(nc,1) )));
+        m_ui->le_T_v3->setText(QString("%1").arg(s[0]->getValue16(QString("T_v3_%1_e").arg(nc,1) )));
+    }
+    else
+    {
+        m_ui->le_T_v2->setText("");
+        m_ui->le_T_v3->setText("");
+    }
 
     foreach(QCheckBox* v,cb_all)
     {
@@ -121,7 +147,7 @@ void Mnemo::updateData()
     m_ui->pb_L_nz->setValue(s[0]->getValue16("L_nz"));
     m_ui->pb_L_sus->setValue(s[0]->getValue16("L_sus"));
     m_ui->pb_L_cs->setValue(s[0]->getValue16("L_cs"));
-
+    m_ui->pb_L_ho->setValue(s[0]->getValue16("L_ho"));
 
 
     // це місце треба переробляти на виведення шкальованих значень
@@ -129,8 +155,34 @@ void Mnemo::updateData()
     m_ui->le_L_nz->setText(QString("%1").arg(s[0]->getValue16("L_nz")));
     m_ui->le_L_sus->setText(QString("%1").arg(s[0]->getValue16("L_sus")));
     m_ui->le_L_cs->setText(QString("%1").arg(s[0]->getValue16("L_cs")));
+    m_ui->le_L_ho->setText(QString("%1").arg(s[0]->getValue16("L_ho")));
 
     //m
 
 }
 
+void Mnemo::updateTrChart() // малюваня графіка раз в 5 секунд
+{
+    QVector<double> v;
+
+    v << s[0]->getValue16("L_nfs")
+      << s[0]->getValue16("L_nz")
+      << s[0]->getValue16("L_ho")
+      << s[0]->getValue16("L_cs")
+      << s[0]->getValue16("L_sus")
+      << s[0]->getValue16("G_cs")
+      << s[0]->getValue16("T_s");
+
+    trc->addPoint(v);
+
+
+}
+
+void Mnemo::slotFilter()
+{
+    OneFilter *f=new OneFilter(*s[0],this);
+    f->setFn(sender()->objectName().mid(5,1).toInt()); // встановити номер фільтра
+    f->exec();
+
+
+}
