@@ -184,16 +184,17 @@ void Mnemo::updateTrChart() // малюваня графіка раз в 5 се�
 
 void Mnemo::slotFilter()
 {
-    OneFilter *f=new OneFilter(*s[0],this);
-    f->setFn(sender()->objectName().mid(5,1).toInt()); // встановити номер фільтра
-    f->exec();
+    OneFilter f(*s[0],this);
+    f.setFn(sender()->objectName().mid(5,1).toInt()); // встановити номер фільтра
+    f.exec();
+
 }
 
 void Mnemo::slotTParam() // кнопка завдання технологічних параметрів
 {
 
-    TParamDialog *p=new TParamDialog(*s[0],this);
-    p->exec();
+    TParamDialog p(*s[0],this);
+    p.exec();
 
 
 }

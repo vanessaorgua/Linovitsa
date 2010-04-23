@@ -13,16 +13,19 @@ QT += sql \
 HEADERS += mainform.h \
     mnemo.h \
     onefilter.h \
-    tparamdialog.h
+    tparamdialog.h \
+    sparamdialog.h
 FORMS += mainform.ui \
     mnemo.ui \
     onefilter.ui \
-    tparamdialog.ui
+    tparamdialog.ui \
+    sparamdialog.ui
 SOURCES += main.cpp \
     mainform.cpp \
     mnemo.cpp \
     onefilter.cpp \
-    tparamdialog.cpp
+    tparamdialog.cpp \
+    sparamdialog.cpp
 RESOURCES += mnemo/mnemo.qrc \
     ../../lib/picture.qrc \
     ../../pict/lib/valves.qrc

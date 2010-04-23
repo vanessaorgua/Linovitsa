@@ -7,6 +7,7 @@
 #include <QMessageBox>
 #include <IoNetClient.h>
 
+#include "sparamdialog.h"
 
 mMainForm::mMainForm(IoNetClient &source,QWidget *p): QWidget(p)
 ,src(source),m_ui(new Ui::Form)
@@ -96,10 +97,8 @@ void mMainForm::showMe()
 
 void mMainForm::setupParm()
 {
-/*
-    RParam *p=new RParam(src,this);
-    p->exec();
-    delete p;*/
+    SParamDialog d(*src[0],this);
+    d.exec();
 }
 
 void mMainForm::slotExit()
