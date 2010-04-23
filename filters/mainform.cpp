@@ -8,6 +8,7 @@
 #include <IoNetClient.h>
 
 #include "sparamdialog.h"
+#include "about.h"
 
 mMainForm::mMainForm(IoNetClient &source,QWidget *p): QWidget(p)
 ,src(source),m_ui(new Ui::Form)
@@ -57,9 +58,9 @@ void mMainForm::timeOut()
 
 void mMainForm::about()
 {
-//    aboutDlg *ab=new aboutDlg(this);
-//    ab->exec();
-//    delete ab;
+    aboutDlg *ab=new aboutDlg(this);
+    ab->exec();
+    delete ab;
 }
 
 

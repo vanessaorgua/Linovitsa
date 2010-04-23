@@ -14,12 +14,14 @@ HEADERS += mainform.h \
     mnemo.h \
     onefilter.h \
     tparamdialog.h \
-    sparamdialog.h
+    sparamdialog.h \
+    about.h
 FORMS += mainform.ui \
     mnemo.ui \
     onefilter.ui \
     tparamdialog.ui \
-    sparamdialog.ui
+    sparamdialog.ui \
+    about.ui
 SOURCES += main.cpp \
     mainform.cpp \
     mnemo.cpp \
