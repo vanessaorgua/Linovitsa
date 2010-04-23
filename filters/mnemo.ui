@@ -2343,7 +2343,7 @@ QCheckBox:indicator
       </property>
       <layout class="QHBoxLayout" name="horizontalLayout">
        <item>
-        <widget class="QPushButton" name="pushButton">
+        <widget class="QPushButton" name="bn_TParam">
          <property name="text">
           <string>Technological regulations filters</string>
          </property>
@@ -3368,7 +3368,6 @@ QCheckBox:indicator
  </widget>
  <resources>
   <include location="mnemo/mnemo.qrc"/>
-  <include location="../../pict/lib/valves.qrc"/>
  </resources>
  <connections/>
 </ui>

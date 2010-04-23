@@ -12,14 +12,17 @@ QT += sql \
 # Input
 HEADERS += mainform.h \
     mnemo.h \
-    onefilter.h
+    onefilter.h \
+    tparamdialog.h
 FORMS += mainform.ui \
     mnemo.ui \
-    onefilter.ui
+    onefilter.ui \
+    tparamdialog.ui
 SOURCES += main.cpp \
     mainform.cpp \
     mnemo.cpp \
-    onefilter.cpp
+    onefilter.cpp \
+    tparamdialog.cpp
 RESOURCES += mnemo/mnemo.qrc \
     ../../lib/picture.qrc \
     ../../pict/lib/valves.qrc

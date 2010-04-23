@@ -8,6 +8,8 @@
 #include <QVBoxLayout>
 
 #include "onefilter.h"
+#include "tparamdialog.h"
+
 
 Mnemo::Mnemo(IoNetClient &src, QWidget *p) : QLabel(p), m_ui(new Ui::mnemo),s(src)
 {
@@ -35,6 +37,8 @@ Mnemo::Mnemo(IoNetClient &src, QWidget *p) : QLabel(p), m_ui(new Ui::mnemo),s(sr
     connect(m_ui->bn_F_6,SIGNAL(clicked()),this,SLOT(slotFilter()));
     connect(m_ui->bn_F_7,SIGNAL(clicked()),this,SLOT(slotFilter()));
     connect(m_ui->bn_F_8,SIGNAL(clicked()),this,SLOT(slotFilter()));
+
+    connect(m_ui->bn_TParam,SIGNAL(clicked()),this,SLOT(slotTParam()));
 
     cb_all   // ініціалізувати масив, для того щоб потім за раз все завантажити
  << m_ui->cb_Cl_1_1
@@ -183,6 +187,15 @@ void Mnemo::slotFilter()
     OneFilter *f=new OneFilter(*s[0],this);
     f->setFn(sender()->objectName().mid(5,1).toInt()); // встановити номер фільтра
     f->exec();
+}
+
+void Mnemo::slotTParam() // кнопка завдання технологічних параметрів
+{
+
+    TParamDialog *p=new TParamDialog(*s[0],this);
+    p->exec();
 
 
 }
+
+
