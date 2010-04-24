@@ -15,12 +15,22 @@ public:
     SParamDialog(IoDev &src,QWidget *parent = 0);
     ~SParamDialog();
 
+private slots:
+    void myAccept();
+    void selectTeg(int v);
+
+    void slotSet(QString);
+
+
 protected:
     void changeEvent(QEvent *e);
 
 private:
     Ui::SParamDialog *m_ui;
     IoDev &s;
+    int ch;
+
+    QStringList tag_name; // список тегів, які треба налаштовувати
 };
 
 #endif // SPARAMDIALOG_H

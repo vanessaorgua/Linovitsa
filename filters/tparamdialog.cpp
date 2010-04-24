@@ -55,5 +55,9 @@ void TParamDialog::myAccept() // реакція на кнопку Ок
 
     s.sendValue("Nc_zd",qint16(m_ui->bx_Nc_zd->currentIndex()));
 
+    // смикнут контролер
+    //s.sendValue("Run",qint16(0));
+    s.sendValue("Save",qint16(-1));
+
     accept();
 }

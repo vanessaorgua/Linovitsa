@@ -7,7 +7,7 @@
     <x>0</x>
     <y>0</y>
     <width>296</width>
-    <height>187</height>
+    <height>215</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -44,7 +44,7 @@
    <item row="0" column="0" colspan="3">
     <widget class="QTabWidget" name="tabWidget">
      <property name="currentIndex">
-      <number>1</number>
+      <number>0</number>
      </property>
      <widget class="QWidget" name="tab_1">
       <attribute name="title">
@@ -65,7 +65,7 @@
         </widget>
        </item>
        <item row="0" column="1">
-        <widget class="QComboBox" name="comboBox"/>
+        <widget class="QComboBox" name="bx_Teg"/>
        </item>
        <item row="1" column="0" rowspan="2">
         <widget class="QLabel" name="label_2">
@@ -81,7 +81,11 @@
         </widget>
        </item>
        <item row="1" column="1" rowspan="2">
-        <widget class="QDoubleSpinBox" name="sb_Zs"/>
+        <widget class="QDoubleSpinBox" name="sb_Zs">
+         <property name="maximum">
+          <double>1000.000000000000000</double>
+         </property>
+        </widget>
        </item>
        <item row="3" column="0">
         <widget class="QLabel" name="label_3">
@@ -97,9 +101,13 @@
         </widget>
        </item>
        <item row="3" column="1">
-        <widget class="QDoubleSpinBox" name="sb_Fs"/>
+        <widget class="QDoubleSpinBox" name="sb_Fs">
+         <property name="maximum">
+          <double>1000.000000000000000</double>
+         </property>
+        </widget>
        </item>
-       <item row="5" column="0" colspan="2">
+       <item row="6" column="0" colspan="2">
         <spacer name="verticalSpacer">
          <property name="orientation">
           <enum>Qt::Vertical</enum>
@@ -113,7 +121,14 @@
         </spacer>
        </item>
        <item row="4" column="1">
-        <widget class="QSpinBox" name="sb_f"/>
+        <widget class="QSpinBox" name="sb_f">
+         <property name="minimum">
+          <number>1</number>
+         </property>
+         <property name="maximum">
+          <number>100</number>
+         </property>
+        </widget>
        </item>
        <item row="4" column="0">
         <widget class="QLabel" name="label_4">
@@ -125,6 +140,23 @@
          </property>
          <property name="text">
           <string>Dempfer</string>
+         </property>
+        </widget>
+       </item>
+       <item row="5" column="0">
+        <widget class="QLabel" name="label_8">
+         <property name="text">
+          <string>Max value</string>
+         </property>
+        </widget>
+       </item>
+       <item row="5" column="1">
+        <widget class="QSpinBox" name="sb_m">
+         <property name="minimum">
+          <number>10</number>
+         </property>
+         <property name="maximum">
+          <number>100</number>
          </property>
         </widget>
        </item>
@@ -204,22 +236,6 @@
  </widget>
  <resources/>
  <connections>
-  <connection>
-   <sender>bn_Ok</sender>
-   <signal>clicked()</signal>
-   <receiver>SParamDialog</receiver>
-   <slot>accept()</slot>
-   <hints>
-    <hint type="sourcelabel">
-     <x>178</x>
-     <y>271</y>
-    </hint>
-    <hint type="destinationlabel">
-     <x>199</x>
-     <y>149</y>
-    </hint>
-   </hints>
-  </connection>
   <connection>
    <sender>bn_Cancel</sender>
    <signal>clicked()</signal>

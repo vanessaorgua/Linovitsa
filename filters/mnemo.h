@@ -20,7 +20,8 @@ public:
     ~Mnemo();
 
 public slots:
-    void updateData(); // слот обновляє дані на мнемосхемі
+    void updateDataRaw(); // слот обновляє дані на мнемосхемі
+    void updateDataScaled(); // слот обновляє дані на мнемосхемі
     void updateTrChart(); // слот , який обновляє графіки
     void slotFilter(); // реакція на кнопку-натискання фільтра
     void slotTParam(); // кнопка завдання технологічних параметрів

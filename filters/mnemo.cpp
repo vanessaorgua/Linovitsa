@@ -21,7 +21,8 @@ Mnemo::Mnemo(IoNetClient &src, QWidget *p) : QLabel(p), m_ui(new Ui::mnemo),s(sr
     vbl1->addWidget(trc);
     m_ui->Trend->setLayout(vbl1);
 
-    connect(&s,SIGNAL(updateData()),this,SLOT(updateData())); // при отриманні нових даних, засвітити їх на картинці
+    connect(&s,SIGNAL(updateDataRaw()),this,SLOT(updateDataRaw())); // при отриманні нових даних, засвітити їх на картинці
+    connect(&s,SIGNAL(updateDataScaled()),this,SLOT(updateDataScaled())); // при отриманні нових даних, засвітити їх на картинці
 
     QTimer* t=new QTimer(this);
     t->setInterval(5000);
@@ -102,9 +103,9 @@ Mnemo::~Mnemo()
 }
 
 
-void Mnemo::updateData()
+void Mnemo::updateDataRaw()
 {
-    //qDebug() << s[0]->getTags().keys();
+    qDebug() << "updateDataRaw()";
 
     if(s[0]->getValue16("r_l"))
     {
@@ -154,14 +155,20 @@ void Mnemo::updateData()
     m_ui->pb_L_ho->setValue(s[0]->getValue16("L_ho"));
 
 
-    // це місце треба переробляти на виведення шкальованих значень
-    m_ui->le_L_nfs->setText(QString("%1").arg(s[0]->getValue16("L_nfs")));
-    m_ui->le_L_nz->setText(QString("%1").arg(s[0]->getValue16("L_nz")));
-    m_ui->le_L_sus->setText(QString("%1").arg(s[0]->getValue16("L_sus")));
-    m_ui->le_L_cs->setText(QString("%1").arg(s[0]->getValue16("L_cs")));
-    m_ui->le_L_ho->setText(QString("%1").arg(s[0]->getValue16("L_ho")));
 
-    //m
+}
+
+void Mnemo::updateDataScaled() // слот обновляє дані на мнемосхемі
+{
+    // це місце треба переробляти на виведення шкальованих значень
+    m_ui->le_L_nfs->setText(QString("%1").arg(s[0]->getValueScaled("L_nfs")));
+    m_ui->le_L_nz->setText(QString("%1").arg(s[0]->getValueScaled("L_nz")));
+    m_ui->le_L_sus->setText(QString("%1").arg(s[0]->getValueScaled("L_sus")));
+    m_ui->le_L_cs->setText(QString("%1").arg(s[0]->getValueScaled("L_cs")));
+    m_ui->le_L_ho->setText(QString("%1").arg(s[0]->getValueScaled("L_ho")));
+
+    m_ui->ld_T_s->display(s[0]->getValueScaled("T_s"));
+    m_ui->ld_G_cs->display(s[0]->getValueScaled("G_cs"));
 
 }
 

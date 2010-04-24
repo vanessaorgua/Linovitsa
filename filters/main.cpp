@@ -52,6 +52,8 @@ int main(int argc,char **argv)
     main.resize(1366,768);
     main.show();
     
+
+
     
 
     return app.exec();
