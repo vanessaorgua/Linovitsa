@@ -15,22 +15,26 @@ HEADERS += mainform.h \
     onefilter.h \
     tparamdialog.h \
     sparamdialog.h \
-    about.h
+    about.h \
+    history.h
 FORMS += mainform.ui \
     mnemo.ui \
     onefilter.ui \
     tparamdialog.ui \
     sparamdialog.ui \
-    about.ui
+    about.ui \
+    history.ui
 SOURCES += main.cpp \
     mainform.cpp \
     mnemo.cpp \
     onefilter.cpp \
     tparamdialog.cpp \
-    sparamdialog.cpp
+    sparamdialog.cpp \
+    history.cpp
 RESOURCES += mnemo/mnemo.qrc \
     ../../lib/picture.qrc \
-    ../../pict/lib/valves.qrc
+    ../../pict/lib/valves.qrc \
+    text.qrc
 MOC_DIR = build
 OBJECTS_DIR = build
 UI_DIR = build

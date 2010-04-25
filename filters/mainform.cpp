@@ -10,6 +10,8 @@
 #include "sparamdialog.h"
 #include "about.h"
 
+#include "history.h"
+
 mMainForm::mMainForm(IoNetClient &source,QWidget *p): QWidget(p)
 ,src(source),m_ui(new Ui::Form)
 {
@@ -66,34 +68,31 @@ void mMainForm::about()
 
 void mMainForm::trRun()
 {
-/*
+
     int nHeight=4000;
 
 //    qDebug() << sender()->objectName();
-    RHistorySelect *trd = new RHistorySelect(src,&tp,this);
+    RHistorySelect *trd = new RHistorySelect(*src[0],&tp,this);
 
     if(trd->exec()==QDialog::Accepted)
     {
 	pTrw = new TrendWindow(NULL,&tp,nHeight);
-	pTrw->setAttribute( Qt::WA_DeleteOnClose);
+        //pTrw->setAttribute( Qt::WA_DeleteOnClose);
 
-	connect(pTrw->Exit,SIGNAL(clicked()),this,SLOT(showMe()));
+        connect(pTrw,SIGNAL(finished()),this,SLOT(showMe()));
 
 	((QStackedWidget*)parentWidget())->addWidget(pTrw);       // показати вікно графіків
         ((QStackedWidget*)parentWidget())->setCurrentWidget(pTrw);
     }
     delete trd;
-    //qDebug() << "End Init"; */
+    //qDebug() << "End Init";
 }
 
 void mMainForm::showMe()
 {
-/*
     ((QStackedWidget*)parentWidget())->setCurrentWidget(this) ;
-
     ((QStackedWidget*)parentWidget())->removeWidget(pTrw);
-    //delete pTrw;
-    QSqlDatabase::removeDatabase("history");*/
+    delete pTrw;
 }
 
 void mMainForm::setupParm()

@@ -105,7 +105,7 @@ Mnemo::~Mnemo()
 
 void Mnemo::updateDataRaw()
 {
-    qDebug() << "updateDataRaw()";
+    //qDebug() << "updateDataRaw()";
 
     if(s[0]->getValue16("r_l"))
     {
