@@ -45,3 +45,4 @@ RCC_DIR = build
 QMAKE_LIBDIR += ../../lib
 LIBS += -lrcada_client
 INCLUDEPATH += ../../lib/include
+OTHER_FILES += text/alert.txt
