@@ -26,12 +26,12 @@
    <string>Scada</string>
   </property>
   <property name="windowIcon">
-   <iconset>
+   <iconset resource="../../lib/picture.qrc">
     <normaloff>:/butons/pict/logo_32x32.png</normaloff>:/butons/pict/logo_32x32.png</iconset>
   </property>
   <layout class="QGridLayout">
    <item row="0" column="0">
-    <widget class="QPushButton" name="Alarm">
+    <widget class="QPushButton" name="bn_showAlert">
      <property name="minimumSize">
       <size>
        <width>42</width>
@@ -45,7 +45,7 @@
       </size>
      </property>
      <property name="icon">
-      <iconset>
+      <iconset resource="../../lib/picture.qrc">
        <normaloff>:/butons/pict/alarm_32x32.png</normaloff>:/butons/pict/alarm_32x32.png</iconset>
      </property>
      <property name="iconSize">
@@ -71,7 +71,7 @@
       </size>
      </property>
      <property name="icon">
-      <iconset>
+      <iconset resource="../../lib/picture.qrc">
        <normaloff>:/butons/pict/thrend_32x32.png</normaloff>:/butons/pict/thrend_32x32.png</iconset>
      </property>
      <property name="iconSize">
@@ -97,7 +97,7 @@
       </size>
      </property>
      <property name="icon">
-      <iconset>
+      <iconset resource="../../lib/picture.qrc">
        <normaloff>:/butons/pict/logo_32x32.png</normaloff>:/butons/pict/logo_32x32.png</iconset>
      </property>
      <property name="iconSize">
@@ -126,7 +126,7 @@
       <string/>
      </property>
      <property name="icon">
-      <iconset>
+      <iconset resource="../../lib/picture.qrc">
        <normaloff>:/butons/pict/exit_32x32.png</normaloff>:/butons/pict/exit_32x32.png</iconset>
      </property>
      <property name="iconSize">
@@ -184,7 +184,7 @@
        <number>1</number>
       </property>
       <item row="0" column="0" rowspan="2">
-       <widget class="QTextEdit" name="alarmBrowser"/>
+       <widget class="QTextEdit" name="AlertBrowser"/>
       </item>
       <item row="0" column="2">
        <widget class="QLineEdit" name="lineEDate">
@@ -265,7 +265,7 @@
       <string/>
      </property>
      <property name="icon">
-      <iconset>
+      <iconset resource="../../lib/picture.qrc">
        <normaloff>:/butons/pict/setup_32x32.png</normaloff>:/butons/pict/setup_32x32.png</iconset>
      </property>
      <property name="iconSize">

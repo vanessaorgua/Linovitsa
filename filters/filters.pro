@@ -16,21 +16,24 @@ HEADERS += mainform.h \
     tparamdialog.h \
     sparamdialog.h \
     about.h \
-    history.h
+    history.h \
+    alertviewdialog.h
 FORMS += mainform.ui \
     mnemo.ui \
     onefilter.ui \
     tparamdialog.ui \
     sparamdialog.ui \
     about.ui \
-    history.ui
+    history.ui \
+    alertviewdialog.ui
 SOURCES += main.cpp \
     mainform.cpp \
     mnemo.cpp \
     onefilter.cpp \
     tparamdialog.cpp \
     sparamdialog.cpp \
-    history.cpp
+    history.cpp \
+    alertviewdialog.cpp
 RESOURCES += mnemo/mnemo.qrc \
     ../../lib/picture.qrc \
     ../../pict/lib/valves.qrc \
@@ -42,7 +45,7 @@ RCC_DIR = build
 
 # OTHER_FILES += test_map.txt \
 # list.txt \
-QMAKE_LIBDIR += ../../lib
+QMAKE_LIBDIR += ../../lib filters_uk.qm
 LIBS += -lrcada_client
 INCLUDEPATH += ../../lib/include
 OTHER_FILES += text/alert.txt

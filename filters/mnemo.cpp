@@ -92,8 +92,14 @@ Mnemo::Mnemo(IoNetClient &src, QWidget *p) : QLabel(p), m_ui(new Ui::mnemo),s(sr
  << m_ui->cb_Vl_8_3;
 
 
-
-
+    le_State << m_ui->le_State_1
+            << m_ui->le_State_2
+            << m_ui->le_State_3
+            << m_ui->le_State_4
+            << m_ui->le_State_5
+            << m_ui->le_State_6
+            << m_ui->le_State_7
+            << m_ui->le_State_8;
 
 }
 
@@ -155,6 +161,54 @@ void Mnemo::updateDataRaw()
     m_ui->pb_L_ho->setValue(s[0]->getValue16("L_ho"));
 
 
+    int i=1;
+    foreach(QLineEdit *le,le_State)
+    {
+        if(! s[0]->getValue16(QString("Dio_%1_").arg(i))) // перевірити зв’язок
+        {
+            le->setText(tr("Off-line"));
+        }
+        else
+        {
+            if(s[0]->getValue16(QString("Amr_%1_").arg(i))) // перевірити зв’язок
+            {
+
+                if(! s[0]->getValue16(QString("Am_%1_").arg(i))) // перевірити зв’язок
+                {
+                    le->setText(tr("Manual"));
+                }
+                else
+                {
+                    switch(s[0]->getValue16(QString("State_%1_").arg(i)))
+                    {
+                        case 0: // ST_OFF
+                            le->setText(tr("Off"));
+                            break;
+                        case 1: // ST_START
+                            le->setText(tr("Start"));
+                            break;
+                        case 2: // ST_START
+                            le->setText(tr("Filtering"));
+                            break;
+                        case 3:
+                        case 4:
+                        case 5:
+                            le->setText(tr("Upload"));
+                            break;
+                        default:
+                            le->setText(tr("Unknown"));
+                            break;
+                    }
+                }
+
+            }
+            else
+            {
+                le->setText(tr("Local"));
+            }
+        }
+        ++i;
+    }
 
 }
 

@@ -9,8 +9,8 @@
 
 #include "sparamdialog.h"
 #include "about.h"
-
 #include "history.h"
+#include "alertviewdialog.h"
 
 mMainForm::mMainForm(IoNetClient &source,QWidget *p): QWidget(p)
 ,src(source),m_ui(new Ui::Form)
@@ -29,11 +29,15 @@ mMainForm::mMainForm(IoNetClient &source,QWidget *p): QWidget(p)
     connect(m_ui->bnParm,SIGNAL(clicked()),this,SLOT(setupParm()));
 
     connect (m_ui->Exit,SIGNAL(clicked()),this,SLOT(slotExit()));
-    
+
+    connect(m_ui->bn_showAlert,SIGNAL(clicked()),this,SLOT(showAlert()));
+
     // відобразити мнемосхему
     m_ui->stackedMnemo->addWidget(new Mnemo(src,this));
 
-    
+    // відображення свіжих алертів
+    connect(&src,SIGNAL(Alert(QString)),this,SLOT(slotAlert(QString)));
+
     
     t->start();
 
@@ -108,4 +112,24 @@ void mMainForm::slotExit()
     {
 	qobject_cast<QWidget*>(parent())->close() ; // тоді закритися 
     }
+}
+
+void mMainForm::slotAlert(QString v)
+{
+    QString a=QString("%1 | %2").arg(QDateTime::currentDateTime().toString("dd/MM/yyyy hh:mm:ss")).arg(v);
+    m_ui->AlertBrowser->clear();
+    m_ui->AlertBrowser->insertPlainText( a );
+
+
+    alertList.push(a);          // зберегти поточний
+    for(;alertList.size()>100;) // якщо більше 100
+    {
+        alertList.pop_front();  // видалити зайві
+    }
+}
+
+void mMainForm::showAlert()
+{
+    AlertViewDialog d(alertList,this);
+    d.exec();
 }

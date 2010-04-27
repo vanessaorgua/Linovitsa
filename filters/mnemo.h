@@ -7,6 +7,7 @@
 class TrendChart;
 class IoNetClient;
 class QCheckBox;
+class QLineEdit;
 
 namespace Ui {
     class mnemo;
@@ -35,6 +36,7 @@ private:
 
     QVector<QCheckBox*> cb_all;
 //    QStringList cb_tag;
+    QVector<QLineEdit*> le_State;
 
 };
 

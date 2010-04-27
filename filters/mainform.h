@@ -21,7 +21,9 @@ public slots:
     void setupParm();
     
     void slotExit();
-    
+    void slotAlert(QString); // це буде викликатися коли сервер пришле алерт
+    void showAlert();
+
 private:
     
     IoNetClient &src; // вказівник на джерело даних
@@ -29,5 +31,6 @@ private:
     TrendWindow *pTrw; // вказівник на вікно трендів
     struct trendinfo tp;
     Ui::Form *m_ui;
+    QStack<QString> alertList;
 };
 

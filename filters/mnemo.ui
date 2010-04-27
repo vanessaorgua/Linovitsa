@@ -2281,14 +2281,20 @@ QCheckBox:indicator
   <widget class="QLabel" name="label">
    <property name="geometry">
     <rect>
-     <x>27</x>
-     <y>732</y>
+     <x>26</x>
+     <y>669</y>
      <width>116</width>
-     <height>16</height>
+     <height>25</height>
     </rect>
    </property>
    <property name="text">
-    <string>Collection juice</string>
+    <string>Coll. juice</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+   <property name="wordWrap">
+    <bool>true</bool>
    </property>
   </widget>
   <widget class="QFrame" name="Trend">
@@ -2810,7 +2816,7 @@ QCheckBox:indicator
    <property name="geometry">
     <rect>
      <x>12</x>
-     <y>618</y>
+     <y>589</y>
      <width>45</width>
      <height>24</height>
     </rect>
@@ -2831,7 +2837,7 @@ QCheckBox:indicator
    <property name="geometry">
     <rect>
      <x>69</x>
-     <y>624</y>
+     <y>595</y>
      <width>20</width>
      <height>63</height>
     </rect>
@@ -2944,7 +2950,7 @@ QCheckBox:indicator
    <property name="geometry">
     <rect>
      <x>174</x>
-     <y>623</y>
+     <y>594</y>
      <width>20</width>
      <height>63</height>
     </rect>
@@ -3057,7 +3063,7 @@ QCheckBox:indicator
    <property name="geometry">
     <rect>
      <x>117</x>
-     <y>617</y>
+     <y>588</y>
      <width>45</width>
      <height>24</height>
     </rect>
@@ -3078,7 +3084,7 @@ QCheckBox:indicator
    <property name="geometry">
     <rect>
      <x>1099</x>
-     <y>623</y>
+     <y>594</y>
      <width>20</width>
      <height>63</height>
     </rect>
@@ -3191,7 +3197,7 @@ QCheckBox:indicator
    <property name="geometry">
     <rect>
      <x>1061</x>
-     <y>595</y>
+     <y>566</y>
      <width>45</width>
      <height>24</height>
     </rect>
@@ -3212,7 +3218,7 @@ QCheckBox:indicator
    <property name="geometry">
     <rect>
      <x>1211</x>
-     <y>623</y>
+     <y>594</y>
      <width>20</width>
      <height>63</height>
     </rect>
@@ -3298,7 +3304,7 @@ QCheckBox:indicator
    <property name="geometry">
     <rect>
      <x>1240</x>
-     <y>616</y>
+     <y>587</y>
      <width>45</width>
      <height>24</height>
     </rect>
@@ -3365,7 +3371,247 @@ QCheckBox:indicator
     <number>123</number>
    </property>
   </widget>
+  <widget class="QLineEdit" name="le_State_1">
+   <property name="geometry">
+    <rect>
+     <x>219</x>
+     <y>200</y>
+     <width>113</width>
+     <height>24</height>
+    </rect>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+   <property name="readOnly">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="le_State_2">
+   <property name="geometry">
+    <rect>
+     <x>347</x>
+     <y>200</y>
+     <width>113</width>
+     <height>24</height>
+    </rect>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+   <property name="readOnly">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="le_State_3">
+   <property name="geometry">
+    <rect>
+     <x>479</x>
+     <y>200</y>
+     <width>113</width>
+     <height>24</height>
+    </rect>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+   <property name="readOnly">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="le_State_4">
+   <property name="geometry">
+    <rect>
+     <x>609</x>
+     <y>200</y>
+     <width>113</width>
+     <height>24</height>
+    </rect>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+   <property name="readOnly">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="le_State_5">
+   <property name="geometry">
+    <rect>
+     <x>738</x>
+     <y>200</y>
+     <width>113</width>
+     <height>24</height>
+    </rect>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+   <property name="readOnly">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="le_State_6">
+   <property name="geometry">
+    <rect>
+     <x>869</x>
+     <y>200</y>
+     <width>113</width>
+     <height>24</height>
+    </rect>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+   <property name="readOnly">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="le_State_7">
+   <property name="geometry">
+    <rect>
+     <x>1002</x>
+     <y>200</y>
+     <width>113</width>
+     <height>24</height>
+    </rect>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+   <property name="readOnly">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="le_State_8">
+   <property name="geometry">
+    <rect>
+     <x>1140</x>
+     <y>200</y>
+     <width>113</width>
+     <height>24</height>
+    </rect>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+   <property name="readOnly">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="RotatedLabel" name="rotatedlabel">
+   <property name="geometry">
+    <rect>
+     <x>69</x>
+     <y>475</y>
+     <width>19</width>
+     <height>66</height>
+    </rect>
+   </property>
+   <property name="Angle">
+    <double>-90.000000000000000</double>
+   </property>
+   <property name="Text">
+    <string>Juice</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_2">
+   <property name="geometry">
+    <rect>
+     <x>95</x>
+     <y>43</y>
+     <width>126</width>
+     <height>18</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Pressure coll.</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+   <property name="wordWrap">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_11">
+   <property name="geometry">
+    <rect>
+     <x>1054</x>
+     <y>661</y>
+     <width>110</width>
+     <height>27</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Coll suspension</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_12">
+   <property name="geometry">
+    <rect>
+     <x>141</x>
+     <y>668</y>
+     <width>108</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>coll. of partial emptying</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+   <property name="wordWrap">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_13">
+   <property name="geometry">
+    <rect>
+     <x>1187</x>
+     <y>664</y>
+     <width>83</width>
+     <height>37</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>coll. of pure juice</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+   <property name="wordWrap">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="RotatedLabel" name="rotatedlabel_2">
+   <property name="geometry">
+    <rect>
+     <x>1164</x>
+     <y>497</y>
+     <width>21</width>
+     <height>114</height>
+    </rect>
+   </property>
+   <property name="Angle">
+    <double>-90.000000000000000</double>
+   </property>
+   <property name="Text">
+    <string>In filtering sediment</string>
+   </property>
+  </widget>
  </widget>
+ <customwidgets>
+  <customwidget>
+   <class>RotatedLabel</class>
+   <extends>QWidget</extends>
+   <header>rotatedlabel.h</header>
+  </customwidget>
+ </customwidgets>
  <resources>
   <include location="mnemo/mnemo.qrc"/>
  </resources>
