@@ -1,0 +1,11 @@
+<RCC>
+    <qresource prefix="/text">
+        <file>list.txt</file>
+    </qresource>
+    <qresource>
+        <file>pict/left_20x20.png</file>
+        <file>pict/right_20x20.png</file>
+        <file>pict/mnemo.svg</file>
+    </qresource>
+    
+</RCC>
