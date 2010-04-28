@@ -101,6 +101,14 @@ Mnemo::Mnemo(IoNetClient &src, QWidget *p) : QLabel(p), m_ui(new Ui::mnemo),s(sr
             << m_ui->le_State_7
             << m_ui->le_State_8;
 
+    le_T << m_ui->le_T_1
+            << m_ui->le_T_2
+            << m_ui->le_T_3
+            << m_ui->le_T_4
+            << m_ui->le_T_5
+            << m_ui->le_T_6
+            << m_ui->le_T_7
+            << m_ui->le_T_8;
 }
 
 Mnemo::~Mnemo()
@@ -207,6 +215,15 @@ void Mnemo::updateDataRaw()
                 le->setText(tr("Local"));
             }
         }
+        ++i;
+    }
+
+    i=1;
+    foreach(QLineEdit *le,le_T)
+    {
+        QTime t;
+        t.setHMS(s[0]->getValue16(QString("Tf_h_%1_").arg(i)),s[0]->getValue16(QString("Tf_m_%1_").arg(i)),0,0);
+        le->setText(t.toString("hh:mm"));
         ++i;
     }
 

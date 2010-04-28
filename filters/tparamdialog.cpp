@@ -14,7 +14,7 @@ TParamDialog::TParamDialog(IoDev &src,QWidget *parent) :
    m_ui->sb_T_v2_zd->setValue(s.getValue32("T_v2_zd")/1000);
    m_ui->sb_T_v3_zd->setValue(s.getValue32("T_v3_zd")/1000);
 
-   m_ui->sp_Tper_zd->setTime(QTime().addMSecs(s.getValue32("Tper_zd")));
+   m_ui->sp_Tper_zd->setTime(QTime().addMSecs((s.getValue32("Tper_zd")/1000)*1000));
    m_ui->sb_Tst_zd->setTime(QTime().addMSecs(s.getValue32("Tst_zd")));
 
    m_ui->sb_Q_zd->setValue(s.getValueFloat("Q_zd"));

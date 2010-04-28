@@ -37,6 +37,7 @@ private:
     QVector<QCheckBox*> cb_all;
 //    QStringList cb_tag;
     QVector<QLineEdit*> le_State;
+    QVector<QLineEdit*> le_T;
 
 };
 

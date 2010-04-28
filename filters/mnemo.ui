@@ -3519,9 +3519,9 @@ QCheckBox:indicator
    <property name="geometry">
     <rect>
      <x>95</x>
-     <y>43</y>
+     <y>20</y>
      <width>126</width>
-     <height>18</height>
+     <height>41</height>
     </rect>
    </property>
    <property name="text">
@@ -3553,9 +3553,9 @@ QCheckBox:indicator
   <widget class="QLabel" name="label_12">
    <property name="geometry">
     <rect>
-     <x>141</x>
+     <x>138</x>
      <y>668</y>
-     <width>108</width>
+     <width>111</width>
      <height>31</height>
     </rect>
    </property>
@@ -3572,9 +3572,9 @@ QCheckBox:indicator
   <widget class="QLabel" name="label_13">
    <property name="geometry">
     <rect>
-     <x>1187</x>
+     <x>1169</x>
      <y>664</y>
-     <width>83</width>
+     <width>111</width>
      <height>37</height>
     </rect>
    </property>
@@ -3602,6 +3602,110 @@ QCheckBox:indicator
    </property>
    <property name="Text">
     <string>In filtering sediment</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="le_T_1">
+   <property name="geometry">
+    <rect>
+     <x>250</x>
+     <y>250</y>
+     <width>61</width>
+     <height>24</height>
+    </rect>
+   </property>
+   <property name="readOnly">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="le_T_2">
+   <property name="geometry">
+    <rect>
+     <x>380</x>
+     <y>250</y>
+     <width>61</width>
+     <height>24</height>
+    </rect>
+   </property>
+   <property name="readOnly">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="le_T_3">
+   <property name="geometry">
+    <rect>
+     <x>520</x>
+     <y>250</y>
+     <width>61</width>
+     <height>24</height>
+    </rect>
+   </property>
+   <property name="readOnly">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="le_T_4">
+   <property name="geometry">
+    <rect>
+     <x>640</x>
+     <y>250</y>
+     <width>61</width>
+     <height>24</height>
+    </rect>
+   </property>
+   <property name="readOnly">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="le_T_5">
+   <property name="geometry">
+    <rect>
+     <x>770</x>
+     <y>250</y>
+     <width>61</width>
+     <height>24</height>
+    </rect>
+   </property>
+   <property name="readOnly">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="le_T_6">
+   <property name="geometry">
+    <rect>
+     <x>900</x>
+     <y>250</y>
+     <width>61</width>
+     <height>24</height>
+    </rect>
+   </property>
+   <property name="readOnly">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="le_T_7">
+   <property name="geometry">
+    <rect>
+     <x>1030</x>
+     <y>250</y>
+     <width>61</width>
+     <height>24</height>
+    </rect>
+   </property>
+   <property name="readOnly">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="le_T_8">
+   <property name="geometry">
+    <rect>
+     <x>1160</x>
+     <y>250</y>
+     <width>61</width>
+     <height>24</height>
+    </rect>
+   </property>
+   <property name="readOnly">
+    <bool>true</bool>
    </property>
   </widget>
  </widget>
