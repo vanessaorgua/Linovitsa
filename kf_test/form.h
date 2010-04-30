@@ -3,23 +3,28 @@
 
 #include <QtGui/QWidget>
 
-#include "ui_form.h"
+namespace Ui
+{
+    class Form;
+}
 
 class IoDev;
 
-class Form : public QWidget , public Ui::Form
+class Form : public QWidget
 {
     Q_OBJECT
 public:
     Form(IoDev &s, QWidget *parent = 0);
     ~Form();
 private slots:
-    void sendData();
+    void sendData(int);
+    void sendState();
     void updateData();
 
 private:
     IoDev &src;
-
+    Ui::Form *m_ui;
+    qint16 lState;
 };
 
 #endif // FORM_H

@@ -15,6 +15,8 @@ int main(int argc, char *argv[])
     QCoreApplication::setOrganizationName("Rabitsa");
     QCoreApplication::setApplicationName("kf_test");
 
+    QTextCodec::setCodecForTr(QTextCodec::codecForName("UTF-8"));
+
     RxModbus r;
 
     r.loadList(":/text/list.txt");

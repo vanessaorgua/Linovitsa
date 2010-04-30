@@ -10,12 +10,14 @@ TEMPLATE = app
 SOURCES += main.cpp \
     form.cpp
 
-# MOC_DIR = build
+MOC_DIR = build
 OBJECTS_DIR = build
 UI_DIR = build
 RCC_DIR = build
+
 OTHER_FILES += list.txt \
     ../librcada.a
+
 RESOURCES += test.qrc
 QMAKE_LIBDIR += ../../lib
 LIBS += -lrcada
