@@ -3,9 +3,13 @@
         <file>list.txt</file>
     </qresource>
     <qresource>
-        <file>pict/left_20x20.png</file>
-        <file>pict/right_20x20.png</file>
+        <file>pict/left_20x20_off.png</file>
+        <file>pict/right_20x20_off.png</file>
+        <file>pict/left_20x20_green.png</file>
+        <file>pict/right_20x20_green.png</file>
         <file>pict/mnemo.svg</file>
+        <file>../../pict/lib/lamp_green_16x16.png</file>
+	<file>../../pict/lib/lamp_off_16x16.png</file>
     </qresource>
     
 </RCC>

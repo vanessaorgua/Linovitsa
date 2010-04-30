@@ -33,7 +33,7 @@ mMainForm::mMainForm(IoNetClient &source,QWidget *p): QWidget(p)
     connect(m_ui->bn_showAlert,SIGNAL(clicked()),this,SLOT(showAlert()));
 
     // відобразити мнемосхему
-    m_ui->stackedMnemo->addWidget(new Mnemo(src,this));
+    m_ui->scrollArea->setWidget(new Mnemo(src,this));
 
     // відображення свіжих алертів
     connect(&src,SIGNAL(Alert(QString)),this,SLOT(slotAlert(QString)));

@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>1016</width>
-    <height>708</height>
+    <width>800</width>
+    <height>600</height>
    </rect>
   </property>
   <property name="minimumSize">
@@ -150,10 +150,7 @@
      </property>
     </spacer>
    </item>
-   <item row="1" column="1" rowspan="5" colspan="3">
-    <widget class="QStackedWidget" name="stackedMnemo"/>
-   </item>
-   <item row="0" column="1" colspan="3">
+   <item row="0" column="1" colspan="2">
     <widget class="QFrame" name="frame">
      <property name="minimumSize">
       <size>
@@ -274,6 +271,29 @@
        <height>32</height>
       </size>
      </property>
+    </widget>
+   </item>
+   <item row="1" column="1" rowspan="5">
+    <widget class="QScrollArea" name="scrollArea">
+     <property name="frameShape">
+      <enum>QFrame::NoFrame</enum>
+     </property>
+     <property name="widgetResizable">
+      <bool>false</bool>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignTop</set>
+     </property>
+     <widget class="QWidget" name="scrollAreaWidgetContents">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>0</y>
+        <width>742</width>
+        <height>546</height>
+       </rect>
+      </property>
+     </widget>
     </widget>
    </item>
   </layout>
