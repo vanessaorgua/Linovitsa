@@ -7,6 +7,10 @@
 #include "RxModbus.h"
 #include "form.h"
 
+#ifdef WIN32
+#include <QtPlugin>
+Q_IMPORT_PLUGIN(qsvg)
+#endif
 
 int main(int argc, char *argv[])
 {

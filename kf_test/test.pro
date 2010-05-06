@@ -24,3 +24,6 @@ LIBS += -lrcada
 INCLUDEPATH += ../../lib/include
 HEADERS += form.h
 FORMS += form.ui
+
+win32:QTPLUGIN += qsvg
+win32:CONFIG += static

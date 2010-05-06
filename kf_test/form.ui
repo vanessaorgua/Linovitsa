@@ -7,7 +7,7 @@
     <x>0</x>
     <y>0</y>
     <width>459</width>
-    <height>425</height>
+    <height>450</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -110,6 +110,14 @@
           <height>185</height>
          </size>
         </property>
+        <property name="styleSheet">
+         <string notr="true">QFrame
+{
+	background-image: url(:/pict/mnemo.svg);
+	background-repeat: no-repeat;
+	background-position: center 20px;
+}</string>
+        </property>
         <property name="frameShape">
          <enum>QFrame::NoFrame</enum>
         </property>
@@ -119,8 +127,8 @@
         <widget class="QCheckBox" name="cb_c_p">
          <property name="geometry">
           <rect>
-           <x>260</x>
-           <y>90</y>
+           <x>257</x>
+           <y>89</y>
            <width>16</width>
            <height>16</height>
           </rect>
@@ -235,8 +243,8 @@ QCheckBox:indicator
         <widget class="QCheckBox" name="cb_c_ff">
          <property name="geometry">
           <rect>
-           <x>220</x>
-           <y>122</y>
+           <x>214</x>
+           <y>121</y>
            <width>16</width>
            <height>16</height>
           </rect>
@@ -311,8 +319,8 @@ QCheckBox:indicator
         <widget class="QCheckBox" name="cb_fr">
          <property name="geometry">
           <rect>
-           <x>260</x>
-           <y>52</y>
+           <x>254</x>
+           <y>51</y>
            <width>16</width>
            <height>16</height>
           </rect>
@@ -351,8 +359,8 @@ QCheckBox:indicator
         <widget class="QCheckBox" name="cb_fp">
          <property name="geometry">
           <rect>
-           <x>220</x>
-           <y>52</y>
+           <x>214</x>
+           <y>51</y>
            <width>16</width>
            <height>16</height>
           </rect>
@@ -429,8 +437,8 @@ QCheckBox:indicator
         <widget class="QCheckBox" name="cb_c_fa">
          <property name="geometry">
           <rect>
-           <x>260</x>
-           <y>122</y>
+           <x>254</x>
+           <y>121</y>
            <width>16</width>
            <height>16</height>
           </rect>
@@ -462,22 +470,6 @@ QCheckBox:indicator
          </property>
          <property name="text">
           <string>CheckBox</string>
-         </property>
-        </widget>
-        <widget class="QLabel" name="label">
-         <property name="geometry">
-          <rect>
-           <x>10</x>
-           <y>22</y>
-           <width>280</width>
-           <height>161</height>
-          </rect>
-         </property>
-         <property name="text">
-          <string/>
-         </property>
-         <property name="pixmap">
-          <pixmap resource="test.qrc">:/pict/mnemo.svg</pixmap>
          </property>
         </widget>
         <widget class="QCheckBox" name="cb_c_mb">

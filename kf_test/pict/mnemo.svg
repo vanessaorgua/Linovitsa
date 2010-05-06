@@ -9,8 +9,8 @@
    xmlns="http://www.w3.org/2000/svg"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="271.64285"
-   height="151"
+   width="280"
+   height="170"
    id="svg2"
    version="1.1"
    inkscape:version="0.47 r22583"
@@ -32,15 +32,15 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="1.4"
-     inkscape:cx="170.57642"
-     inkscape:cy="111.22898"
+     inkscape:zoom="5.6"
+     inkscape:cx="202.03124"
+     inkscape:cy="86.166977"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
-     inkscape:window-width="1440"
-     inkscape:window-height="850"
-     inkscape:window-x="-4"
+     inkscape:window-width="1680"
+     inkscape:window-height="1000"
+     inkscape:window-x="1276"
      inkscape:window-y="-3"
      inkscape:window-maximized="1" />
   <metadata
@@ -51,7 +51,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -59,7 +59,14 @@
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
      id="layer1"
-     transform="translate(15,-931.36218)">
+     transform="translate(15,-912.36218)">
+    <rect
+       style="fill:#ff7000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       id="rect2970"
+       width="54.360001"
+       height="34.360001"
+       x="202.03429"
+       y="985.18219" />
     <rect
        style="fill:#ebff00;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-opacity:1"
        id="rect2816"
@@ -144,13 +151,6 @@
        height="14"
        x="167.85715"
        y="995.36218" />
-    <rect
-       style="fill:#cd5200;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-opacity:1"
-       id="rect3612"
-       width="54"
-       height="34"
-       x="202.14285"
-       y="985.36218" />
     <rect
        style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-opacity:1"
        id="rect3614"
