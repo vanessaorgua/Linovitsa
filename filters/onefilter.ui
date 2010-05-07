@@ -402,31 +402,25 @@ QCheckBox:indicator
           <string>CheckBox</string>
          </property>
         </widget>
-        <widget class="QLCDNumber" name="ld_Nf">
+        <widget class="QLineEdit" name="le_Nf">
          <property name="geometry">
           <rect>
-           <x>44</x>
+           <x>45</x>
            <y>70</y>
-           <width>28</width>
+           <width>31</width>
            <height>41</height>
           </rect>
          </property>
-         <property name="styleSheet">
-          <string notr="true">QLCDNumber {
-	background-color: rgba(0, 0, 0, 255);
-};</string>
+         <property name="font">
+          <font>
+           <pointsize>20</pointsize>
+          </font>
          </property>
-         <property name="frameShape">
-          <enum>QFrame::Panel</enum>
+         <property name="text">
+          <string>0</string>
          </property>
-         <property name="frameShadow">
-          <enum>QFrame::Plain</enum>
-         </property>
-         <property name="numDigits">
-          <number>1</number>
-         </property>
-         <property name="segmentStyle">
-          <enum>QLCDNumber::Flat</enum>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
          </property>
         </widget>
        </widget>
@@ -469,7 +463,10 @@ QCheckBox:indicator
    </item>
   </layout>
  </widget>
- <resources/>
+ <resources>
+  <include location="mnemo/mnemo.qrc"/>
+  <include location="text.qrc"/>
+ </resources>
  <connections>
   <connection>
    <sender>bn_Exit</sender>

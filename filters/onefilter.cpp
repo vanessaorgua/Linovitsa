@@ -43,7 +43,7 @@ void OneFilter::changeEvent(QEvent *e)
  void OneFilter::setFn(int i)
  {
      n=i;
-     m_ui->ld_Nf->display(i);
+     m_ui->le_Nf->setText(QString("%1").arg((i)));
 
      // ініціалізувати перемикач режиму роботи.
      int v=s.getValue16(QString("Am_%1_").arg(n));
@@ -110,6 +110,7 @@ void OneFilter::setAm(int v)
 
 void OneFilter::setValve(int v)
 {
+    qDebug() << sender()->objectName() << v;
     int f=sender()->objectName().mid(8,1).toInt(); // визначити номер клапана
     s.sendValue(QString("Vl_%1_%2").arg(n).arg(f),qint16(v?-1:0)); // відправити команду на клапан
 }
