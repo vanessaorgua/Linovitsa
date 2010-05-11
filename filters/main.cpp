@@ -5,7 +5,11 @@
 #include <IoNetClient.h>
 
 #include "mainform.h"
+#ifdef WIN32
 
+#include <QtPlugin>
+Q_IMPORT_PLUGIN(qsvg)
+#endif
 int main(int argc,char **argv)
 {
     QApplication app(argc,argv);

@@ -19,7 +19,7 @@ OTHER_FILES += list.txt \
     ../librcada.a
 
 RESOURCES += test.qrc
-QMAKE_LIBDIR += ../../lib
+QMAKE_LIBDIR += ../../lib/release
 LIBS += -lrcada
 INCLUDEPATH += ../../lib/include
 HEADERS += form.h
