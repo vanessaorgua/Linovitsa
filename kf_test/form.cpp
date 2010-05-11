@@ -28,6 +28,7 @@ Form::~Form()
 void Form::sendData(int v)
 {
     src.sendValue(sender()->objectName().split("_")[1],qint16(v?-1:0));
+    qDebug() << sender()->objectName().split("_")[1] << qint16(v?-1:0);
 
 }
 
@@ -40,8 +41,8 @@ void Form::updateData()
     {
         connect(m_ui->cb_gz,SIGNAL(stateChanged(int)),this,SLOT(sendData(int)));
         connect(m_ui->cb_gp,SIGNAL(stateChanged(int)),this,SLOT(sendData(int)));
-        connect(m_ui->cb_c_mf,SIGNAL(stateChanged(int)),this,SLOT(sendData(int)));
-        connect(m_ui->cb_c_mb,SIGNAL(stateChanged(int)),this,SLOT(sendData(int)));
+        connect(m_ui->cb_mf,SIGNAL(stateChanged(int)),this,SLOT(sendData(int)));
+        connect(m_ui->cb_mb,SIGNAL(stateChanged(int)),this,SLOT(sendData(int)));
     }
     lState=nState;
     switch(nState)
@@ -84,19 +85,19 @@ void Form::updateData()
     {
         if(src.getValue16("gz"))
         {
-            m_ui->cb_fp->setCheckState(src.getValue16("mf")?Qt::Checked:Qt::Unchecked);
-            m_ui->cb_fr->setCheckState(src.getValue16("mb")?Qt::Checked:Qt::Checked);
+            m_ui->cb_fp->setCheckState(Qt::Unchecked);
+            m_ui->cb_fr->setCheckState(Qt::Checked);
         }
         else
         {
-            m_ui->cb_fp->setCheckState(src.getValue16("mf")?Qt::Checked:Qt::Checked);
-            m_ui->cb_fr->setCheckState(src.getValue16("mb")?Qt::Checked:Qt::Unchecked);
+            m_ui->cb_fp->setCheckState(Qt::Checked);
+            m_ui->cb_fr->setCheckState(Qt::Unchecked);
         }
     }
     else
     {
-        m_ui->cb_fp->setCheckState(src.getValue16("mf")?Qt::Checked:Qt::Unchecked);
-        m_ui->cb_fr->setCheckState(src.getValue16("mb")?Qt::Checked:Qt::Unchecked);
+        m_ui->cb_fp->setCheckState(Qt::Unchecked);
+        m_ui->cb_fr->setCheckState(Qt::Unchecked);
     }
 
     m_ui->cb_c_p->setCheckState(src.getValue16("c_p")?Qt::Checked:Qt::Unchecked);
@@ -126,8 +127,8 @@ void Form::updateData()
     // на час виконнаня всіх дій відключити кнопки і сигнали
     disconnect(m_ui->cb_gz,SIGNAL(stateChanged(int)),this,SLOT(sendData(int)));
     disconnect(m_ui->cb_gp,SIGNAL(stateChanged(int)),this,SLOT(sendData(int)));
-    disconnect(m_ui->cb_c_mf,SIGNAL(stateChanged(int)),this,SLOT(sendData(int)));
-    disconnect(m_ui->cb_c_mb,SIGNAL(stateChanged(int)),this,SLOT(sendData(int)));
+    disconnect(m_ui->cb_mf,SIGNAL(stateChanged(int)),this,SLOT(sendData(int)));
+    disconnect(m_ui->cb_mb,SIGNAL(stateChanged(int)),this,SLOT(sendData(int)));
 
     // та скинути всі гачки
     m_ui->cb_gz->setCheckState(Qt::Unchecked);

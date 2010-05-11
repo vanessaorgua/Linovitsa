@@ -319,8 +319,8 @@ QCheckBox:indicator
         <widget class="QCheckBox" name="cb_fr">
          <property name="geometry">
           <rect>
-           <x>254</x>
-           <y>51</y>
+           <x>203</x>
+           <y>89</y>
            <width>16</width>
            <height>16</height>
           </rect>
@@ -359,8 +359,8 @@ QCheckBox:indicator
         <widget class="QCheckBox" name="cb_fp">
          <property name="geometry">
           <rect>
-           <x>214</x>
-           <y>51</y>
+           <x>188</x>
+           <y>89</y>
            <width>16</width>
            <height>16</height>
           </rect>
@@ -437,7 +437,7 @@ QCheckBox:indicator
         <widget class="QCheckBox" name="cb_c_fa">
          <property name="geometry">
           <rect>
-           <x>254</x>
+           <x>257</x>
            <y>121</y>
            <width>16</width>
            <height>16</height>
@@ -629,9 +629,7 @@ QCheckBox:indicator
    </item>
   </layout>
  </widget>
- <resources>
-  <include location="test.qrc"/>
- </resources>
+ <resources/>
  <connections>
   <connection>
    <sender>bn_Exit</sender>
