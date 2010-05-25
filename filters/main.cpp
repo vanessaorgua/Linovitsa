@@ -19,7 +19,7 @@ int main(int argc,char **argv)
 
     QSettings s;
     
-    IoNetClient net(s.value("/ioserv/hostname","localhost").toString());
+    IoNetClient net( s.value("/ioserv/hostname","localhost").toString());
 
 //    QSqlDatabase dbs=QSqlDatabase::addDatabase("QMYSQL");
 
@@ -52,9 +52,9 @@ int main(int argc,char **argv)
 
     //QObject::connect(mainForm->Exit,SIGNAL(clicked()),&main,SLOT(close()));
 
-    //main.showFullScreen();
-    main.resize(1366,768);
-    main.show();
+    main.showFullScreen();
+    //main.resize(1366,768);
+    //main.show();
 
     return app.exec();
 }

@@ -12,8 +12,8 @@
    xmlns:xlink="http://www.w3.org/1999/xlink"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="1312"
-   height="714"
+   width="1304"
+   height="708"
    id="svg4130"
    version="1.1"
    inkscape:version="0.47 r22583"
@@ -2306,7 +2306,7 @@
      inkscape:current-layer="layer1"
      showgrid="false"
      inkscape:window-width="1680"
-     inkscape:window-height="1000"
+     inkscape:window-height="1003"
      inkscape:window-x="1276"
      inkscape:window-y="-3"
      inkscape:window-maximized="1" />
@@ -2326,7 +2326,7 @@
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
      id="layer1"
-     transform="translate(-70.424416,-317.06115)">
+     transform="translate(-70.424416,-323.06115)">
     <rect
        style="fill:url(#linearGradient5308);fill-opacity:1;fill-rule:evenodd;stroke:none"
        id="rect5161"

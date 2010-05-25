@@ -47,7 +47,7 @@ RCC_DIR = build
 # OTHER_FILES += test_map.txt \
 # list.txt \
 #filters_uk.qm
-QMAKE_LIBDIR += ../../lib/release
+QMAKE_LIBDIR += ../../lib
 LIBS += -lrcada_client
 INCLUDEPATH += ../../lib/include
 OTHER_FILES += text/alert.txt
