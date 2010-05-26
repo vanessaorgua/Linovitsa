@@ -232,11 +232,11 @@ void Mnemo::updateDataRaw()
 void Mnemo::updateDataScaled() // слот обновляє дані на мнемосхемі
 {
     // це місце треба переробляти на виведення шкальованих значень
-    m_ui->le_L_nfs->setText(QString("%1").arg(s[0]->getValueScaled("L_nfs")));
-    m_ui->le_L_nz->setText(QString("%1").arg(s[0]->getValueScaled("L_nz")));
-    m_ui->le_L_sus->setText(QString("%1").arg(s[0]->getValueScaled("L_sus")));
-    m_ui->le_L_cs->setText(QString("%1").arg(s[0]->getValueScaled("L_cs")));
-    m_ui->le_L_ho->setText(QString("%1").arg(s[0]->getValueScaled("L_ho")));
+    m_ui->le_L_nfs->setText(QString("%1").arg(s[0]->getValueScaled("L_nfs"),3,'f',0));
+    m_ui->le_L_nz->setText(QString("%1").arg(s[0]->getValueScaled("L_nz"),3,'f',0));
+    m_ui->le_L_sus->setText(QString("%1").arg(s[0]->getValueScaled("L_sus"),3,'f',0));
+    m_ui->le_L_cs->setText(QString("%1").arg(s[0]->getValueScaled("L_cs"),3,'f',0));
+    m_ui->le_L_ho->setText(QString("%1").arg(s[0]->getValueScaled("L_ho"),3,'f',0));
 
     m_ui->ld_T_s->display(s[0]->getValueScaled("T_s"));
     m_ui->ld_G_cs->display(s[0]->getValueScaled("G_cs"));
