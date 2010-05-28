@@ -140,7 +140,7 @@ void Mnemo::updateDataRaw()
     m_ui->le_Tper->setText(QString("%1").arg(s[0]->getValue16("Tper")));
 
     m_ui->le_Q_zd->setText(QString("%1").arg(s[0]->getValueFloat("Q_zd")));
-    m_ui->le_Q->setText(QString("%1").arg(s[0]->getValueFloat("Q")));
+    m_ui->le_Q->setText(QString("%1").arg(s[0]->getValueFloat("Q"),4,'f',0));
 
     m_ui->le_T_v2_zd->setText(QString("%1").arg(s[0]->getValue32("T_v2_zd")/1000));
     m_ui->le_T_v3_zd->setText(QString("%1").arg(s[0]->getValue32("T_v3_zd")/1000));
@@ -155,6 +155,11 @@ void Mnemo::updateDataRaw()
         m_ui->le_T_v2->setText("");
         m_ui->le_T_v3->setText("");
     }
+    m_ui->di_1->setChecked(s[0]->getValue16("Di_0")?Qt::Checked:Qt::Unchecked);
+    m_ui->di_2->setChecked(s[0]->getValue16("Di_1")?Qt::Checked:Qt::Unchecked);
+    m_ui->di_3->setChecked(s[0]->getValue16("Di_2")?Qt::Checked:Qt::Unchecked);
+    m_ui->di_4->setChecked(s[0]->getValue16("Di_3")?Qt::Checked:Qt::Unchecked);
+    m_ui->di_5->setChecked(s[0]->getValue16("Di_4")?Qt::Checked:Qt::Unchecked);
 
     foreach(QCheckBox* v,cb_all)
     {
@@ -221,9 +226,7 @@ void Mnemo::updateDataRaw()
     i=1;
     foreach(QLineEdit *le,le_T)
     {
-        QTime t;
-        t.setHMS(s[0]->getValue16(QString("Tf_h_%1_").arg(i)),s[0]->getValue16(QString("Tf_m_%1_").arg(i)),0,0);
-        le->setText(t.toString("hh:mm"));
+        le->setText(QString("%1:%2").arg(s[0]->getValue16(QString("Tf_h_%1_").arg(i)),2,10,QChar('0')).arg(s[0]->getValue16(QString("Tf_m_%1_").arg(i)),2,10,QChar('0')));
         ++i;
     }
 
