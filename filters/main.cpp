@@ -5,11 +5,12 @@
 #include <IoNetClient.h>
 
 #include "mainform.h"
-#ifdef WIN32
 
+#ifdef WIN32
 #include <QtPlugin>
 Q_IMPORT_PLUGIN(qsvg)
 #endif
+
 int main(int argc,char **argv)
 {
     QApplication app(argc,argv);
@@ -21,17 +22,6 @@ int main(int argc,char **argv)
     
     IoNetClient net( s.value("/ioserv/hostname","localhost").toString());
 
-//    QSqlDatabase dbs=QSqlDatabase::addDatabase("QMYSQL");
-
-//    dbs.setHostName(s.value("/db/host","localhost").toString());
-//    dbs.setDatabaseName(s.value("/db/db","vipgr").toString());
-//    dbs.setUserName(s.value("/db/username","scada").toString());
-//    dbs.setPassword(s.value("/db/passwd","").toString());
-
-//    if( ! dbs.open())
-//	qDebug() << "No connect to database";
-    
-    
     QStackedWidget main;
     QColor cl;
     QPalette pal;
@@ -50,11 +40,16 @@ int main(int argc,char **argv)
     main.addWidget(mainForm);
     main.setCurrentWidget(mainForm);
 
-    //QObject::connect(mainForm->Exit,SIGNAL(clicked()),&main,SLOT(close()));
 
-    main.showFullScreen();
-    //main.resize(1366,768);
-    //main.show();
+    if(QApplication::desktop()->size().width()>1366 && QApplication::desktop()->size().height()> 768)
+    {
+        main.resize(1366,768);
+        main.show();
+    }
+    else
+    {
+        main.showFullScreen();
+    }
 
     return app.exec();
 }
