@@ -9,6 +9,7 @@
 
 #include "onefilter.h"
 #include "tparamdialog.h"
+#include "panelReg.h"
 
 
 Mnemo::Mnemo(IoNetClient &src, QWidget *p) : QLabel(p), m_ui(new Ui::mnemo),s(src)
@@ -40,6 +41,8 @@ Mnemo::Mnemo(IoNetClient &src, QWidget *p) : QLabel(p), m_ui(new Ui::mnemo),s(sr
     connect(m_ui->bn_F_8,SIGNAL(clicked()),this,SLOT(slotFilter()));
 
     connect(m_ui->bn_TParam,SIGNAL(clicked()),this,SLOT(slotTParam()));
+
+    connect(m_ui->bnX_01,SIGNAL(clicked()),this,SLOT(slotCallReg()));
 
     cb_all   // ініціалізувати масив, для того щоб потім за раз все завантажити
  << m_ui->cb_Cl_1_1
@@ -144,6 +147,7 @@ void Mnemo::updateDataRaw()
 
     m_ui->le_T_v2_zd->setText(QString("%1").arg(s[0]->getValue32("T_v2_zd")/1000));
     m_ui->le_T_v3_zd->setText(QString("%1").arg(s[0]->getValue32("T_v3_zd")/1000));
+    m_ui->cAM_01->setChecked(s[0]->getValue16("Am_01"));
 
     if(nc)
     {
@@ -244,6 +248,8 @@ void Mnemo::updateDataScaled() // слот обновляє дані на мне
     m_ui->ld_T_s->display(s[0]->getValueScaled("T_s"));
     m_ui->ld_G_cs->display(s[0]->getValueScaled("G_cs"));
 
+    m_ui->lX_01->display(s[0]->getValueScaled("X_01"));
+
 }
 
 void Mnemo::updateTrChart() // малюваня графіка раз в 5 секунд
@@ -281,3 +287,8 @@ void Mnemo::slotTParam() // кнопка завдання технологічн
 }
 
 
+void Mnemo::slotCallReg()
+{
+    RpanelReg p(*s[0],0,this);
+    p.exec();
+}

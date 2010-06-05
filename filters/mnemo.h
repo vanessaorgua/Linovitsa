@@ -26,6 +26,7 @@ public slots:
     void updateTrChart(); // слот , який обновляє графіки
     void slotFilter(); // реакція на кнопку-натискання фільтра
     void slotTParam(); // кнопка завдання технологічних параметрів
+    void slotCallReg();
 
 private:
     Ui::mnemo *m_ui;

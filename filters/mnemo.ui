@@ -3358,8 +3358,8 @@ QCheckBox:indicator
   <widget class="QLCDNumber" name="ld_G_cs">
    <property name="geometry">
     <rect>
-     <x>1224</x>
-     <y>493</y>
+     <x>1260</x>
+     <y>470</y>
      <width>39</width>
      <height>28</height>
     </rect>
@@ -3902,6 +3902,95 @@ QCheckBox:indicator
    </property>
    <property name="text">
     <string>CheckBox</string>
+   </property>
+  </widget>
+  <widget class="QCheckBox" name="cAM_01">
+   <property name="geometry">
+    <rect>
+     <x>1260</x>
+     <y>500</y>
+     <width>18</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QCheckBox{
+min-width: 18px;
+min-height: 20px;
+max-width: 18px;
+max-height: 20px;
+}
+QCheckBox:checked
+{
+	image: url(:/butons/pict/hand_18x20.png);
+}
+QCheckBox:indicator
+{
+	background: rgba(0, 0, 0, 0);
+}
+</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="checked">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="bnX_01">
+   <property name="geometry">
+    <rect>
+     <x>1256</x>
+     <y>520</y>
+     <width>41</width>
+     <height>28</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton{
+min-width: 41px;
+min-height: 28px;
+max-width: 41px;
+max-height: 28px;
+}
+
+QPushButton
+{
+	border-image: url(:/butons/pict/klapan_analog_horiz_off_28x41.png);
+}
+QPushButton:pressed
+{
+	border-image: url(:/butons/pict/klapan_analog_horiz_on_28x41.png);
+}
+</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLCDNumber" name="lX_01">
+   <property name="geometry">
+    <rect>
+     <x>1255</x>
+     <y>550</y>
+     <width>31</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="smallDecimalPoint">
+    <bool>false</bool>
+   </property>
+   <property name="numDigits">
+    <number>3</number>
+   </property>
+   <property name="segmentStyle">
+    <enum>QLCDNumber::Flat</enum>
+   </property>
+   <property name="intValue" stdset="0">
+    <number>0</number>
    </property>
   </widget>
  </widget>
