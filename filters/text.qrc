@@ -1,26 +1,24 @@
 <RCC>
-  <qresource>
-    <file>text/reg_1</file>
-    <file>text/reg_2</file>
-    <file>text/reg_3</file>
-    <file>text/reg_4</file>
-    <file>text/reg_5</file>
-    <file>text/reg_6</file>
-    <file>text/reg_7</file>
-    <file>text/reg_8</file>
-    <file>text/consumption</file>
-    <file>text/levels</file>  
-    <file>text/pumps</file>
-    <file>text/terms</file>
-  </qresource>
-
-  <qresource prefix="trend">
-    <file>../../pict/exit_32x32.png</file>
-    <file>../../pict/calendar_48x48.png</file>
-  </qresource>
- <qresource prefix="translate">
-    <file>filters_uk.qm</file>
-  </qresource>
-
+    <qresource prefix="/">
+        <file>text/reg_1</file>
+        <file>text/reg_2</file>
+        <file>text/reg_3</file>
+        <file>text/reg_4</file>
+        <file>text/reg_5</file>
+        <file>text/reg_6</file>
+        <file>text/reg_7</file>
+        <file>text/reg_8</file>
+        <file>text/consumption</file>
+        <file>text/levels</file>
+        <file>text/pumps</file>
+        <file>text/terms</file>
+        <file>text/reg.txt</file>
+    </qresource>
+    <qresource prefix="/trend">
+        <file>../../pict/exit_32x32.png</file>
+        <file>../../pict/calendar_48x48.png</file>
+    </qresource>
+    <qresource prefix="/translate">
+        <file>filters_uk.qm</file>
+    </qresource>
 </RCC>
-

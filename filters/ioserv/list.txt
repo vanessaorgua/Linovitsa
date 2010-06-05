@@ -183,6 +183,7 @@ T_v3_6_e	192	Integer	1	0	-
 T_v3_7_e	193	Integer	1	0	-
 T_v3_8_e	194	Integer	1	0	-
 L_ho	195	Integer	1	1	+	Рівень в збірнику часткового опорожнення
+Spr_01	196	Real	1	1	G_cs	Розрахункове завдання
 T_v2_zd	256	Timer	10	0	-
 T_v3_zd	258	Timer	10	0	-
 Tper_zd	260	Timer	10	0	-
@@ -213,6 +214,16 @@ z_G_cs	291	Integer	10	0	-
 m_G_cs	292	Integer	10	0	-
 d_L_sus_zd	293	Integer	10	0	L_sus
 f_L_ho	294	Integer	10	0	-
+SP_01	295	Real	10	1	G_cs	Завдання
+SP_02	297	Real	10	1	L_cs	Завдання
+K_01	299	Real	10	0	-
+Kp_01	301	Real	10	0	-
+Ti_01	303	Real	10	0	-
+Td_01	305	Real	10	0	-
+Xmin_01	307	Real	10	0	-
+Xmax_01	309	Real	10	0	-
+Rej_01	311	Bool	10	1	-
+Am_01	312	Bool	10	1	-
 Cvit	512	Bool	10	0	-
 Man_1_	513	Bool	10	0	-
 Man_2_	514	Bool	10	0	-
@@ -232,3 +243,4 @@ Am_5_	527	Bool	1	0	-
 Am_6_	528	Bool	1	0	-
 Am_7_	529	Bool	1	0	-
 Am_8_	530	Bool	1	0	-
+X_01	531	Real	1	1	0_100	Положення клапана

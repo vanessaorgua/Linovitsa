@@ -1,0 +1,1 @@
+G_cs	L_cs		Spr_01	X_01	SP_01	SP_02		Am_01	Rej_01	Rev_01	Kp_01	Ti_01	Td_01	Xmin_01	Xmax_01	K_01					Витрата на деф. ІІ сат.

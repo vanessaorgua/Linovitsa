@@ -7,7 +7,7 @@ DEPENDPATH += . \
     mnemo
 INCLUDEPATH += .
 QT += sql \
-        svg \
+    svg \
     network
 
 # Input
@@ -46,10 +46,11 @@ RCC_DIR = build
 
 # OTHER_FILES += test_map.txt \
 # list.txt \
-#filters_uk.qm
+# filters_uk.qm
 QMAKE_LIBDIR += ../../lib
 LIBS += -lrcada_client
 INCLUDEPATH += ../../lib/include
-OTHER_FILES += text/alert.txt
+OTHER_FILES += text/alert.txt \
+    text/reg.txt
 win32:QTPLUGIN += qsvg
 win32:CONFIG += static
