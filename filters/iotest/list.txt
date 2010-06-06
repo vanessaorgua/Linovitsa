@@ -220,8 +220,8 @@ K_01	299	Real	10	0	-
 Kp_01	301	Real	10	0	-
 Ti_01	303	Real	10	0	-
 Td_01	305	Real	10	0	-
-Xmin_01	307	Real	10	0	-
-Xmax_01	309	Real	10	0	-
+Xmin_01	307	Real	10	0	0 100
+Xmax_01	309	Real	10	0	0 100
 Rej_01	311	Bool	10	1	-
 Am_01	312	Bool	10	1	-
 Cvit	512	Bool	10	0	-
@@ -243,4 +243,4 @@ Am_5_	527	Bool	1	0	-
 Am_6_	528	Bool	1	0	-
 Am_7_	529	Bool	1	0	-
 Am_8_	530	Bool	1	0	-
-X_01	531	Real	1	1	0_100	Положення клапана
+X_01	531	Real	1	1	0 100	Положення клапана

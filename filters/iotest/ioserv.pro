@@ -19,4 +19,4 @@ OTHER_FILES += list.txt \
 RESOURCES += test.qrc
 QMAKE_LIBDIR += ../../../lib
 LIBS += -lrcada
-INCLUDEPATH += ../../include
+INCLUDEPATH += ../../../lib/include
