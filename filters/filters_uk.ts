@@ -56,22 +56,22 @@ p, li { white-space: pre-wrap; }
         <translation></translation>
     </message>
     <message>
-        <location filename="mainform.ui" line="198"/>
+        <location filename="mainform.ui" line="195"/>
         <source>dsads</source>
         <translation></translation>
     </message>
     <message>
-        <location filename="mainform.ui" line="223"/>
+        <location filename="mainform.ui" line="220"/>
         <source>asdad</source>
         <translation></translation>
     </message>
     <message utf8="true">
-        <location filename="mainform.ui" line="230"/>
+        <location filename="mainform.ui" line="227"/>
         <source>Дата</source>
         <translation></translation>
     </message>
     <message utf8="true">
-        <location filename="mainform.ui" line="237"/>
+        <location filename="mainform.ui" line="234"/>
         <source>Час</source>
         <translation></translation>
     </message>
@@ -152,52 +152,52 @@ p, li { white-space: pre-wrap; }
 <context>
     <name>Mnemo</name>
     <message>
-        <location filename="mnemo.cpp" line="118"/>
+        <location filename="mnemo.cpp" line="137"/>
         <source>Full</source>
         <translation>Повн</translation>
     </message>
     <message>
-        <location filename="mnemo.cpp" line="122"/>
+        <location filename="mnemo.cpp" line="141"/>
         <source>Half</source>
         <translation>Част</translation>
     </message>
     <message>
-        <location filename="mnemo.cpp" line="169"/>
+        <location filename="mnemo.cpp" line="209"/>
         <source>Off-line</source>
         <translation>Від’єднано</translation>
     </message>
     <message>
-        <location filename="mnemo.cpp" line="178"/>
+        <location filename="mnemo.cpp" line="218"/>
         <source>Manual</source>
         <translation>Ручне</translation>
     </message>
     <message>
-        <location filename="mnemo.cpp" line="185"/>
+        <location filename="mnemo.cpp" line="225"/>
         <source>Off</source>
         <translation>Вимкнено</translation>
     </message>
     <message>
-        <location filename="mnemo.cpp" line="188"/>
+        <location filename="mnemo.cpp" line="228"/>
         <source>Start</source>
         <translation>Старт</translation>
     </message>
     <message>
-        <location filename="mnemo.cpp" line="191"/>
+        <location filename="mnemo.cpp" line="231"/>
         <source>Filtering</source>
         <translation>Фільтрування</translation>
     </message>
     <message>
-        <location filename="mnemo.cpp" line="196"/>
+        <location filename="mnemo.cpp" line="236"/>
         <source>Upload</source>
         <translation>Вивант.</translation>
     </message>
     <message>
-        <location filename="mnemo.cpp" line="199"/>
+        <location filename="mnemo.cpp" line="239"/>
         <source>Unknown</source>
         <translation>Невідомо</translation>
     </message>
     <message>
-        <location filename="mnemo.cpp" line="207"/>
+        <location filename="mnemo.cpp" line="247"/>
         <source>Local</source>
         <translation>Місцеве</translation>
     </message>
@@ -230,17 +230,22 @@ p, li { white-space: pre-wrap; }
         <translation>Автомат</translation>
     </message>
     <message>
-        <location filename="onefilter.ui" line="211"/>
-        <location filename="onefilter.ui" line="252"/>
-        <location filename="onefilter.ui" line="293"/>
-        <location filename="onefilter.ui" line="334"/>
-        <location filename="onefilter.ui" line="372"/>
-        <location filename="onefilter.ui" line="410"/>
+        <location filename="onefilter.ui" line="203"/>
+        <location filename="onefilter.ui" line="244"/>
+        <location filename="onefilter.ui" line="285"/>
+        <location filename="onefilter.ui" line="326"/>
+        <location filename="onefilter.ui" line="364"/>
+        <location filename="onefilter.ui" line="402"/>
         <source>CheckBox</source>
         <translation></translation>
     </message>
     <message>
-        <location filename="onefilter.ui" line="469"/>
+        <location filename="onefilter.ui" line="420"/>
+        <source>0</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="onefilter.ui" line="460"/>
         <source>Close</source>
         <translation>Закрити</translation>
     </message>
@@ -412,12 +417,17 @@ p, li { white-space: pre-wrap; }
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="tparamdialog.ui" line="174"/>
+        <location filename="tparamdialog.ui" line="158"/>
+        <source>Min diff level</source>
+        <translation>Мін. приріст рівн. сусп.</translation>
+    </message>
+    <message>
+        <location filename="tparamdialog.ui" line="191"/>
         <source>Ok</source>
         <translation></translation>
     </message>
     <message>
-        <location filename="tparamdialog.ui" line="181"/>
+        <location filename="tparamdialog.ui" line="198"/>
         <source>Cancel</source>
         <translation>Відмінити</translation>
     </message>
@@ -439,199 +449,201 @@ p, li { white-space: pre-wrap; }
 <context>
     <name>mnemo</name>
     <message>
-        <location filename="mnemo.ui" line="25"/>
+        <location filename="mnemo.ui" line="31"/>
         <source>mnemo</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="mnemo.ui" line="74"/>
-        <location filename="mnemo.ui" line="2374"/>
+        <location filename="mnemo.ui" line="80"/>
         <source>1</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="mnemo.ui" line="115"/>
-        <location filename="mnemo.ui" line="153"/>
-        <location filename="mnemo.ui" line="502"/>
-        <location filename="mnemo.ui" line="540"/>
-        <location filename="mnemo.ui" line="581"/>
-        <location filename="mnemo.ui" line="619"/>
-        <location filename="mnemo.ui" line="660"/>
-        <location filename="mnemo.ui" line="698"/>
-        <location filename="mnemo.ui" line="739"/>
-        <location filename="mnemo.ui" line="777"/>
-        <location filename="mnemo.ui" line="818"/>
-        <location filename="mnemo.ui" line="856"/>
-        <location filename="mnemo.ui" line="897"/>
-        <location filename="mnemo.ui" line="935"/>
-        <location filename="mnemo.ui" line="976"/>
-        <location filename="mnemo.ui" line="1014"/>
-        <location filename="mnemo.ui" line="1055"/>
-        <location filename="mnemo.ui" line="1093"/>
-        <location filename="mnemo.ui" line="1134"/>
-        <location filename="mnemo.ui" line="1172"/>
-        <location filename="mnemo.ui" line="1213"/>
-        <location filename="mnemo.ui" line="1251"/>
-        <location filename="mnemo.ui" line="1292"/>
-        <location filename="mnemo.ui" line="1330"/>
-        <location filename="mnemo.ui" line="1371"/>
-        <location filename="mnemo.ui" line="1409"/>
-        <location filename="mnemo.ui" line="1450"/>
-        <location filename="mnemo.ui" line="1488"/>
-        <location filename="mnemo.ui" line="1529"/>
-        <location filename="mnemo.ui" line="1567"/>
-        <location filename="mnemo.ui" line="1608"/>
-        <location filename="mnemo.ui" line="1646"/>
-        <location filename="mnemo.ui" line="1687"/>
-        <location filename="mnemo.ui" line="1725"/>
-        <location filename="mnemo.ui" line="1766"/>
-        <location filename="mnemo.ui" line="1804"/>
-        <location filename="mnemo.ui" line="1845"/>
-        <location filename="mnemo.ui" line="1883"/>
-        <location filename="mnemo.ui" line="1924"/>
-        <location filename="mnemo.ui" line="1962"/>
-        <location filename="mnemo.ui" line="2003"/>
-        <location filename="mnemo.ui" line="2041"/>
-        <location filename="mnemo.ui" line="2082"/>
-        <location filename="mnemo.ui" line="2120"/>
-        <location filename="mnemo.ui" line="2161"/>
-        <location filename="mnemo.ui" line="2199"/>
-        <location filename="mnemo.ui" line="2240"/>
-        <location filename="mnemo.ui" line="2278"/>
+        <location filename="mnemo.ui" line="121"/>
+        <location filename="mnemo.ui" line="159"/>
+        <location filename="mnemo.ui" line="508"/>
+        <location filename="mnemo.ui" line="546"/>
+        <location filename="mnemo.ui" line="587"/>
+        <location filename="mnemo.ui" line="625"/>
+        <location filename="mnemo.ui" line="666"/>
+        <location filename="mnemo.ui" line="704"/>
+        <location filename="mnemo.ui" line="745"/>
+        <location filename="mnemo.ui" line="783"/>
+        <location filename="mnemo.ui" line="824"/>
+        <location filename="mnemo.ui" line="862"/>
+        <location filename="mnemo.ui" line="903"/>
+        <location filename="mnemo.ui" line="941"/>
+        <location filename="mnemo.ui" line="982"/>
+        <location filename="mnemo.ui" line="1020"/>
+        <location filename="mnemo.ui" line="1061"/>
+        <location filename="mnemo.ui" line="1099"/>
+        <location filename="mnemo.ui" line="1140"/>
+        <location filename="mnemo.ui" line="1178"/>
+        <location filename="mnemo.ui" line="1219"/>
+        <location filename="mnemo.ui" line="1257"/>
+        <location filename="mnemo.ui" line="1298"/>
+        <location filename="mnemo.ui" line="1336"/>
+        <location filename="mnemo.ui" line="1377"/>
+        <location filename="mnemo.ui" line="1415"/>
+        <location filename="mnemo.ui" line="1456"/>
+        <location filename="mnemo.ui" line="1494"/>
+        <location filename="mnemo.ui" line="1535"/>
+        <location filename="mnemo.ui" line="1573"/>
+        <location filename="mnemo.ui" line="1614"/>
+        <location filename="mnemo.ui" line="1652"/>
+        <location filename="mnemo.ui" line="1693"/>
+        <location filename="mnemo.ui" line="1731"/>
+        <location filename="mnemo.ui" line="1772"/>
+        <location filename="mnemo.ui" line="1810"/>
+        <location filename="mnemo.ui" line="1851"/>
+        <location filename="mnemo.ui" line="1889"/>
+        <location filename="mnemo.ui" line="1930"/>
+        <location filename="mnemo.ui" line="1968"/>
+        <location filename="mnemo.ui" line="2009"/>
+        <location filename="mnemo.ui" line="2047"/>
+        <location filename="mnemo.ui" line="2088"/>
+        <location filename="mnemo.ui" line="2126"/>
+        <location filename="mnemo.ui" line="2167"/>
+        <location filename="mnemo.ui" line="2205"/>
+        <location filename="mnemo.ui" line="2246"/>
+        <location filename="mnemo.ui" line="2284"/>
+        <location filename="mnemo.ui" line="3758"/>
+        <location filename="mnemo.ui" line="3796"/>
+        <location filename="mnemo.ui" line="3834"/>
+        <location filename="mnemo.ui" line="3872"/>
+        <location filename="mnemo.ui" line="3910"/>
+        <location filename="mnemo.ui" line="4038"/>
+        <location filename="mnemo.ui" line="4077"/>
+        <location filename="mnemo.ui" line="4116"/>
+        <location filename="mnemo.ui" line="4155"/>
+        <location filename="mnemo.ui" line="4194"/>
+        <location filename="mnemo.ui" line="4233"/>
+        <location filename="mnemo.ui" line="4272"/>
+        <location filename="mnemo.ui" line="4311"/>
         <source>CheckBox</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="mnemo.ui" line="197"/>
+        <location filename="mnemo.ui" line="203"/>
         <source>2</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="mnemo.ui" line="241"/>
+        <location filename="mnemo.ui" line="247"/>
         <source>3</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="mnemo.ui" line="285"/>
+        <location filename="mnemo.ui" line="291"/>
         <source>4</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="mnemo.ui" line="329"/>
+        <location filename="mnemo.ui" line="335"/>
         <source>5</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="mnemo.ui" line="373"/>
+        <location filename="mnemo.ui" line="379"/>
         <source>6</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="mnemo.ui" line="417"/>
+        <location filename="mnemo.ui" line="423"/>
         <source>7</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="mnemo.ui" line="461"/>
+        <location filename="mnemo.ui" line="467"/>
         <source>8</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="mnemo.ui" line="2291"/>
+        <location filename="mnemo.ui" line="2297"/>
         <source>Coll. juice</source>
         <translation>Зб. соку</translation>
     </message>
     <message>
-        <location filename="mnemo.ui" line="2354"/>
+        <location filename="mnemo.ui" line="2360"/>
         <source>Technological regulations filters</source>
         <translation>Технологічні параметри</translation>
     </message>
     <message>
         <location filename="mnemo.ui" line="2379"/>
-        <source>1/2</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="mnemo.ui" line="2384"/>
-        <source>1/3</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="mnemo.ui" line="2392"/>
         <source>Specified</source>
         <translation>Задано</translation>
     </message>
     <message>
-        <location filename="mnemo.ui" line="2402"/>
+        <location filename="mnemo.ui" line="2389"/>
         <source>Left</source>
         <translation>Пройшло</translation>
     </message>
     <message>
-        <location filename="mnemo.ui" line="2412"/>
+        <location filename="mnemo.ui" line="2399"/>
         <source>Volume</source>
         <translation>Об’єм</translation>
     </message>
     <message>
-        <location filename="mnemo.ui" line="2447"/>
+        <location filename="mnemo.ui" line="2434"/>
         <source>Time between regeneration</source>
         <translation>Час між регенераціями</translation>
     </message>
     <message>
-        <location filename="mnemo.ui" line="2492"/>
+        <location filename="mnemo.ui" line="2504"/>
         <source>Filter regeneration</source>
         <translation>№ фільтра</translation>
     </message>
     <message>
-        <location filename="mnemo.ui" line="2518"/>
+        <location filename="mnemo.ui" line="2530"/>
         <source>Type of regeneration</source>
         <translation>Тип регенерації</translation>
     </message>
     <message>
-        <location filename="mnemo.ui" line="2556"/>
+        <location filename="mnemo.ui" line="2568"/>
         <source>Partial emptying time</source>
         <translation>Час часткового</translation>
     </message>
     <message>
-        <location filename="mnemo.ui" line="2570"/>
+        <location filename="mnemo.ui" line="2582"/>
         <source>Unloading time</source>
         <translation>Час вивантаження</translation>
     </message>
     <message>
-        <location filename="mnemo.ui" line="2809"/>
-        <location filename="mnemo.ui" line="2830"/>
-        <location filename="mnemo.ui" line="3077"/>
-        <location filename="mnemo.ui" line="3211"/>
-        <location filename="mnemo.ui" line="3318"/>
+        <location filename="mnemo.ui" line="2821"/>
+        <location filename="mnemo.ui" line="2842"/>
+        <location filename="mnemo.ui" line="3089"/>
+        <location filename="mnemo.ui" line="3223"/>
+        <location filename="mnemo.ui" line="3330"/>
         <source>12.3</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="mnemo.ui" line="3515"/>
+        <location filename="mnemo.ui" line="3527"/>
         <source>Juice</source>
         <translation>Сік І сат.</translation>
     </message>
     <message>
-        <location filename="mnemo.ui" line="3528"/>
+        <location filename="mnemo.ui" line="3540"/>
         <source>Pressure coll.</source>
         <translation>Напірний збірник</translation>
     </message>
     <message>
-        <location filename="mnemo.ui" line="3547"/>
+        <location filename="mnemo.ui" line="3559"/>
         <source>Coll suspension</source>
         <translation>Зб. суспензії</translation>
     </message>
     <message>
-        <location filename="mnemo.ui" line="3563"/>
+        <location filename="mnemo.ui" line="3575"/>
         <source>coll. of partial emptying</source>
         <translation>Зб. част. вивантаження</translation>
     </message>
     <message>
-        <location filename="mnemo.ui" line="3582"/>
+        <location filename="mnemo.ui" line="3594"/>
         <source>coll. of pure juice</source>
         <translation>Зб. чистого соку</translation>
     </message>
     <message>
-        <location filename="mnemo.ui" line="3604"/>
+        <location filename="mnemo.ui" line="3616"/>
         <source>In filtering sediment</source>
         <translation>На фільтрацію осаду</translation>
     </message>

@@ -20,7 +20,7 @@ TParamDialog::TParamDialog(IoDev &src,QWidget *parent) :
    m_ui->sb_Q_zd->setValue(s.getValueFloat("Q_zd"));
 
    m_ui->bx_Nc_zd->setCurrentIndex(s.getValue16("Nc_zd"));
-
+    m_ui->sb_d_L_sus_zd->setValue(s.getValue16("d_L_sus_zd"));
    connect(m_ui->bn_Ok,SIGNAL(clicked()),this,SLOT(myAccept()));
 
 }
@@ -54,6 +54,8 @@ void TParamDialog::myAccept() // реакція на кнопку Ок
     s.sendValue("Q_zd",m_ui->sb_Q_zd->value());
 
     s.sendValue("Nc_zd",qint16(m_ui->bx_Nc_zd->currentIndex()));
+
+    s.sendValue("d_L_sus_zd",qint16(m_ui->sb_d_L_sus_zd->value()));
 
     // смикнут контролер
     //s.sendValue("Run",qint16(0));
