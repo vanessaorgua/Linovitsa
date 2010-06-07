@@ -14,8 +14,8 @@ OBJECTS_DIR = build
 UI_DIR = build
 RCC_DIR = build
 OTHER_FILES += list.txt \
-    ../text/alert.txt \
-    ../../../lib/librcada.a
+    ../text/alert.txt
+PRE_TARGETDEPS +=    ../../../lib/librcada.a
 RESOURCES += test.qrc
 QMAKE_LIBDIR += ../../../lib
 LIBS += -lrcada

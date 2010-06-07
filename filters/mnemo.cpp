@@ -137,7 +137,22 @@ void Mnemo::updateDataRaw()
 
     m_ui->le_NomCur->setText(QString("%1").arg(nc));
 
-    m_ui->bx_Nc_zd->setCurrentIndex(s[0]->getValue16("Nc_zd"));
+    QString leNc_zd;
+    switch(s[0]->getValue16("Nc_zd"))
+    {
+    case 0:
+        leNc_zd="1";
+        break;
+    case 1:
+        leNc_zd="1/2";
+        break;
+    case 2:
+        leNc_zd="1/3";
+        break;
+    default:
+        leNc_zd="?";
+    }
+    m_ui->leNc_zd->setText(leNc_zd);
 
     m_ui->le_Tper_zd->setText(QString("%1").arg(s[0]->getValue32("Tper_zd")/1000));
     m_ui->le_Tper->setText(QString("%1").arg(s[0]->getValue16("Tper")));
@@ -233,7 +248,7 @@ void Mnemo::updateDataRaw()
         le->setText(QString("%1:%2").arg(s[0]->getValue16(QString("Tf_h_%1_").arg(i)),2,10,QChar('0')).arg(s[0]->getValue16(QString("Tf_m_%1_").arg(i)),2,10,QChar('0')));
         ++i;
     }
-
+   //m_ui->lbKpr->setText(QString("%1").arg(s[0]->getValueFloat("Kp_01")));
 }
 
 void Mnemo::updateDataScaled() // слот обновляє дані на мнемосхемі
