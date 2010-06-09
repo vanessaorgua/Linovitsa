@@ -184,6 +184,8 @@ T_v3_7_e	193	Integer	1	0	-
 T_v3_8_e	194	Integer	1	0	-
 L_ho	195	Integer	1	1	+	Рівень в збірнику часткового опорожнення
 Spr_01	196	Real	1	1	G_cs	Розрахункове завдання
+G_cs_r	198	Real	1	1	G_cs	Витрата фільтрованого соку
+L_cs_r	200	Real	1	1	L_cs	Рівень в збірнику фільтрованого соку
 T_v2_zd	256	Timer	10	0	-
 T_v3_zd	258	Timer	10	0	-
 Tper_zd	260	Timer	10	0	-
@@ -224,6 +226,7 @@ Xmin_01	307	Real	10	0	0 100
 Xmax_01	309	Real	10	0	0 100
 Rej_01	311	Bool	10	1	-
 Am_01	312	Bool	10	1	-
+Rev_01	313	Bool	10	0	-
 Cvit	512	Bool	10	0	-
 Man_1_	513	Bool	10	0	-
 Man_2_	514	Bool	10	0	-

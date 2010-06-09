@@ -3364,8 +3364,8 @@ QCheckBox:indicator
   <widget class="QLCDNumber" name="ld_G_cs">
    <property name="geometry">
     <rect>
-     <x>1260</x>
-     <y>470</y>
+     <x>1190</x>
+     <y>400</y>
      <width>39</width>
      <height>28</height>
     </rect>
@@ -4309,6 +4309,28 @@ QCheckBox:indicator
    </property>
    <property name="text">
     <string>CheckBox</string>
+   </property>
+  </widget>
+  <widget class="QLCDNumber" name="ld_G_cs_r">
+   <property name="geometry">
+    <rect>
+     <x>1260</x>
+     <y>467</y>
+     <width>39</width>
+     <height>28</height>
+    </rect>
+   </property>
+   <property name="numDigits">
+    <number>3</number>
+   </property>
+   <property name="mode">
+    <enum>QLCDNumber::Dec</enum>
+   </property>
+   <property name="segmentStyle">
+    <enum>QLCDNumber::Flat</enum>
+   </property>
+   <property name="intValue" stdset="0">
+    <number>123</number>
    </property>
   </widget>
  </widget>

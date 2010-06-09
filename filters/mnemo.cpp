@@ -170,7 +170,7 @@ void Mnemo::updateDataRaw()
 
     m_ui->le_T_v2_zd->setText(QString("%1").arg(s[0]->getValue32("T_v2_zd")/1000));
     m_ui->le_T_v3_zd->setText(QString("%1").arg(s[0]->getValue32("T_v3_zd")/1000));
-    m_ui->cAM_01->setChecked(s[0]->getValue16("Am_01"));
+    m_ui->cAM_01->setChecked(!s[0]->getValue16("Am_01"));
 
     if(nc)
     {
@@ -270,6 +270,7 @@ void Mnemo::updateDataScaled() // слот обновляє дані на мне
 
     m_ui->ld_T_s->display(s[0]->getValueScaled("T_s"));
     m_ui->ld_G_cs->display(s[0]->getValueScaled("G_cs"));
+    m_ui->ld_G_cs_r->display(s[0]->getValueScaled("G_cs_r"));
 
     m_ui->lX_01->display(s[0]->getValueScaled("X_01"));
 
