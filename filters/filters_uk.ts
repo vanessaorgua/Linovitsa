@@ -139,12 +139,22 @@ p, li { white-space: pre-wrap; }
         <translation>Витрати</translation>
     </message>
     <message>
-        <location filename="history.ui" line="165"/>
+        <location filename="history.ui" line="140"/>
+        <source>Reg s2</source>
+        <translation>Сік на деф. 2с.</translation>
+    </message>
+    <message>
+        <source>Control</source>
+        <translatorcomment>Сік на деф. 2с.</translatorcomment>
+        <translation type="obsolete">Управління</translation>
+    </message>
+    <message>
+        <location filename="history.ui" line="172"/>
         <source>Pumps</source>
         <translation>Насоси</translation>
     </message>
     <message>
-        <location filename="history.ui" line="204"/>
+        <location filename="history.ui" line="211"/>
         <source>Exit</source>
         <translation>Вийти</translation>
     </message>

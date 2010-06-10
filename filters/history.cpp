@@ -28,6 +28,8 @@ RHistorySelect::RHistorySelect(IoDev &src,struct trendinfo *tp,QWidget *p /*=NUL
     connect(m_ui->terms,SIGNAL(clicked()),this,SLOT(slotAccept()));
     
     connect(m_ui->pumps,SIGNAL(clicked()),this,SLOT(slotAccept()));
+    connect(m_ui->reg_01,SIGNAL(clicked()),this,SLOT(slotAccept()));
+
 }
 
 RHistorySelect::~RHistorySelect()

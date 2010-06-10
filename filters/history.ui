@@ -135,6 +135,13 @@
           </widget>
          </item>
          <item>
+          <widget class="QPushButton" name="reg_01">
+           <property name="text">
+            <string>Reg s2</string>
+           </property>
+          </widget>
+         </item>
+         <item>
           <spacer name="verticalSpacer_2">
            <property name="orientation">
             <enum>Qt::Vertical</enum>

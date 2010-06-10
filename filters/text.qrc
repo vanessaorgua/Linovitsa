@@ -1,5 +1,6 @@
 <RCC>
     <qresource prefix="/">
+        <file>text/reg_01</file>
         <file>text/reg_1</file>
         <file>text/reg_2</file>
         <file>text/reg_3</file>
