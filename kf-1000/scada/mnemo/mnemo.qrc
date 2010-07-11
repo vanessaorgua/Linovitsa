@@ -1,5 +1,7 @@
 <RCC>
   <qresource prefix="/mnemo">
     <file>mnemo.svg</file>
+    <file>kf_one.svg</file>
+    <file>kf_upld.svg</file>
   </qresource>
 </RCC>
