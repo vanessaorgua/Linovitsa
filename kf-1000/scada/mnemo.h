@@ -8,6 +8,11 @@ class TrendChart;
 class IoNetClient;
 class QCheckBox;
 class QLineEdit;
+class QProgressBar;
+
+class KfOne;
+class KfUpld;
+class TrendChart;
 
 namespace Ui {
     class mnemo;
@@ -23,10 +28,24 @@ public:
 public slots:
     void updateDataRaw(); // слот обновляє дані на мнемосхемі
     void updateDataScaled(); // слот обновляє дані на мнемосхемі
+    void slotCallReg();
 
 private:
     Ui::mnemo *m_ui;
     IoNetClient &s;
+
+    TrendChart *trC;
+
+    QVector<KfOne*> ko;
+    QVector<KfUpld*> ku;
+
+    QVector<QLineEdit*> le;
+    QVector<QProgressBar*> pb;
+    QVector<QCheckBox*> cb;
+    QVector<QLineEdit*> State;
+    QStringList tState; // текст
+
+
 
 };
 

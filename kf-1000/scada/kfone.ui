@@ -6,7 +6,7 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>281</width>
+    <width>309</width>
     <height>306</height>
    </rect>
   </property>
@@ -22,7 +22,7 @@
   <widget class="QCheckBox" name="cb_Y_F">
    <property name="geometry">
     <rect>
-     <x>150</x>
+     <x>165</x>
      <y>27</y>
      <width>16</width>
      <height>16</height>
@@ -60,7 +60,7 @@ QCheckBox:indicator
   <widget class="QCheckBox" name="cb_X_F">
    <property name="geometry">
     <rect>
-     <x>131</x>
+     <x>146</x>
      <y>19</y>
      <width>20</width>
      <height>32</height>
@@ -91,6 +91,673 @@ QCheckBox:indicator
 	background: rgba(0, 0, 0, 0);
 	height: 20px;
 	width: 32px;
+}
+</string>
+   </property>
+   <property name="text">
+    <string>CheckBox</string>
+   </property>
+  </widget>
+  <widget class="QCheckBox" name="cb_Y_E">
+   <property name="geometry">
+    <rect>
+     <x>235</x>
+     <y>28</y>
+     <width>16</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QCheckBox{
+min-width: 16px;
+min-height: 16px;
+max-width: 16px;
+max-height: 16px;
+}
+QCheckBox:checked
+{
+	image: url(:/valves/lamp_green_16x16.png);
+}
+
+QCheckBox:unchecked
+{
+	image: url(:/valves/lamp_off_16x16.png);
+}
+
+QCheckBox:indicator
+{
+	background: rgba(0, 0, 0, 0);
+	height: 16px;
+	width: 16px;
+}
+</string>
+   </property>
+   <property name="text">
+    <string>CheckBox</string>
+   </property>
+  </widget>
+  <widget class="QCheckBox" name="cb_X_E">
+   <property name="geometry">
+    <rect>
+     <x>218</x>
+     <y>20</y>
+     <width>20</width>
+     <height>32</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QCheckBox{
+min-width: 20px;
+min-height: 32px;
+max-width: 20px;
+max-height: 32px;
+}
+QCheckBox:checked
+{
+	
+	
+	image: url(:/valves/valve_green_20x32.png);
+}
+
+QCheckBox:unchecked
+{
+	
+	image: url(:/valves/valve_off_20x32.png);
+}
+
+QCheckBox:indicator
+{
+	background: rgba(0, 0, 0, 0);
+	height: 20px;
+	width: 32px;
+}
+</string>
+   </property>
+   <property name="text">
+    <string>CheckBox</string>
+   </property>
+  </widget>
+  <widget class="QCheckBox" name="cb_X_C">
+   <property name="geometry">
+    <rect>
+     <x>217</x>
+     <y>203</y>
+     <width>20</width>
+     <height>32</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QCheckBox{
+min-width: 20px;
+min-height: 32px;
+max-width: 20px;
+max-height: 32px;
+}
+QCheckBox:checked
+{
+	
+	
+	image: url(:/valves/valve_green_20x32.png);
+}
+
+QCheckBox:unchecked
+{
+	
+	image: url(:/valves/valve_off_20x32.png);
+}
+
+QCheckBox:indicator
+{
+	background: rgba(0, 0, 0, 0);
+	height: 20px;
+	width: 32px;
+}
+</string>
+   </property>
+   <property name="text">
+    <string>CheckBox</string>
+   </property>
+  </widget>
+  <widget class="QCheckBox" name="cb_Y_C">
+   <property name="geometry">
+    <rect>
+     <x>236</x>
+     <y>211</y>
+     <width>16</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QCheckBox{
+min-width: 16px;
+min-height: 16px;
+max-width: 16px;
+max-height: 16px;
+}
+QCheckBox:checked
+{
+	image: url(:/valves/lamp_green_16x16.png);
+}
+
+QCheckBox:unchecked
+{
+	image: url(:/valves/lamp_off_16x16.png);
+}
+
+QCheckBox:indicator
+{
+	background: rgba(0, 0, 0, 0);
+	height: 16px;
+	width: 16px;
+}
+</string>
+   </property>
+   <property name="text">
+    <string>CheckBox</string>
+   </property>
+  </widget>
+  <widget class="QCheckBox" name="cb_Y_B">
+   <property name="geometry">
+    <rect>
+     <x>60</x>
+     <y>213</y>
+     <width>16</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QCheckBox{
+min-width: 16px;
+min-height: 16px;
+max-width: 16px;
+max-height: 16px;
+}
+QCheckBox:checked
+{
+	image: url(:/valves/lamp_green_16x16.png);
+}
+
+QCheckBox:unchecked
+{
+	image: url(:/valves/lamp_off_16x16.png);
+}
+
+QCheckBox:indicator
+{
+	background: rgba(0, 0, 0, 0);
+	height: 16px;
+	width: 16px;
+}
+</string>
+   </property>
+   <property name="text">
+    <string>CheckBox</string>
+   </property>
+  </widget>
+  <widget class="QCheckBox" name="cb_X_B">
+   <property name="geometry">
+    <rect>
+     <x>41</x>
+     <y>205</y>
+     <width>20</width>
+     <height>32</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QCheckBox{
+min-width: 20px;
+min-height: 32px;
+max-width: 20px;
+max-height: 32px;
+}
+QCheckBox:checked
+{
+	
+	
+	image: url(:/valves/valve_green_20x32.png);
+}
+
+QCheckBox:unchecked
+{
+	
+	image: url(:/valves/valve_off_20x32.png);
+}
+
+QCheckBox:indicator
+{
+	background: rgba(0, 0, 0, 0);
+	height: 20px;
+	width: 32px;
+}
+</string>
+   </property>
+   <property name="text">
+    <string>CheckBox</string>
+   </property>
+  </widget>
+  <widget class="QCheckBox" name="cb_Y_H">
+   <property name="geometry">
+    <rect>
+     <x>93</x>
+     <y>262</y>
+     <width>16</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QCheckBox{
+min-width: 16px;
+min-height: 16px;
+max-width: 16px;
+max-height: 16px;
+}
+QCheckBox:checked
+{
+	image: url(:/valves/lamp_green_16x16.png);
+}
+
+QCheckBox:unchecked
+{
+	image: url(:/valves/lamp_off_16x16.png);
+}
+
+QCheckBox:indicator
+{
+	background: rgba(0, 0, 0, 0);
+	height: 16px;
+	width: 16px;
+}
+</string>
+   </property>
+   <property name="text">
+    <string>CheckBox</string>
+   </property>
+  </widget>
+  <widget class="QCheckBox" name="cb_X_H">
+   <property name="geometry">
+    <rect>
+     <x>74</x>
+     <y>254</y>
+     <width>20</width>
+     <height>32</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QCheckBox{
+min-width: 20px;
+min-height: 32px;
+max-width: 20px;
+max-height: 32px;
+}
+QCheckBox:checked
+{
+	
+	
+	image: url(:/valves/valve_green_20x32.png);
+}
+
+QCheckBox:unchecked
+{
+	
+	image: url(:/valves/valve_off_20x32.png);
+}
+
+QCheckBox:indicator
+{
+	background: rgba(0, 0, 0, 0);
+	height: 20px;
+	width: 32px;
+}
+</string>
+   </property>
+   <property name="text">
+    <string>CheckBox</string>
+   </property>
+  </widget>
+  <widget class="QCheckBox" name="cb_Y_G">
+   <property name="geometry">
+    <rect>
+     <x>146</x>
+     <y>218</y>
+     <width>16</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QCheckBox{
+min-width: 16px;
+min-height: 16px;
+max-width: 16px;
+max-height: 16px;
+}
+QCheckBox:checked
+{
+	image: url(:/valves/lamp_green_16x16.png);
+}
+
+QCheckBox:unchecked
+{
+	image: url(:/valves/lamp_off_16x16.png);
+}
+
+QCheckBox:indicator
+{
+	background: rgba(0, 0, 0, 0);
+	height: 16px;
+	width: 16px;
+}
+</string>
+   </property>
+   <property name="text">
+    <string>CheckBox</string>
+   </property>
+  </widget>
+  <widget class="QCheckBox" name="cb_X_G">
+   <property name="geometry">
+    <rect>
+     <x>137</x>
+     <y>232</y>
+     <width>32</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QCheckBox{
+min-width: 32px;
+min-height: 20px;
+max-width: 32px;
+max-height: 20px;
+}
+QCheckBox:checked
+{
+	
+	
+	image: url(:/valves/valve_green_h_20x32.png);
+}
+
+QCheckBox:unchecked
+{
+	
+	image: url(:/valves/valve_off_h_20x32.png);
+}
+
+QCheckBox:indicator
+{
+	background: rgba(0, 0, 0, 0);
+	height: 20px;
+	width: 32px;
+}
+</string>
+   </property>
+   <property name="text">
+    <string>CheckBox</string>
+   </property>
+  </widget>
+  <widget class="QCheckBox" name="cb_X_D">
+   <property name="geometry">
+    <rect>
+     <x>244</x>
+     <y>68</y>
+     <width>32</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QCheckBox{
+min-width: 32px;
+min-height: 20px;
+max-width: 32px;
+max-height: 20px;
+}
+QCheckBox:checked
+{
+	
+	
+	image: url(:/valves/valve_green_h_20x32.png);
+}
+
+QCheckBox:unchecked
+{
+	
+	image: url(:/valves/valve_off_h_20x32.png);
+}
+
+QCheckBox:indicator
+{
+	background: rgba(0, 0, 0, 0);
+	height: 20px;
+	width: 32px;
+}
+</string>
+   </property>
+   <property name="text">
+    <string>CheckBox</string>
+   </property>
+  </widget>
+  <widget class="QCheckBox" name="cb_Y_D">
+   <property name="geometry">
+    <rect>
+     <x>253</x>
+     <y>54</y>
+     <width>16</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QCheckBox{
+min-width: 16px;
+min-height: 16px;
+max-width: 16px;
+max-height: 16px;
+}
+QCheckBox:checked
+{
+	image: url(:/valves/lamp_green_16x16.png);
+}
+
+QCheckBox:unchecked
+{
+	image: url(:/valves/lamp_off_16x16.png);
+}
+
+QCheckBox:indicator
+{
+	background: rgba(0, 0, 0, 0);
+	height: 16px;
+	width: 16px;
+}
+</string>
+   </property>
+   <property name="text">
+    <string>CheckBox</string>
+   </property>
+  </widget>
+  <widget class="QCheckBox" name="cb_Y_A">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>213</y>
+     <width>16</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QCheckBox{
+min-width: 16px;
+min-height: 16px;
+max-width: 16px;
+max-height: 16px;
+}
+QCheckBox:checked
+{
+	image: url(:/valves/lamp_green_16x16.png);
+}
+
+QCheckBox:unchecked
+{
+	image: url(:/valves/lamp_off_16x16.png);
+}
+
+QCheckBox:indicator
+{
+	background: rgba(0, 0, 0, 0);
+	height: 16px;
+	width: 16px;
+}
+</string>
+   </property>
+   <property name="text">
+    <string>CheckBox</string>
+   </property>
+  </widget>
+  <widget class="QCheckBox" name="cb_X_A">
+   <property name="geometry">
+    <rect>
+     <x>14</x>
+     <y>205</y>
+     <width>20</width>
+     <height>32</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QCheckBox{
+min-width: 20px;
+min-height: 32px;
+max-width: 20px;
+max-height: 32px;
+}
+QCheckBox:checked
+{
+	
+	
+	image: url(:/valves/valve_green_l_20x32.png);
+}
+
+QCheckBox:unchecked
+{
+	
+	image: url(:/valves/valve_off_l_20x32.png);
+}
+
+QCheckBox:indicator
+{
+	background: rgba(0, 0, 0, 0);
+	height: 20px;
+	width: 32px;
+}
+</string>
+   </property>
+   <property name="text">
+    <string>CheckBox</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="le_Psusp">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>100</y>
+     <width>41</width>
+     <height>24</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>999</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+   <property name="readOnly">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="le_Poil">
+   <property name="geometry">
+    <rect>
+     <x>240</x>
+     <y>140</y>
+     <width>41</width>
+     <height>24</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>999</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+   <property name="readOnly">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QCheckBox" name="cb_X_presh">
+   <property name="geometry">
+    <rect>
+     <x>260</x>
+     <y>114</y>
+     <width>16</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QCheckBox{
+min-width: 16px;
+min-height: 16px;
+max-width: 16px;
+max-height: 16px;
+}
+QCheckBox:checked
+{
+	image: url(:/valves/lamp_green_16x16.png);
+}
+
+QCheckBox:unchecked
+{
+	image: url(:/valves/lamp_off_16x16.png);
+}
+
+QCheckBox:indicator
+{
+	background: rgba(0, 0, 0, 0);
+	height: 16px;
+	width: 16px;
+}
+</string>
+   </property>
+   <property name="text">
+    <string>CheckBox</string>
+   </property>
+  </widget>
+  <widget class="QCheckBox" name="cb_Y_pump">
+   <property name="geometry">
+    <rect>
+     <x>240</x>
+     <y>114</y>
+     <width>16</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QCheckBox{
+min-width: 16px;
+min-height: 16px;
+max-width: 16px;
+max-height: 16px;
+}
+QCheckBox:unchecked
+{
+	image: url(:/valves/right_20x20_off.png);
+}
+
+QCheckBox:checked
+{
+	image: url(:/valves/right_20x20.png);
+}
+
+QCheckBox:indicator
+{
+	background: rgba(0, 0, 0, 0);
+	height: 16px;
+	width: 16px;
 }
 </string>
    </property>

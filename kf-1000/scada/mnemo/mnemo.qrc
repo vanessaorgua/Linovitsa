@@ -4,4 +4,10 @@
     <file>kf_one.svg</file>
     <file>kf_upld.svg</file>
   </qresource>
+
+  <qresource prefix="/valves">
+    <file>w_l_100x55.png</file>
+    <file>w_r_100x55.png</file>
+  </qresource>
+
 </RCC>
