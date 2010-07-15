@@ -30,6 +30,9 @@ KfOne::KfOne(QWidget *parent) :
             << ui->cb_Y_G
             << ui->cb_Y_H ;
 
+    connect(ui->bnCallOne,SIGNAL(clicked()),this,SLOT(slotCallOne()));
+
+
 }
 
 KfOne::~KfOne()
@@ -59,3 +62,8 @@ void KfOne::updateData(IoDev &src)
     ui->le_Poil->setText(QString("%1").arg(src.getValueScaled("Poil"),3,'f',0));
 }
 
+
+void KfOne::slotCallOne()
+{
+    emit signalCallOne();
+}

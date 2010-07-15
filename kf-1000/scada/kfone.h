@@ -18,6 +18,9 @@ public:
     ~KfOne();
 public slots:
       void updateData(IoDev &src);
+      void slotCallOne();
+signals:
+      void signalCallOne();
 
 protected:
     void changeEvent(QEvent *e);

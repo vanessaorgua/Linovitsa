@@ -765,6 +765,37 @@ QCheckBox:indicator
     <string>CheckBox</string>
    </property>
   </widget>
+  <widget class="QPushButton" name="bnCallOne">
+   <property name="geometry">
+    <rect>
+     <x>89</x>
+     <y>59</y>
+     <width>131</width>
+     <height>130</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton{
+min-width: 131px;
+min-height: 130px;
+max-width: 131px;
+max-height: 130px;
+}
+
+QPushButton
+{
+	border-image: url(:/mnemo/kf_one_off_433x437.png);
+}
+QPushButton:pressed
+{
+	border-image: url(:/mnemo/kf_one_on_433x437.png);
+}
+</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
  </widget>
  <resources>
   <include location="mnemo/mnemo.qrc"/>

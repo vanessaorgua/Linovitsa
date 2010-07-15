@@ -11,6 +11,7 @@
 #include <QVBoxLayout>
 #include "kfone.h"
 #include "kfupld.h"
+#include "kfpanel.h"
 
 Mnemo::Mnemo(IoNetClient &src, QWidget *p) : QLabel(p), m_ui(new Ui::mnemo),s(src)
 {
@@ -22,7 +23,6 @@ Mnemo::Mnemo(IoNetClient &src, QWidget *p) : QLabel(p), m_ui(new Ui::mnemo),s(sr
     connect(m_ui->cX_01,SIGNAL(clicked()),this,SLOT(slotCallReg()));
     connect(m_ui->cX_02,SIGNAL(clicked()),this,SLOT(slotCallReg()));
 
-    QVector<QStackedWidget*> sw;
     sw << m_ui->kf_1 << m_ui->kf_2 << m_ui->kf_3;
 
     trC=new TrendChart(this);
@@ -33,12 +33,17 @@ Mnemo::Mnemo(IoNetClient &src, QWidget *p) : QLabel(p), m_ui(new Ui::mnemo),s(sr
     for(int i=0;i<3;++i)
     {
             KfOne *o=new KfOne(this);
+            o->setObjectName(QString("kf_%1").arg(i));
+
             KfUpld *u=new KfUpld(this);
+            u->setObjectName(QString("kf_%1").arg(i));
+
             sw[i]->addWidget(o);
             sw[i]->addWidget(u);
             sw[i]->setCurrentIndex(0);
             ko << o;
             ku << u;
+            connect(o,SIGNAL(signalCallOne()),this,SLOT(slotCallKfOnePanel()));
     }
 
     le
@@ -98,6 +103,12 @@ void Mnemo::updateDataRaw()
     {
         ko[i]->updateData(*s[i]);
         ku[i]->updateData(*s[i]);
+
+        if(s[i]->getValue16("State")==11)
+            sw[i]->setCurrentIndex(1);
+        else
+            sw[i]->setCurrentIndex(0);
+
     }
     foreach(QCheckBox *cbx,cb)
     {
@@ -128,5 +139,13 @@ void Mnemo::updateDataScaled() // слот обновляє дані на мне
 void Mnemo::slotCallReg()
 {
     RpanelReg p(*s[0],sender()->objectName().right(2).toInt()-1,this);
+    p.exec();
+}
+
+void Mnemo::slotCallKfOnePanel()
+{
+
+    KfPanel p(s,this);
+    p.setWindowTitle(QString(tr("Фільтр № %1")).arg(sender()->objectName().right(1).toInt()+1));
     p.exec();
 }

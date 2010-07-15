@@ -9,6 +9,7 @@ class IoNetClient;
 class QCheckBox;
 class QLineEdit;
 class QProgressBar;
+class QStackedWidget;
 
 class KfOne;
 class KfUpld;
@@ -29,6 +30,7 @@ public slots:
     void updateDataRaw(); // слот обновляє дані на мнемосхемі
     void updateDataScaled(); // слот обновляє дані на мнемосхемі
     void slotCallReg();
+    void slotCallKfOnePanel();
 
 private:
     Ui::mnemo *m_ui;
@@ -44,6 +46,7 @@ private:
     QVector<QCheckBox*> cb;
     QVector<QLineEdit*> State;
     QStringList tState; // текст
+    QVector<QStackedWidget*> sw;
 
 
 
