@@ -31,6 +31,7 @@ public slots:
     void updateDataScaled(); // слот обновляє дані на мнемосхемі
     void slotCallReg();
     void slotCallKfOnePanel();
+    void slotCallVodaCtrl();
 
 private:
     Ui::mnemo *m_ui;

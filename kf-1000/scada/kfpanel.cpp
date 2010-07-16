@@ -8,7 +8,7 @@
 #include "kfone.h"
 #include "kfupld.h"
 #include "dlgkfmenu.h"
-
+#include "dlgkfparam.h"
 
 KfPanel::KfPanel(IoNetClient &source, QWidget *parent) :
     QDialog(parent),
@@ -24,7 +24,7 @@ KfPanel::KfPanel(IoNetClient &source, QWidget *parent) :
 
     ui->sw->setCurrentIndex(0);
 
-    Nf=this->windowTitle().right(1).toInt()-1; // визначити номер фільтра
+    Nf=this->windowTitle().right(1).toInt(); // визначити номер фільтра
 
     tState
             << tr("Тестування") // -1
@@ -103,6 +103,7 @@ void KfPanel::updateDataRaw()
 
 void KfPanel::updateDataScaled()
 {
+    //qDebug() << "Nf=" << Nf;
     ui->le_Qsusp->setText(QString("%1").arg(src[Nf]->getValueScaled("Qsusp")));
     ui->le_Qvs->setText(QString("%1").arg(src[Nf]->getValueScaled("Qvs")));
     ui->le_Qvw->setText(QString("%1").arg(src[Nf]->getValueScaled("Qvw")));
@@ -132,6 +133,8 @@ void KfPanel::slotMenu()
 
 void KfPanel::slotParam()
 {
+    dlgKfParam p(*src[Nf],this);
+    p.exec();
 
 }
 
@@ -144,7 +147,7 @@ void KfPanel::slotTrend()
 void KfPanel::slotUpload()
 {
     if(src[Nf]->getValue16("State")==0)
-        src[Nf]->sendValue("State", qint16(13));
+        src[Nf]->sendValue("State", qint16(11));
 }
 
 

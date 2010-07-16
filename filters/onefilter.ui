@@ -154,7 +154,7 @@
         <property name="styleSheet">
          <string notr="true">QFrame
 {
-	border-image: url(:/mnemo/one.svg);
+	background-image: url(:/mnemo/one.svg);
 	background-repeat: no-repeat;
 	backgrount-align: center center
 }</string>
@@ -463,10 +463,7 @@ QCheckBox:indicator
    </item>
   </layout>
  </widget>
- <resources>
-  <include location="mnemo/mnemo.qrc"/>
-  <include location="text.qrc"/>
- </resources>
+ <resources/>
  <connections>
   <connection>
    <sender>bn_Exit</sender>

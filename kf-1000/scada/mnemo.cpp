@@ -12,10 +12,14 @@
 #include "kfone.h"
 #include "kfupld.h"
 #include "kfpanel.h"
+#include "dlgvodactrl.h"
 
 Mnemo::Mnemo(IoNetClient &src, QWidget *p) : QLabel(p), m_ui(new Ui::mnemo),s(src)
 {
     m_ui->setupUi(this);
+
+    connect(m_ui->bnY_08,SIGNAL(clicked()),this,SLOT(slotCallVodaCtrl()));
+    connect(m_ui->bnY_09,SIGNAL(clicked()),this,SLOT(slotCallVodaCtrl()));
 
     connect(&s,SIGNAL(updateDataRaw()),this,SLOT(updateDataRaw())); // при отриманні нових даних, засвітити їх на картинці
     connect(&s,SIGNAL(updateDataScaled()),this,SLOT(updateDataScaled())); // при отриманні нових даних, засвітити їх на картинці
@@ -66,10 +70,13 @@ Mnemo::Mnemo(IoNetClient &src, QWidget *p) : QLabel(p), m_ui(new Ui::mnemo),s(sr
             << m_ui->pb_Lsusp
             << m_ui->pb_Lvoda;
     cb
-            << m_ui->cb_X_07
-            << m_ui->cb_X_08
+            //<< m_ui->cb_X_07
+            //<< m_ui->cb_X_08
             << m_ui->cb_Y_08
-            << m_ui->cb_Y_09;
+            << m_ui->cb_Y_09
+            << m_ui->cb_AM_01
+            << m_ui->cb_AM_02
+            << m_ui->cb_AM_Tv;
 
     State
             << m_ui->le_State_1
@@ -99,6 +106,8 @@ Mnemo::~Mnemo()
 
 void Mnemo::updateDataRaw()
 {
+    //qDebug() << s[0]->getTags();
+
     for(int i=0;i<3;++i)
     {
         ko[i]->updateData(*s[i]);
@@ -122,30 +131,42 @@ void Mnemo::updateDataRaw()
 
     foreach(QLineEdit *l,State)
     {
-        int i =s[l->objectName().right(1).toInt()]->getValue16("State")+1;
+
+        int i =s[l->objectName().right(1).toInt()-1]->getValue16("State")+1;
         if(i>-1 && i<tState.size())
             l->setText(tState[i]);
     }
+    m_ui->bnY_08->setIcon(QIcon(s[3]->getValue16("X_07")?QString(":/valves/valve_green_l_20x32.png"):QString(":/valves/valve_off_l_20x32.png")));
+    m_ui->bnY_09->setIcon(QIcon(s[3]->getValue16("X_08")?QString(":/valves/valve_green_20x32.png"):QString(":/valves/valve_off_20x32.png")));
+
+
 }
 
 void Mnemo::updateDataScaled() // слот обновляє дані на мнемосхемі
 {
     foreach(QLineEdit *l,le)
     {
-        l->setText(QString("%1").arg(s[3]->getValueFloat(l->objectName().right(l->objectName().size()-3))));
+        l->setText(QString("%1").arg(s[3]->getValueScaled(l->objectName().right(l->objectName().size()-3)),3,'f',0));
     }
 }
 
 void Mnemo::slotCallReg()
 {
-    RpanelReg p(*s[0],sender()->objectName().right(2).toInt()-1,this);
+    RpanelReg p(*s[3],sender()->objectName().right(2).toInt()-1,this);
     p.exec();
 }
 
 void Mnemo::slotCallKfOnePanel()
 {
-
     KfPanel p(s,this);
     p.setWindowTitle(QString(tr("Фільтр № %1")).arg(sender()->objectName().right(1).toInt()+1));
     p.exec();
 }
+
+void Mnemo::slotCallVodaCtrl()
+{
+    dlgVodaCtrl p(*s[3],this);
+    p.exec();
+
+}
+

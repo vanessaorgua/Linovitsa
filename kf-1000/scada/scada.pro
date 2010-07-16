@@ -16,7 +16,9 @@ HEADERS += mainform.h \
     kfone.h \
     kfupld.h \
     kfpanel.h \
-    dlgkfmenu.h
+    dlgkfmenu.h \
+    dlgkfparam.h \
+    dlgvodactrl.h
 FORMS += mainform.ui \
     mnemo.ui \
     sparamdialog.ui \
@@ -26,7 +28,9 @@ FORMS += mainform.ui \
     kfone.ui \
     kfupld.ui \
     kfpanel.ui \
-    dlgkfmenu.ui
+    dlgkfmenu.ui \
+    dlgkfparam.ui \
+    dlgvodactrl.ui
 SOURCES += main.cpp \
     mainform.cpp \
     mnemo.cpp \
@@ -36,7 +40,9 @@ SOURCES += main.cpp \
     kfone.cpp \
     kfupld.cpp \
     kfpanel.cpp \
-    dlgkfmenu.cpp
+    dlgkfmenu.cpp \
+    dlgkfparam.cpp \
+    dlgvodactrl.cpp
 RESOURCES += mnemo/mnemo.qrc \
     ../../../lib/picture.qrc \
     ../../../pict/lib/valves.qrc \

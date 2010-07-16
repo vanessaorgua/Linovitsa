@@ -18,10 +18,10 @@ int main(int argc, char *argv[])
     QCoreApplication a(argc, argv);
 
     QCoreApplication::setOrganizationName("Rabitsa");
-    QCoreApplication::setApplicationName("centrif");
+    QCoreApplication::setApplicationName("kf1000");
 
     QSettings set;
-    set.setValue("/db/db","centrif");
+    set.setValue("/db/db","kf1000");
 
 
     QVector<RxModbus*> r;

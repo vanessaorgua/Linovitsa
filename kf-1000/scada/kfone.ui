@@ -572,7 +572,7 @@ QCheckBox:indicator
     <string>CheckBox</string>
    </property>
   </widget>
-  <widget class="QCheckBox" name="cb_Y_A">
+  <widget class="QCheckBox" name="c2_Y_F">
    <property name="geometry">
     <rect>
      <x>0</x>

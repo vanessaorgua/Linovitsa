@@ -21,7 +21,7 @@ KfOne::KfOne(QWidget *parent) :
             << ui->cb_X_G
             << ui->cb_X_H
             << ui->cb_X_presh
-            << ui->cb_Y_A
+            << ui->c2_Y_F
             << ui->cb_Y_B
             << ui->cb_Y_C
             << ui->cb_Y_D

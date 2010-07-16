@@ -91,7 +91,7 @@
   <widget class="QLineEdit" name="le_Pvoda">
    <property name="geometry">
     <rect>
-     <x>1180</x>
+     <x>1150</x>
      <y>30</y>
      <width>41</width>
      <height>24</height>
@@ -135,7 +135,7 @@
   <widget class="QLineEdit" name="le_Gvoda">
    <property name="geometry">
     <rect>
-     <x>1200</x>
+     <x>1170</x>
      <y>420</y>
      <width>40</width>
      <height>24</height>
@@ -201,7 +201,7 @@
   <widget class="QLineEdit" name="le_Lcs">
    <property name="geometry">
     <rect>
-     <x>1090</x>
+     <x>1060</x>
      <y>596</y>
      <width>41</width>
      <height>24</height>
@@ -223,7 +223,7 @@
   <widget class="QLineEdit" name="le_Lvoda">
    <property name="geometry">
     <rect>
-     <x>1213</x>
+     <x>1183</x>
      <y>598</y>
      <width>41</width>
      <height>24</height>
@@ -423,7 +423,7 @@
   <widget class="QProgressBar" name="pb_Lcs">
    <property name="geometry">
     <rect>
-     <x>1135</x>
+     <x>1105</x>
      <y>620</y>
      <width>17</width>
      <height>67</height>
@@ -512,7 +512,7 @@
   <widget class="QProgressBar" name="pb_Lvoda">
    <property name="geometry">
     <rect>
-     <x>1266</x>
+     <x>1236</x>
      <y>620</y>
      <width>17</width>
      <height>67</height>
@@ -601,8 +601,8 @@
   <widget class="QLineEdit" name="le_Tvoda">
    <property name="geometry">
     <rect>
-     <x>1200</x>
-     <y>470</y>
+     <x>1266</x>
+     <y>620</y>
      <width>40</width>
      <height>24</height>
     </rect>
@@ -645,7 +645,7 @@
   <widget class="QLineEdit" name="le_Npv">
    <property name="geometry">
     <rect>
-     <x>1184</x>
+     <x>1154</x>
      <y>670</y>
      <width>41</width>
      <height>24</height>
@@ -686,7 +686,7 @@
   <widget class="QLineEdit" name="le_Xv_02">
    <property name="geometry">
     <rect>
-     <x>1213</x>
+     <x>1183</x>
      <y>635</y>
      <width>40</width>
      <height>24</height>
@@ -702,51 +702,10 @@
     <bool>true</bool>
    </property>
   </widget>
-  <widget class="QCheckBox" name="cb_X_07">
-   <property name="geometry">
-    <rect>
-     <x>1246</x>
-     <y>546</y>
-     <width>20</width>
-     <height>32</height>
-    </rect>
-   </property>
-   <property name="styleSheet">
-    <string notr="true">QCheckBox{
-min-width: 20px;
-min-height: 32px;
-max-width: 20px;
-max-height: 32px;
-}
-QCheckBox:checked
-{
-	
-	
-	image: url(:/valves/valve_green_l_20x32.png);
-}
-
-QCheckBox:unchecked
-{
-	
-	image: url(:/valves/valve_off_l_20x32.png);
-}
-
-QCheckBox:indicator
-{
-	background: rgba(0, 0, 0, 0);
-	height: 20px;
-	width: 32px;
-}
-</string>
-   </property>
-   <property name="text">
-    <string>CheckBox</string>
-   </property>
-  </widget>
   <widget class="QCheckBox" name="cb_Y_08">
    <property name="geometry">
     <rect>
-     <x>1232</x>
+     <x>1198</x>
      <y>554</y>
      <width>16</width>
      <height>16</height>
@@ -781,51 +740,10 @@ QCheckBox:indicator
     <string>CheckBox</string>
    </property>
   </widget>
-  <widget class="QCheckBox" name="cb_X_08">
-   <property name="geometry">
-    <rect>
-     <x>1276</x>
-     <y>547</y>
-     <width>20</width>
-     <height>32</height>
-    </rect>
-   </property>
-   <property name="styleSheet">
-    <string notr="true">QCheckBox{
-min-width: 20px;
-min-height: 32px;
-max-width: 20px;
-max-height: 32px;
-}
-QCheckBox:checked
-{
-	
-	
-	image: url(:/valves/valve_green_l_20x32.png);
-}
-
-QCheckBox:unchecked
-{
-	
-	image: url(:/valves/valve_off_l_20x32.png);
-}
-
-QCheckBox:indicator
-{
-	background: rgba(0, 0, 0, 0);
-	height: 20px;
-	width: 32px;
-}
-</string>
-   </property>
-   <property name="text">
-    <string>CheckBox</string>
-   </property>
-  </widget>
   <widget class="QCheckBox" name="cb_Y_09">
    <property name="geometry">
     <rect>
-     <x>1262</x>
+     <x>1271</x>
      <y>555</y>
      <width>16</width>
      <height>16</height>
@@ -933,7 +851,7 @@ QCheckBox:indicator
     <bool>true</bool>
    </property>
   </widget>
-  <widget class="QCheckBox" name="cb_Am_01">
+  <widget class="QCheckBox" name="cb_AM_01">
    <property name="geometry">
     <rect>
      <x>130</x>
@@ -1000,10 +918,10 @@ QPushButton:pressed
     <string/>
    </property>
   </widget>
-  <widget class="QCheckBox" name="cb_Am_02">
+  <widget class="QCheckBox" name="cb_AM_02">
    <property name="geometry">
     <rect>
-     <x>1198</x>
+     <x>1168</x>
      <y>640</y>
      <width>18</width>
      <height>20</height>
@@ -1039,7 +957,7 @@ QCheckBox:indicator
   <widget class="QPushButton" name="cX_02">
    <property name="geometry">
     <rect>
-     <x>1219</x>
+     <x>1189</x>
      <y>659</y>
      <width>26</width>
      <height>30</height>
@@ -1065,6 +983,88 @@ QPushButton:pressed
    </property>
    <property name="text">
     <string/>
+   </property>
+  </widget>
+  <widget class="QCheckBox" name="cb_AM_Tv">
+   <property name="geometry">
+    <rect>
+     <x>1234</x>
+     <y>520</y>
+     <width>18</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QCheckBox{
+min-width: 18px;
+min-height: 20px;
+max-width: 18px;
+max-height: 20px;
+}
+QCheckBox:unchecked
+{
+	image: url(:/butons/pict/hand_18x20.png);
+}
+QCheckBox:indicator
+{
+	background: rgba(0, 0, 0, 0);
+}
+</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="checked">
+    <bool>false</bool>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="bnY_08">
+   <property name="geometry">
+    <rect>
+     <x>1213</x>
+     <y>541</y>
+     <width>27</width>
+     <height>40</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="icon">
+    <iconset resource="../../../pict/lib/valves.qrc">
+     <normaloff>:/valves/valve_off_l_20x32.png</normaloff>:/valves/valve_off_l_20x32.png</iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>20</width>
+     <height>32</height>
+    </size>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="bnY_09">
+   <property name="geometry">
+    <rect>
+     <x>1246</x>
+     <y>542</y>
+     <width>27</width>
+     <height>40</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="icon">
+    <iconset resource="../../../pict/lib/valves.qrc">
+     <normaloff>:/valves/valve_off_20x32.png</normaloff>:/valves/valve_off_20x32.png</iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>20</width>
+     <height>32</height>
+    </size>
    </property>
   </widget>
  </widget>

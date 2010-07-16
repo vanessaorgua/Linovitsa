@@ -1,24 +1,21 @@
 <RCC>
-  <qresource prefix="/mnemo">
-    <file>mnemo.svg</file>
-    <file>kf_one.svg</file>
-    <file>kf_upld.svg</file>
-    <file>kf_one_off_433x437.png</file>
-    <file>kf_one_on_433x437.png</file>
-  </qresource>
-
-  <qresource prefix="/valves">
-    <file>w_l_100x55.png</file>
-    <file>w_r_100x55.png</file>
-  </qresource>
-
-  <qresource prefix="/butons">
-    <file>alarm.png</file>
-    <file>menu.png</file>
-    <file>upload.png</file>
-
-    <file>start_r.png</file>
-    <file>start_p.png</file>
-  </qresource>
-
+    <qresource prefix="/mnemo">
+        <file>mnemo.svg</file>
+        <file>kf_one.svg</file>
+        <file>kf_upld.svg</file>
+        <file>kf_one_off_433x437.png</file>
+        <file>kf_one_on_433x437.png</file>
+        <file>voda.svg</file>
+    </qresource>
+    <qresource prefix="/valves">
+        <file>w_l_100x55.png</file>
+        <file>w_r_100x55.png</file>
+    </qresource>
+    <qresource prefix="/butons">
+        <file>alarm.png</file>
+        <file>menu.png</file>
+        <file>upload.png</file>
+        <file>start_r.png</file>
+        <file>start_p.png</file>
+    </qresource>
 </RCC>

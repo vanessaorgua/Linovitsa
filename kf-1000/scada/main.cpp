@@ -15,7 +15,7 @@ int main(int argc,char **argv)
     QApplication app(argc,argv);
 
     QCoreApplication::setOrganizationName("Rabitsa");
-    QCoreApplication::setApplicationName("filters");
+    QCoreApplication::setApplicationName("kf1000");
 
     QSettings s;
     
