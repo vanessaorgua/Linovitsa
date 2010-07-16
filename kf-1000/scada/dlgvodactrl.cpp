@@ -14,12 +14,12 @@ dlgVodaCtrl::dlgVodaCtrl(IoDev &source,QWidget *parent) :
 
 
     ui->sb_Lv_max->setValue(src.getValueScaled("Lv_max"));
-    ui->sb_Lv_max->setValue(src.getValueScaled("Lv_min"));
-    ui->sb_Lv_max->setValue(src.getValueScaled("Tv_max"));
-    ui->sb_Lv_max->setValue(src.getValueScaled("Tv_min"));
+    ui->sb_Lv_min->setValue(src.getValueScaled("Lv_min"));
+    ui->sb_Tv_max->setValue(src.getValueScaled("Tv_max"));
+    ui->sb_Tv_min->setValue(src.getValueScaled("Tv_min"));
 
     ui->sl_Lv_max->setValue(src.getValueFloat("Lv_max"));
-    ui->sl_Lv_max->setValue(src.getValueFloat("Lv_min"));
+    ui->sl_Lv_min->setValue(src.getValueFloat("Lv_min"));
 
     ui->cb_AM_Tv->setCurrentIndex(src.getValue16("AM_Tv")?1:0);
     ui->cb_Y_08->setChecked(src.getValue16("Y_08"));

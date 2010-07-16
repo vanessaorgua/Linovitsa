@@ -70,10 +70,10 @@ Tw_3	102	Timer	300	0	-
 Xs_zd_min	104	Real	300	0	-
 Xv_zd_min	106	Real	300	0	-
 Lsusp_max	108	Real	300	0	Lsusp
-Lv_min	110	Real	300	0	-
-Lv_max	112	Real	300	0	-
-Tv_min	114	Real	300	0	-
-Tv_max	116	Real	300	0	-
+Lv_min	110	Real	300	0	Lvoda
+Lv_max	112	Real	300	0	Lvoda
+Tv_min	114	Real	300	0	Tvoda
+Tv_max	116	Real	300	0	Tvoda
 AM_Tv	118	Bool	300	0	-
 Run	119	Bool	300	0	-
 Save	120	Bool	300	0	-

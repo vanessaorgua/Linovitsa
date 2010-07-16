@@ -28,7 +28,7 @@ protected:
 private:
     Ui::SParamDialog *m_ui;
     IoDev &s;
-    int ch;
+
 
     QStringList tag_name; // список тегів, які треба налаштовувати
 };
