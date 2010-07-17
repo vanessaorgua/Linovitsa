@@ -32,6 +32,8 @@ public slots:
     void slotCallReg();
     void slotCallKfOnePanel();
     void slotCallVodaCtrl();
+    void updateTrend();
+
 
 private:
     Ui::mnemo *m_ui;

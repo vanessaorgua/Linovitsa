@@ -34,6 +34,12 @@ Mnemo::Mnemo(IoNetClient &src, QWidget *p) : QLabel(p), m_ui(new Ui::mnemo),s(sr
     vbl->addWidget(trC);
     m_ui->frameTr->setLayout(vbl);
 
+    QTimer *t=new QTimer(this);
+    t->setInterval(5000);
+    t->start();
+    connect(t,SIGNAL(timeout()),this,SLOT(updateTrend()));
+
+
     for(int i=0;i<3;++i)
     {
             KfOne *o=new KfOne(this);
@@ -96,6 +102,7 @@ Mnemo::Mnemo(IoNetClient &src, QWidget *p) : QLabel(p), m_ui(new Ui::mnemo),s(sr
             << tr("Скид тиску") // 9
             << tr("Запуск ПТС") // 10
             << tr("Вивантаження") ;// 11
+
 }
 
 Mnemo::~Mnemo()
@@ -170,3 +177,18 @@ void Mnemo::slotCallVodaCtrl()
 
 }
 
+void Mnemo::updateTrend()
+{
+    QVector<double> v;
+    v
+            << s[3]->getValueFloat("Gsusp")
+            << s[3]->getValueFloat("Gvoda")
+            << s[3]->getValueFloat("Lsusp")
+            << s[3]->getValueFloat("Lvoda")
+            << s[3]->getValueFloat("Tvoda")
+            << s[3]->getValueFloat("Lp")
+            << s[3]->getValueFloat("Pair")
+            << s[3]->getValueFloat("Pvoda");
+    trC->addPoint(v);
+
+}
