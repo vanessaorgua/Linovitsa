@@ -44,7 +44,17 @@ SParamDialog::SParamDialog(IoDev &src,QWidget *parent) :
     m_ui->le_username->setText(set.value("/db/username","scada").toString());
     m_ui->le_passwd->setText(set.value("/db/passwd","").toString());
 
+   m_ui->sb_Lsusp_max->setValue(s.getValueScaled("Lsusp_max"));
+   m_ui->sb_Ls_start->setValue(s.getValueScaled("Ls_start"));
+   m_ui->sb_Ls_min->setValue(s.getValueScaled("Ls_min"));
 
+   m_ui->sb_Tw_1->setValue(s.getValue32("Tw_1")/1000);
+   m_ui->sb_Tw_2->setValue(s.getValue32("Tw_2")/1000);
+   m_ui->sb_Tw_3->setValue(s.getValue32("Tw_3")/1000);
+
+   m_ui->sb_Xv_zd_min->setValue(s.getValueFloat("Xv_zd_min")/40.0);
+   m_ui->sb_Xs_zd_min->setValue(s.getValueFloat("Xs_zd_min")/40.0);
+   m_ui->sb_Xs_np_zd->setValue(s.getValueFloat("Xv_np_zd")/40.0);
 }
 
 SParamDialog::~SParamDialog()
@@ -67,6 +77,17 @@ void SParamDialog::changeEvent(QEvent *e)
 
 void SParamDialog::myAccept()
 {
+    s.sendValueScaled("Lsusp_max",m_ui->sb_Lsusp_max->value());
+    s.sendValueScaled("Ls_start",m_ui->sb_Ls_start->value());
+    s.sendValueScaled("Ls_min",m_ui->sb_Ls_min->value());
+
+    s.sendValue("Tw_1",m_ui->sb_Tw_1->value());
+    s.sendValue("Tw_2",m_ui->sb_Tw_2->value());
+    s.sendValue("Tw_3",m_ui->sb_Tw_3->value());
+
+    s.sendValue("Xv_zd_min",m_ui->sb_Xv_zd_min->value()*40.0);
+    s.sendValue("Xs_zd_min",m_ui->sb_Xs_zd_min->value()*40.0);
+    s.sendValue("Xs_np_zd",m_ui->sb_Xs_np_zd->value()*40.0);
 
     s.sendValue("Save",qint16(-1));
     s.sendValue("Run",qint16(0));
