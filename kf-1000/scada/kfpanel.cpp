@@ -10,9 +10,10 @@
 #include "dlgkfmenu.h"
 #include "dlgkfparam.h"
 
-KfPanel::KfPanel(IoNetClient &source, QWidget *parent) :
+KfPanel::KfPanel(IoNetClient &source, int KfNum, QWidget *parent) :
     QDialog(parent),
     src(source),
+    Nf(KfNum),
     ui(new Ui::KfPanel)
 {
     ui->setupUi(this);
@@ -23,8 +24,6 @@ KfPanel::KfPanel(IoNetClient &source, QWidget *parent) :
     ui->sw->addWidget(kfu);
 
     ui->sw->setCurrentIndex(0);
-
-    Nf=this->windowTitle().right(1).toInt(); // визначити номер фільтра
 
     tState
             << tr("Тестування") // -1

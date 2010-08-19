@@ -14,7 +14,10 @@ dlgKfParam::dlgKfParam(IoDev &source, QWidget *parent) :
     ui->sb_Psusp_zd->setValue(src.getValueScaled("Psusp_zd"));
 
     ui->sb_Qvs_zd->setValue(src.getValueScaled("Qvs_zd"));
+    qDebug() << src.getValueScaled("Qvs_zd");
+
     ui->sb_Qvw_zd->setValue(src.getValueScaled("Qvw_zd"));
+    qDebug() << src.getValueScaled("Qvw_zd");
 
     ui->sb_Tnp_zd->setValue(src.getValue32("Tnp_zd")/1000);
     ui->sb_Tp_zd->setValue(src.getValue32("Tp_zd")/1000);

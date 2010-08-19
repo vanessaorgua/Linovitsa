@@ -81,9 +81,9 @@ void SParamDialog::myAccept()
     s.sendValueScaled("Ls_start",m_ui->sb_Ls_start->value());
     s.sendValueScaled("Ls_min",m_ui->sb_Ls_min->value());
 
-    s.sendValue("Tw_1",m_ui->sb_Tw_1->value());
-    s.sendValue("Tw_2",m_ui->sb_Tw_2->value());
-    s.sendValue("Tw_3",m_ui->sb_Tw_3->value());
+    s.sendValue("Tw_1",m_ui->sb_Tw_1->value()*1000);
+    s.sendValue("Tw_2",m_ui->sb_Tw_2->value()*1000);
+    s.sendValue("Tw_3",m_ui->sb_Tw_3->value()*1000);
 
     s.sendValue("Xv_zd_min",m_ui->sb_Xv_zd_min->value()*40.0);
     s.sendValue("Xs_zd_min",m_ui->sb_Xs_zd_min->value()*40.0);

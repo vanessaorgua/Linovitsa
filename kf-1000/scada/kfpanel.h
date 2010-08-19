@@ -17,7 +17,7 @@ class KfUpld;
 class KfPanel : public QDialog {
     Q_OBJECT
 public:
-    KfPanel(IoNetClient &source, QWidget *parent = 0);
+    KfPanel(IoNetClient &source, int KfNum, QWidget *parent = 0);
     ~KfPanel();
 public slots:
     void updateDataRaw();

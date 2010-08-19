@@ -165,7 +165,7 @@ void Mnemo::slotCallReg()
 
 void Mnemo::slotCallKfOnePanel()
 {
-    KfPanel p(s,this);
+    KfPanel p(s,sender()->objectName().right(1).toInt(),this);
     p.setWindowTitle(QString(tr("Фільтр № %1")).arg(sender()->objectName().right(1).toInt()+1));
     p.exec();
 }

@@ -7,7 +7,7 @@
     <x>0</x>
     <y>0</y>
     <width>386</width>
-    <height>447</height>
+    <height>461</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -17,7 +17,7 @@
    <item row="0" column="0" colspan="4">
     <widget class="QTabWidget" name="tabWidget">
      <property name="currentIndex">
-      <number>1</number>
+      <number>0</number>
      </property>
      <widget class="QWidget" name="tab_1">
       <attribute name="title">
@@ -44,7 +44,11 @@
            </widget>
           </item>
           <item row="0" column="1">
-           <widget class="QDoubleSpinBox" name="sb_Psusp_zd"/>
+           <widget class="QDoubleSpinBox" name="sb_Psusp_zd">
+            <property name="maximum">
+             <double>1000.000000000000000</double>
+            </property>
+           </widget>
           </item>
           <item row="1" column="0">
            <widget class="QLabel" name="label_2">
@@ -54,7 +58,11 @@
            </widget>
           </item>
           <item row="1" column="1">
-           <widget class="QDoubleSpinBox" name="sb_Gsusp_zd"/>
+           <widget class="QDoubleSpinBox" name="sb_Gsusp_zd">
+            <property name="maximum">
+             <double>200.000000000000000</double>
+            </property>
+           </widget>
           </item>
          </layout>
         </widget>
@@ -79,7 +87,11 @@
            </widget>
           </item>
           <item row="0" column="1">
-           <widget class="QDoubleSpinBox" name="sb_Qvs_zd"/>
+           <widget class="QDoubleSpinBox" name="sb_Qvs_zd">
+            <property name="maximum">
+             <double>200.000000000000000</double>
+            </property>
+           </widget>
           </item>
           <item row="1" column="0">
            <widget class="QLabel" name="label_4">
@@ -89,7 +101,11 @@
            </widget>
           </item>
           <item row="1" column="1">
-           <widget class="QDoubleSpinBox" name="sb_Qvw_zd"/>
+           <widget class="QDoubleSpinBox" name="sb_Qvw_zd">
+            <property name="maximum">
+             <double>200.000000000000000</double>
+            </property>
+           </widget>
           </item>
          </layout>
         </widget>
@@ -97,7 +113,7 @@
        <item>
         <widget class="QGroupBox" name="groupBox_3">
          <property name="title">
-          <string>Таймери, хв</string>
+          <string>Таймери, сек</string>
          </property>
          <layout class="QGridLayout" name="gridLayout_3">
           <item row="0" column="0">
@@ -128,13 +144,25 @@
            </widget>
           </item>
           <item row="1" column="1">
-           <widget class="QSpinBox" name="sb_Tp_zd"/>
+           <widget class="QSpinBox" name="sb_Tp_zd">
+            <property name="maximum">
+             <number>3600</number>
+            </property>
+           </widget>
           </item>
           <item row="0" column="1">
-           <widget class="QSpinBox" name="sb_Tnp_zd"/>
+           <widget class="QSpinBox" name="sb_Tnp_zd">
+            <property name="maximum">
+             <number>3600</number>
+            </property>
+           </widget>
           </item>
           <item row="2" column="1">
-           <widget class="QSpinBox" name="sb_Tf_zd"/>
+           <widget class="QSpinBox" name="sb_Tf_zd">
+            <property name="maximum">
+             <number>3600</number>
+            </property>
+           </widget>
           </item>
          </layout>
         </widget>
@@ -173,7 +201,11 @@
            </widget>
           </item>
           <item row="1" column="1">
-           <widget class="QSpinBox" name="sb_Tb_zd"/>
+           <widget class="QSpinBox" name="sb_Tb_zd">
+            <property name="maximum">
+             <number>200</number>
+            </property>
+           </widget>
           </item>
           <item row="2" column="0">
            <widget class="QLabel" name="label_9">
@@ -190,7 +222,11 @@
            </widget>
           </item>
           <item row="3" column="1">
-           <widget class="QSpinBox" name="sb_Ta_zd"/>
+           <widget class="QSpinBox" name="sb_Ta_zd">
+            <property name="maximum">
+             <number>60</number>
+            </property>
+           </widget>
           </item>
           <item row="4" column="0">
            <widget class="QLabel" name="label_11">
@@ -200,12 +236,16 @@
            </widget>
           </item>
           <item row="4" column="1">
-           <widget class="QSpinBox" name="sb_Tbw_zd"/>
+           <widget class="QSpinBox" name="sb_Tbw_zd">
+            <property name="maximum">
+             <number>10</number>
+            </property>
+           </widget>
           </item>
           <item row="5" column="0">
            <widget class="QLabel" name="label_12">
             <property name="text">
-             <string>Макс. час роботи маслонасосу</string>
+             <string>Авар. час роботи маслонасосу</string>
             </property>
            </widget>
           </item>
@@ -220,10 +260,18 @@
            </widget>
           </item>
           <item row="6" column="1">
-           <widget class="QSpinBox" name="sb_Ttoff_zd"/>
+           <widget class="QSpinBox" name="sb_Ttoff_zd">
+            <property name="maximum">
+             <number>3600</number>
+            </property>
+           </widget>
           </item>
           <item row="2" column="1">
-           <widget class="QDoubleSpinBox" name="sb_Trp_zd"/>
+           <widget class="QDoubleSpinBox" name="sb_Trp_zd">
+            <property name="maximum">
+             <double>30.000000000000000</double>
+            </property>
+           </widget>
           </item>
          </layout>
         </widget>
@@ -242,7 +290,14 @@
            </widget>
           </item>
           <item row="0" column="1">
-           <widget class="QSpinBox" name="sb_kf_Psusp"/>
+           <widget class="QSpinBox" name="sb_kf_Psusp">
+            <property name="minimum">
+             <number>1</number>
+            </property>
+            <property name="maximum">
+             <number>100</number>
+            </property>
+           </widget>
           </item>
           <item row="1" column="0">
            <widget class="QLabel" name="label_15">
@@ -252,7 +307,14 @@
            </widget>
           </item>
           <item row="1" column="1">
-           <widget class="QSpinBox" name="sb_kf_Poil"/>
+           <widget class="QSpinBox" name="sb_kf_Poil">
+            <property name="minimum">
+             <number>1</number>
+            </property>
+            <property name="maximum">
+             <number>100</number>
+            </property>
+           </widget>
           </item>
          </layout>
         </widget>
@@ -271,7 +333,11 @@
            </widget>
           </item>
           <item row="0" column="1">
-           <widget class="QDoubleSpinBox" name="sb_k_Qv"/>
+           <widget class="QDoubleSpinBox" name="sb_k_Qv">
+            <property name="maximum">
+             <double>100.000000000000000</double>
+            </property>
+           </widget>
           </item>
          </layout>
         </widget>
