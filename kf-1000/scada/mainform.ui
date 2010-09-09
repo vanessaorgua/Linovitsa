@@ -26,7 +26,7 @@
    <string>Scada</string>
   </property>
   <property name="windowIcon">
-   <iconset resource="../../lib/picture.qrc">
+   <iconset resource="../../../lib/picture.qrc">
     <normaloff>:/butons/pict/logo_32x32.png</normaloff>:/butons/pict/logo_32x32.png</iconset>
   </property>
   <layout class="QGridLayout">
@@ -45,7 +45,7 @@
       </size>
      </property>
      <property name="icon">
-      <iconset resource="../../lib/picture.qrc">
+      <iconset resource="../../../lib/picture.qrc">
        <normaloff>:/butons/pict/alarm_32x32.png</normaloff>:/butons/pict/alarm_32x32.png</iconset>
      </property>
      <property name="iconSize">
@@ -71,7 +71,7 @@
       </size>
      </property>
      <property name="icon">
-      <iconset resource="../../lib/picture.qrc">
+      <iconset resource="../../../lib/picture.qrc">
        <normaloff>:/butons/pict/thrend_32x32.png</normaloff>:/butons/pict/thrend_32x32.png</iconset>
      </property>
      <property name="iconSize">
@@ -82,7 +82,7 @@
      </property>
     </widget>
    </item>
-   <item row="4" column="0">
+   <item row="5" column="0">
     <widget class="QPushButton" name="About">
      <property name="minimumSize">
       <size>
@@ -97,7 +97,7 @@
       </size>
      </property>
      <property name="icon">
-      <iconset resource="../../lib/picture.qrc">
+      <iconset resource="../../../lib/picture.qrc">
        <normaloff>:/butons/pict/logo_32x32.png</normaloff>:/butons/pict/logo_32x32.png</iconset>
      </property>
      <property name="iconSize">
@@ -108,7 +108,7 @@
      </property>
     </widget>
    </item>
-   <item row="5" column="0">
+   <item row="6" column="0">
     <widget class="QPushButton" name="Exit">
      <property name="minimumSize">
       <size>
@@ -126,7 +126,7 @@
       <string/>
      </property>
      <property name="icon">
-      <iconset resource="../../lib/picture.qrc">
+      <iconset resource="../../../lib/picture.qrc">
        <normaloff>:/butons/pict/exit_32x32.png</normaloff>:/butons/pict/exit_32x32.png</iconset>
      </property>
      <property name="iconSize">
@@ -137,7 +137,7 @@
      </property>
     </widget>
    </item>
-   <item row="3" column="0">
+   <item row="4" column="0">
     <spacer>
      <property name="orientation">
       <enum>Qt::Vertical</enum>
@@ -262,7 +262,7 @@
       <string/>
      </property>
      <property name="icon">
-      <iconset resource="../../lib/picture.qrc">
+      <iconset resource="../../../lib/picture.qrc">
        <normaloff>:/butons/pict/setup_32x32.png</normaloff>:/butons/pict/setup_32x32.png</iconset>
      </property>
      <property name="iconSize">
@@ -273,7 +273,7 @@
      </property>
     </widget>
    </item>
-   <item row="1" column="1" rowspan="5">
+   <item row="1" column="1" rowspan="6">
     <widget class="QScrollArea" name="scrollArea">
      <property name="frameShape">
       <enum>QFrame::NoFrame</enum>
@@ -296,10 +296,46 @@
      </widget>
     </widget>
    </item>
+   <item row="3" column="0">
+    <widget class="QPushButton" name="TrCtrl">
+     <property name="sizePolicy">
+      <sizepolicy hsizetype="Minimum" vsizetype="Fixed">
+       <horstretch>0</horstretch>
+       <verstretch>0</verstretch>
+      </sizepolicy>
+     </property>
+     <property name="minimumSize">
+      <size>
+       <width>42</width>
+       <height>42</height>
+      </size>
+     </property>
+     <property name="maximumSize">
+      <size>
+       <width>42</width>
+       <height>42</height>
+      </size>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="icon">
+      <iconset resource="mnemo/mnemo.qrc">
+       <normaloff>:/butons/trctrl.png</normaloff>:/butons/trctrl.png</iconset>
+     </property>
+     <property name="iconSize">
+      <size>
+       <width>32</width>
+       <height>32</height>
+      </size>
+     </property>
+    </widget>
+   </item>
   </layout>
  </widget>
  <resources>
-  <include location="../../lib/picture.qrc"/>
+  <include location="../../../lib/picture.qrc"/>
+  <include location="mnemo/mnemo.qrc"/>
  </resources>
  <connections/>
 </ui>

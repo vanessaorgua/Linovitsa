@@ -54,7 +54,7 @@ SParamDialog::SParamDialog(IoDev &src,QWidget *parent) :
 
    m_ui->sb_Xv_zd_min->setValue(s.getValueFloat("Xv_zd_min")/40.0);
    m_ui->sb_Xs_zd_min->setValue(s.getValueFloat("Xs_zd_min")/40.0);
-   m_ui->sb_Xs_np_zd->setValue(s.getValueFloat("Xv_np_zd")/40.0);
+   m_ui->sb_Xs_np_zd->setValue(s.getValueFloat("Xs_np_zd")/40.0);
 }
 
 SParamDialog::~SParamDialog()

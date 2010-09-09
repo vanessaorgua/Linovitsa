@@ -34,7 +34,7 @@ dlgKfParam::dlgKfParam(IoDev &source, QWidget *parent) :
     ui->sb_kf_Psusp->setValue(src.getValue16("kf_Psusp"));
     ui->sb_kf_Poil->setValue(src.getValue16("kf_Poil"));
 
-    ui->sb_k_Qv->setValue(src.getValueScaled("k_Qv"));
+    ui->sb_k_Qv->setValue(src.getValueFloat("k_Qv"));
 
         connect(ui->bnExit,SIGNAL(clicked()),this,SLOT(slotAccept()));
 }
@@ -79,7 +79,11 @@ void dlgKfParam::slotAccept()
     src.sendValue("kf_Psusp",qint16(ui->sb_kf_Psusp->value()));
     src.sendValue("kf_Poil",qint16(ui->sb_kf_Poil->value()));
 
-    src.sendValueScaled("k_Qv",ui->sb_k_Qv->value());
+    src.sendValue("k_Qv",ui->sb_k_Qv->value());
+
+    src.sendValue("Run",qint16(0));
+    src.sendValue("Save",qint16(-1));
+
     accept();
 }
 

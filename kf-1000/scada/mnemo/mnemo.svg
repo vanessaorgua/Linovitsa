@@ -2002,6 +2002,13 @@
        y1="404.41205"
        x2="322.94861"
        y2="404.41205" />
+    <inkscape:perspective
+       id="perspective4244"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
   </defs>
   <sodipodi:namedview
      id="base"
@@ -2010,15 +2017,15 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="2.8"
-     inkscape:cx="1210.4654"
-     inkscape:cy="75.368868"
+     inkscape:zoom="0.7"
+     inkscape:cx="1005.0179"
+     inkscape:cy="256.93151"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="true"
-     inkscape:window-width="1680"
-     inkscape:window-height="1000"
-     inkscape:window-x="1276"
+     inkscape:window-width="993"
+     inkscape:window-height="580"
+     inkscape:window-x="-4"
      inkscape:window-y="-3"
      inkscape:window-maximized="1">
     <inkscape:grid
@@ -2640,5 +2647,299 @@
        height="956"
        x="416.36218"
        y="100" />
+    <g
+       id="g5435"
+       transform="translate(0,199.2)">
+      <g
+         inkscape:export-ydpi="90"
+         inkscape:export-xdpi="90"
+         inkscape:export-filename="/home/vanessa/src/QT4/src/pict/lib/pump_off_10x11.png"
+         id="g5437"
+         transform="matrix(1.5190394,0,0,1.3344287,985.89679,-641.61514)"
+         style="fill:#9c9c9c;fill-opacity:1">
+        <path
+           style="font-size:46.77859116px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#9c9c9c;fill-opacity:1;stroke:#000000;stroke-width:0.64055181;font-family:Liberation Sans;-inkscape-font-specification:Liberation Sans"
+           id="path5439"
+           d="m 139.8795,894.23554 c 0,2.88621 2.06702,5.22564 4.61706,5.22564 2.55003,0 4.61705,-2.33943 4.61705,-5.22564 0,-2.88622 -2.06702,-5.22565 -4.61705,-5.22565 -2.55004,0 -4.61706,2.33943 -4.61706,5.22565 z"
+           i:knockout="Off" />
+        <path
+           style="font-size:46.77859116px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#9c9c9c;fill-opacity:1;stroke:#000000;stroke-width:0.64055181;font-family:Liberation Sans;-inkscape-font-specification:Liberation Sans"
+           id="path5441"
+           d="m 149.11361,895.32206 -8.96774,-2.58696"
+           i:knockout="Off" />
+        <path
+           style="font-size:46.77859116px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#9c9c9c;fill-opacity:1;stroke:#000000;stroke-width:0.64055181;font-family:Liberation Sans;-inkscape-font-specification:Liberation Sans"
+           id="path5443"
+           d="m 148.49208,891.59685 -8.34621,4.65651"
+           i:knockout="Off" />
+        <path
+           style="font-size:46.77859116px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#9c9c9c;fill-opacity:1;stroke:#000000;stroke-width:0.64055181;font-family:Liberation Sans;-inkscape-font-specification:Liberation Sans"
+           id="path5445"
+           d="m 147.60419,898.01249 -5.9489,-7.76086"
+           i:knockout="Off" />
+        <path
+           style="font-size:46.77859116px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#9c9c9c;fill-opacity:1;stroke:#000000;stroke-width:0.64055181;font-family:Liberation Sans;-inkscape-font-specification:Liberation Sans"
+           id="path5447"
+           d="m 145.47324,899.25423 -1.77579,-10.24434"
+           i:knockout="Off" />
+        <path
+           style="font-size:46.77859116px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#9c9c9c;fill-opacity:1;stroke:#000000;stroke-width:0.64055181;font-family:Liberation Sans;-inkscape-font-specification:Liberation Sans"
+           id="path5449"
+           d="m 142.54319,899.04727 3.81794,-9.72694"
+           i:knockout="Off" />
+        <path
+           style="font-size:46.77859116px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#9c9c9c;fill-opacity:1;font-family:Liberation Sans;-inkscape-font-specification:Liberation Sans"
+           id="path5451"
+           d="m 143.60866,893.97684 c 0,0.57162 0.39742,1.03478 0.8879,1.03478 0.49047,0 0.88789,-0.46316 0.88789,-1.03478 0,-0.57161 -0.39742,-1.03478 -0.88789,-1.03478 -0.49048,0 -0.8879,0.46317 -0.8879,1.03478 z"
+           i:knockout="Off" />
+      </g>
+      <g
+         transform="matrix(1.5190394,0,0,1.3344287,1065.8968,-641.61514)"
+         id="g5453"
+         inkscape:export-filename="/home/vanessa/src/QT4/src/pict/lib/pump_off_10x11.png"
+         inkscape:export-xdpi="90"
+         inkscape:export-ydpi="90"
+         style="fill:#9c9c9c;fill-opacity:1">
+        <path
+           i:knockout="Off"
+           d="m 139.8795,894.23554 c 0,2.88621 2.06702,5.22564 4.61706,5.22564 2.55003,0 4.61705,-2.33943 4.61705,-5.22564 0,-2.88622 -2.06702,-5.22565 -4.61705,-5.22565 -2.55004,0 -4.61706,2.33943 -4.61706,5.22565 z"
+           id="path5455"
+           style="font-size:46.77859116px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#9c9c9c;fill-opacity:1;stroke:#000000;stroke-width:0.64055181;font-family:Liberation Sans;-inkscape-font-specification:Liberation Sans" />
+        <path
+           i:knockout="Off"
+           d="m 149.11361,895.32206 -8.96774,-2.58696"
+           id="path5457"
+           style="font-size:46.77859116px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#9c9c9c;fill-opacity:1;stroke:#000000;stroke-width:0.64055181;font-family:Liberation Sans;-inkscape-font-specification:Liberation Sans" />
+        <path
+           i:knockout="Off"
+           d="m 148.49208,891.59685 -8.34621,4.65651"
+           id="path5459"
+           style="font-size:46.77859116px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#9c9c9c;fill-opacity:1;stroke:#000000;stroke-width:0.64055181;font-family:Liberation Sans;-inkscape-font-specification:Liberation Sans" />
+        <path
+           i:knockout="Off"
+           d="m 147.60419,898.01249 -5.9489,-7.76086"
+           id="path5461"
+           style="font-size:46.77859116px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#9c9c9c;fill-opacity:1;stroke:#000000;stroke-width:0.64055181;font-family:Liberation Sans;-inkscape-font-specification:Liberation Sans" />
+        <path
+           i:knockout="Off"
+           d="m 145.47324,899.25423 -1.77579,-10.24434"
+           id="path5463"
+           style="font-size:46.77859116px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#9c9c9c;fill-opacity:1;stroke:#000000;stroke-width:0.64055181;font-family:Liberation Sans;-inkscape-font-specification:Liberation Sans" />
+        <path
+           i:knockout="Off"
+           d="m 142.54319,899.04727 3.81794,-9.72694"
+           id="path5465"
+           style="font-size:46.77859116px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#9c9c9c;fill-opacity:1;stroke:#000000;stroke-width:0.64055181;font-family:Liberation Sans;-inkscape-font-specification:Liberation Sans" />
+        <path
+           i:knockout="Off"
+           d="m 143.60866,893.97684 c 0,0.57162 0.39742,1.03478 0.8879,1.03478 0.49047,0 0.88789,-0.46316 0.88789,-1.03478 0,-0.57161 -0.39742,-1.03478 -0.88789,-1.03478 -0.49048,0 -0.8879,0.46317 -0.8879,1.03478 z"
+           id="path5467"
+           style="font-size:46.77859116px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#9c9c9c;fill-opacity:1;font-family:Liberation Sans;-inkscape-font-specification:Liberation Sans" />
+      </g>
+      <path
+         id="path5469"
+         d="m 1205.4233,544.60766 80,0"
+         style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+      <path
+         style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         d="m 1205.4233,558.60766 80,0"
+         id="path5471" />
+    </g>
+    <g
+       transform="translate(0,245.6)"
+       id="g5473">
+      <g
+         style="fill:#9c9c9c;fill-opacity:1"
+         transform="matrix(1.5190394,0,0,1.3344287,985.89679,-641.61514)"
+         id="g5475"
+         inkscape:export-filename="/home/vanessa/src/QT4/src/pict/lib/pump_off_10x11.png"
+         inkscape:export-xdpi="90"
+         inkscape:export-ydpi="90">
+        <path
+           i:knockout="Off"
+           d="m 139.8795,894.23554 c 0,2.88621 2.06702,5.22564 4.61706,5.22564 2.55003,0 4.61705,-2.33943 4.61705,-5.22564 0,-2.88622 -2.06702,-5.22565 -4.61705,-5.22565 -2.55004,0 -4.61706,2.33943 -4.61706,5.22565 z"
+           id="path5477"
+           style="font-size:46.77859116px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#9c9c9c;fill-opacity:1;stroke:#000000;stroke-width:0.64055181;font-family:Liberation Sans;-inkscape-font-specification:Liberation Sans" />
+        <path
+           i:knockout="Off"
+           d="m 149.11361,895.32206 -8.96774,-2.58696"
+           id="path5479"
+           style="font-size:46.77859116px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#9c9c9c;fill-opacity:1;stroke:#000000;stroke-width:0.64055181;font-family:Liberation Sans;-inkscape-font-specification:Liberation Sans" />
+        <path
+           i:knockout="Off"
+           d="m 148.49208,891.59685 -8.34621,4.65651"
+           id="path5481"
+           style="font-size:46.77859116px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#9c9c9c;fill-opacity:1;stroke:#000000;stroke-width:0.64055181;font-family:Liberation Sans;-inkscape-font-specification:Liberation Sans" />
+        <path
+           i:knockout="Off"
+           d="m 147.60419,898.01249 -5.9489,-7.76086"
+           id="path5483"
+           style="font-size:46.77859116px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#9c9c9c;fill-opacity:1;stroke:#000000;stroke-width:0.64055181;font-family:Liberation Sans;-inkscape-font-specification:Liberation Sans" />
+        <path
+           i:knockout="Off"
+           d="m 145.47324,899.25423 -1.77579,-10.24434"
+           id="path5485"
+           style="font-size:46.77859116px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#9c9c9c;fill-opacity:1;stroke:#000000;stroke-width:0.64055181;font-family:Liberation Sans;-inkscape-font-specification:Liberation Sans" />
+        <path
+           i:knockout="Off"
+           d="m 142.54319,899.04727 3.81794,-9.72694"
+           id="path5487"
+           style="font-size:46.77859116px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#9c9c9c;fill-opacity:1;stroke:#000000;stroke-width:0.64055181;font-family:Liberation Sans;-inkscape-font-specification:Liberation Sans" />
+        <path
+           i:knockout="Off"
+           d="m 143.60866,893.97684 c 0,0.57162 0.39742,1.03478 0.8879,1.03478 0.49047,0 0.88789,-0.46316 0.88789,-1.03478 0,-0.57161 -0.39742,-1.03478 -0.88789,-1.03478 -0.49048,0 -0.8879,0.46317 -0.8879,1.03478 z"
+           id="path5489"
+           style="font-size:46.77859116px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#9c9c9c;fill-opacity:1;font-family:Liberation Sans;-inkscape-font-specification:Liberation Sans" />
+      </g>
+      <g
+         style="fill:#9c9c9c;fill-opacity:1"
+         inkscape:export-ydpi="90"
+         inkscape:export-xdpi="90"
+         inkscape:export-filename="/home/vanessa/src/QT4/src/pict/lib/pump_off_10x11.png"
+         id="g5491"
+         transform="matrix(1.5190394,0,0,1.3344287,1065.8968,-641.61514)">
+        <path
+           style="font-size:46.77859116px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#9c9c9c;fill-opacity:1;stroke:#000000;stroke-width:0.64055181;font-family:Liberation Sans;-inkscape-font-specification:Liberation Sans"
+           id="path5493"
+           d="m 139.8795,894.23554 c 0,2.88621 2.06702,5.22564 4.61706,5.22564 2.55003,0 4.61705,-2.33943 4.61705,-5.22564 0,-2.88622 -2.06702,-5.22565 -4.61705,-5.22565 -2.55004,0 -4.61706,2.33943 -4.61706,5.22565 z"
+           i:knockout="Off" />
+        <path
+           style="font-size:46.77859116px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#9c9c9c;fill-opacity:1;stroke:#000000;stroke-width:0.64055181;font-family:Liberation Sans;-inkscape-font-specification:Liberation Sans"
+           id="path5495"
+           d="m 149.11361,895.32206 -8.96774,-2.58696"
+           i:knockout="Off" />
+        <path
+           style="font-size:46.77859116px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#9c9c9c;fill-opacity:1;stroke:#000000;stroke-width:0.64055181;font-family:Liberation Sans;-inkscape-font-specification:Liberation Sans"
+           id="path5497"
+           d="m 148.49208,891.59685 -8.34621,4.65651"
+           i:knockout="Off" />
+        <path
+           style="font-size:46.77859116px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#9c9c9c;fill-opacity:1;stroke:#000000;stroke-width:0.64055181;font-family:Liberation Sans;-inkscape-font-specification:Liberation Sans"
+           id="path5499"
+           d="m 147.60419,898.01249 -5.9489,-7.76086"
+           i:knockout="Off" />
+        <path
+           style="font-size:46.77859116px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#9c9c9c;fill-opacity:1;stroke:#000000;stroke-width:0.64055181;font-family:Liberation Sans;-inkscape-font-specification:Liberation Sans"
+           id="path5501"
+           d="m 145.47324,899.25423 -1.77579,-10.24434"
+           i:knockout="Off" />
+        <path
+           style="font-size:46.77859116px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#9c9c9c;fill-opacity:1;stroke:#000000;stroke-width:0.64055181;font-family:Liberation Sans;-inkscape-font-specification:Liberation Sans"
+           id="path5503"
+           d="m 142.54319,899.04727 3.81794,-9.72694"
+           i:knockout="Off" />
+        <path
+           style="font-size:46.77859116px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#9c9c9c;fill-opacity:1;font-family:Liberation Sans;-inkscape-font-specification:Liberation Sans"
+           id="path5505"
+           d="m 143.60866,893.97684 c 0,0.57162 0.39742,1.03478 0.8879,1.03478 0.49047,0 0.88789,-0.46316 0.88789,-1.03478 0,-0.57161 -0.39742,-1.03478 -0.88789,-1.03478 -0.49048,0 -0.8879,0.46317 -0.8879,1.03478 z"
+           i:knockout="Off" />
+      </g>
+      <path
+         style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         d="m 1205.4233,544.60766 80,0"
+         id="path5507" />
+      <path
+         id="path5509"
+         d="m 1205.4233,558.60766 80,0"
+         style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+    </g>
+    <g
+       id="g5511"
+       transform="translate(0,292)">
+      <g
+         inkscape:export-ydpi="90"
+         inkscape:export-xdpi="90"
+         inkscape:export-filename="/home/vanessa/src/QT4/src/pict/lib/pump_off_10x11.png"
+         id="g5513"
+         transform="matrix(1.5190394,0,0,1.3344287,985.89679,-641.61514)"
+         style="fill:#9c9c9c;fill-opacity:1">
+        <path
+           style="font-size:46.77859116px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#9c9c9c;fill-opacity:1;stroke:#000000;stroke-width:0.64055181;font-family:Liberation Sans;-inkscape-font-specification:Liberation Sans"
+           id="path5515"
+           d="m 139.8795,894.23554 c 0,2.88621 2.06702,5.22564 4.61706,5.22564 2.55003,0 4.61705,-2.33943 4.61705,-5.22564 0,-2.88622 -2.06702,-5.22565 -4.61705,-5.22565 -2.55004,0 -4.61706,2.33943 -4.61706,5.22565 z"
+           i:knockout="Off" />
+        <path
+           style="font-size:46.77859116px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#9c9c9c;fill-opacity:1;stroke:#000000;stroke-width:0.64055181;font-family:Liberation Sans;-inkscape-font-specification:Liberation Sans"
+           id="path5517"
+           d="m 149.11361,895.32206 -8.96774,-2.58696"
+           i:knockout="Off" />
+        <path
+           style="font-size:46.77859116px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#9c9c9c;fill-opacity:1;stroke:#000000;stroke-width:0.64055181;font-family:Liberation Sans;-inkscape-font-specification:Liberation Sans"
+           id="path5519"
+           d="m 148.49208,891.59685 -8.34621,4.65651"
+           i:knockout="Off" />
+        <path
+           style="font-size:46.77859116px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#9c9c9c;fill-opacity:1;stroke:#000000;stroke-width:0.64055181;font-family:Liberation Sans;-inkscape-font-specification:Liberation Sans"
+           id="path5521"
+           d="m 147.60419,898.01249 -5.9489,-7.76086"
+           i:knockout="Off" />
+        <path
+           style="font-size:46.77859116px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#9c9c9c;fill-opacity:1;stroke:#000000;stroke-width:0.64055181;font-family:Liberation Sans;-inkscape-font-specification:Liberation Sans"
+           id="path5523"
+           d="m 145.47324,899.25423 -1.77579,-10.24434"
+           i:knockout="Off" />
+        <path
+           style="font-size:46.77859116px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#9c9c9c;fill-opacity:1;stroke:#000000;stroke-width:0.64055181;font-family:Liberation Sans;-inkscape-font-specification:Liberation Sans"
+           id="path5525"
+           d="m 142.54319,899.04727 3.81794,-9.72694"
+           i:knockout="Off" />
+        <path
+           style="font-size:46.77859116px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#9c9c9c;fill-opacity:1;font-family:Liberation Sans;-inkscape-font-specification:Liberation Sans"
+           id="path5527"
+           d="m 143.60866,893.97684 c 0,0.57162 0.39742,1.03478 0.8879,1.03478 0.49047,0 0.88789,-0.46316 0.88789,-1.03478 0,-0.57161 -0.39742,-1.03478 -0.88789,-1.03478 -0.49048,0 -0.8879,0.46317 -0.8879,1.03478 z"
+           i:knockout="Off" />
+      </g>
+      <g
+         transform="matrix(1.5190394,0,0,1.3344287,1065.8968,-641.61514)"
+         id="g5529"
+         inkscape:export-filename="/home/vanessa/src/QT4/src/pict/lib/pump_off_10x11.png"
+         inkscape:export-xdpi="90"
+         inkscape:export-ydpi="90"
+         style="fill:#9c9c9c;fill-opacity:1">
+        <path
+           i:knockout="Off"
+           d="m 139.8795,894.23554 c 0,2.88621 2.06702,5.22564 4.61706,5.22564 2.55003,0 4.61705,-2.33943 4.61705,-5.22564 0,-2.88622 -2.06702,-5.22565 -4.61705,-5.22565 -2.55004,0 -4.61706,2.33943 -4.61706,5.22565 z"
+           id="path5531"
+           style="font-size:46.77859116px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#9c9c9c;fill-opacity:1;stroke:#000000;stroke-width:0.64055181;font-family:Liberation Sans;-inkscape-font-specification:Liberation Sans" />
+        <path
+           i:knockout="Off"
+           d="m 149.11361,895.32206 -8.96774,-2.58696"
+           id="path5533"
+           style="font-size:46.77859116px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#9c9c9c;fill-opacity:1;stroke:#000000;stroke-width:0.64055181;font-family:Liberation Sans;-inkscape-font-specification:Liberation Sans" />
+        <path
+           i:knockout="Off"
+           d="m 148.49208,891.59685 -8.34621,4.65651"
+           id="path5535"
+           style="font-size:46.77859116px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#9c9c9c;fill-opacity:1;stroke:#000000;stroke-width:0.64055181;font-family:Liberation Sans;-inkscape-font-specification:Liberation Sans" />
+        <path
+           i:knockout="Off"
+           d="m 147.60419,898.01249 -5.9489,-7.76086"
+           id="path5537"
+           style="font-size:46.77859116px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#9c9c9c;fill-opacity:1;stroke:#000000;stroke-width:0.64055181;font-family:Liberation Sans;-inkscape-font-specification:Liberation Sans" />
+        <path
+           i:knockout="Off"
+           d="m 145.47324,899.25423 -1.77579,-10.24434"
+           id="path5539"
+           style="font-size:46.77859116px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#9c9c9c;fill-opacity:1;stroke:#000000;stroke-width:0.64055181;font-family:Liberation Sans;-inkscape-font-specification:Liberation Sans" />
+        <path
+           i:knockout="Off"
+           d="m 142.54319,899.04727 3.81794,-9.72694"
+           id="path5541"
+           style="font-size:46.77859116px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#9c9c9c;fill-opacity:1;stroke:#000000;stroke-width:0.64055181;font-family:Liberation Sans;-inkscape-font-specification:Liberation Sans" />
+        <path
+           i:knockout="Off"
+           d="m 143.60866,893.97684 c 0,0.57162 0.39742,1.03478 0.8879,1.03478 0.49047,0 0.88789,-0.46316 0.88789,-1.03478 0,-0.57161 -0.39742,-1.03478 -0.88789,-1.03478 -0.49048,0 -0.8879,0.46317 -0.8879,1.03478 z"
+           id="path5543"
+           style="font-size:46.77859116px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#9c9c9c;fill-opacity:1;font-family:Liberation Sans;-inkscape-font-specification:Liberation Sans" />
+      </g>
+      <path
+         id="path5545"
+         d="m 1205.4233,544.60766 80,0"
+         style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+      <path
+         style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         d="m 1205.4233,558.60766 80,0"
+         id="path5547" />
+    </g>
   </g>
 </svg>

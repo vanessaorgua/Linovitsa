@@ -17,5 +17,16 @@
         <file>upload.png</file>
         <file>start_r.png</file>
         <file>start_p.png</file>
+        <file>trctrl.png</file>
+    </qresource>
+    <qresource prefix="/big">
+        <file>mnemo.qrc</file>
+        <file>ar_left_off_big.png</file>
+        <file>ar_left_on_big.png</file>
+        <file>lamf_off_big.png</file>
+        <file>lamp_on_big.png</file>
+        <file>lamp_red_big.png</file>
+        <file>ar_right_off_big.png</file>
+        <file>ar_right_on_big.png</file>
     </qresource>
 </RCC>

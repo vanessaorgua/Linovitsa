@@ -26,6 +26,7 @@ KfUpld::KfUpld(QWidget *parent) :
             << ui->cb_X_presh
             << ui->cb_X_ps
             << ui->cb_X_ton
+            << ui->cb_X_tauto
             << ui->cb_Y_bw
             << ui->cb_Y_fw;
 

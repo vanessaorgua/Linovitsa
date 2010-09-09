@@ -11,6 +11,7 @@
 #include "about.h"
 #include "history.h"
 #include "alertviewdialog.h"
+#include "dlgptsctrl.h"
 
 mMainForm::mMainForm(IoNetClient &source,QWidget *p): QWidget(p)
 ,src(source),m_ui(new Ui::Form)
@@ -32,6 +33,7 @@ mMainForm::mMainForm(IoNetClient &source,QWidget *p): QWidget(p)
 
     connect(m_ui->bn_showAlert,SIGNAL(clicked()),this,SLOT(showAlert()));
 
+    connect(m_ui->TrCtrl,SIGNAL(clicked()),this,SLOT(slotTrCtrl()));
     // відобразити мнемосхему
     m_ui->scrollArea->setWidget(new Mnemo(src,this));
 
@@ -133,3 +135,10 @@ void mMainForm::showAlert()
     AlertViewDialog d(alertList,this);
     d.exec();
 }
+
+void mMainForm::slotTrCtrl()
+{
+    DlgPtsCtrl p(*src[3],this);
+    p.exec();
+}
+

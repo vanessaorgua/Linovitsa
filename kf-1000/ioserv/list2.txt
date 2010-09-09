@@ -92,3 +92,7 @@ Xmax_01	141	Real	300	0	-
 Xmax_02	143	Real	300	0	-
 Ls_min	145	Real	300	0	Lsusp
 Ls_start	147	Real	300	0	Lsusp
+Rev_01	149	Bool	300	0	-
+Rev_02	150	Bool	300	0	-
+man	151	Bool	300	0	-
+trm	152	Bool	300	0	-

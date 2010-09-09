@@ -28,7 +28,9 @@ KfOne::KfOne(QWidget *parent) :
             << ui->cb_Y_E
             << ui->cb_Y_F
             << ui->cb_Y_G
-            << ui->cb_Y_H ;
+            << ui->cb_Y_H
+            << ui->cb_X_ton
+            << ui->cb_X_tauto;
 
     connect(ui->bnCallOne,SIGNAL(clicked()),this,SLOT(slotCallOne()));
 

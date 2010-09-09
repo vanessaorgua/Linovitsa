@@ -414,45 +414,6 @@ QCheckBox:indicator
     <string>CheckBox</string>
    </property>
   </widget>
-  <widget class="QCheckBox" name="cb_X_ton">
-   <property name="geometry">
-    <rect>
-     <x>123</x>
-     <y>238</y>
-     <width>16</width>
-     <height>16</height>
-    </rect>
-   </property>
-   <property name="styleSheet">
-    <string notr="true">QCheckBox{
-min-width: 16px;
-min-height: 16px;
-max-width: 16px;
-max-height: 16px;
-}
-QCheckBox:checked
-{
-	image: url(:/valves/lamp_green_16x16.png);
-}
-
-QCheckBox:unchecked
-{
-	image: url(:/valves/lamp_off_16x16.png);
-}
-
-QCheckBox:indicator
-{
-	background: rgba(0, 0, 0, 0);
-	height: 16px;
-	width: 16px;
-}
-
-</string>
-   </property>
-   <property name="text">
-    <string>CheckBox</string>
-   </property>
-  </widget>
   <widget class="QCheckBox" name="cb_X_pause">
    <property name="geometry">
     <rect>
@@ -496,7 +457,7 @@ QCheckBox:indicator
    <property name="geometry">
     <rect>
      <x>114</x>
-     <y>205</y>
+     <y>235</y>
      <width>20</width>
      <height>14</height>
     </rect>
@@ -535,7 +496,7 @@ QCheckBox:indicator
    <property name="geometry">
     <rect>
      <x>134</x>
-     <y>205</y>
+     <y>235</y>
      <width>20</width>
      <height>14</height>
     </rect>
@@ -574,7 +535,7 @@ QCheckBox:indicator
    <property name="geometry">
     <rect>
      <x>44</x>
-     <y>190</y>
+     <y>220</y>
      <width>55</width>
      <height>27</height>
     </rect>
@@ -612,7 +573,7 @@ QCheckBox:indicator
    <property name="geometry">
     <rect>
      <x>132</x>
-     <y>190</y>
+     <y>220</y>
      <width>55</width>
      <height>27</height>
     </rect>
@@ -650,7 +611,7 @@ QCheckBox:indicator
    <property name="geometry">
     <rect>
      <x>85</x>
-     <y>190</y>
+     <y>220</y>
      <width>55</width>
      <height>27</height>
     </rect>
@@ -688,7 +649,7 @@ QCheckBox:indicator
    <property name="geometry">
     <rect>
      <x>173</x>
-     <y>190</y>
+     <y>220</y>
      <width>55</width>
      <height>27</height>
     </rect>
@@ -720,6 +681,82 @@ QCheckBox:indicator
    </property>
    <property name="checked">
     <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QCheckBox" name="cb_X_ton">
+   <property name="geometry">
+    <rect>
+     <x>148</x>
+     <y>290</y>
+     <width>14</width>
+     <height>14</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QCheckBox{
+min-width: 14px;
+min-height: 14px;
+max-width: 14px;
+max-height: 14px;
+}
+QCheckBox:checked
+{
+	image: url(:/big/ar_right_on_big.png);
+}
+QCheckBox:unchecked
+{
+	image: url(:/big/ar_right_off_big.png)
+}
+
+QCheckBox:indicator
+{
+	background: rgba(0, 0, 0, 0);
+	height: 14px;
+	width: 14px;
+}
+</string>
+   </property>
+   <property name="text">
+    <string>CheckBox</string>
+   </property>
+  </widget>
+  <widget class="QCheckBox" name="cb_X_tauto">
+   <property name="geometry">
+    <rect>
+     <x>130</x>
+     <y>290</y>
+     <width>14</width>
+     <height>14</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QCheckBox{
+min-width: 14px;
+min-height: 14px;
+max-width: 14px;
+max-height: 14px;
+}
+QCheckBox:checked
+{
+	image: url(:/big/lamp_on_big.png);
+}
+
+QCheckBox:unchecked
+{
+	image: url(:/big/lamf_off_big.png);
+	
+}
+
+QCheckBox:indicator
+{
+	background: rgba(0, 0, 0, 0);
+	height: 14px;
+	width: 14px;
+}
+</string>
+   </property>
+   <property name="text">
+    <string>CheckBox</string>
    </property>
   </widget>
  </widget>

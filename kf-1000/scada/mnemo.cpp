@@ -76,6 +76,13 @@ Mnemo::Mnemo(IoNetClient &src, QWidget *p) : QLabel(p), m_ui(new Ui::mnemo),s(sr
             << m_ui->pb_Lsusp
             << m_ui->pb_Lvoda;
     cb
+            << m_ui->cc_X_01
+            << m_ui->cc_X_02
+            << m_ui->cc_X_03
+            << m_ui->cc_X_04
+            << m_ui->cc_X_05
+            << m_ui->cc_X_06
+
             //<< m_ui->cb_X_07
             //<< m_ui->cb_X_08
             << m_ui->cb_Y_08

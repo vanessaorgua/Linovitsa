@@ -23,6 +23,7 @@ public slots:
     void slotExit();
     void slotAlert(QString); // це буде викликатися коли сервер пришле алерт
     void showAlert();
+    void slotTrCtrl();
 
 private:
     
