@@ -5,6 +5,7 @@
 #include <trend.h>
 
 class IoNetClient;
+class Report;
 
 class mMainForm: public QWidget // ,public Ui::Form
 {
@@ -24,6 +25,7 @@ public slots:
     void slotAlert(QString); // це буде викликатися коли сервер пришле алерт
     void showAlert();
     void slotTrCtrl();
+    void showReport();
 
 private:
     
@@ -33,5 +35,6 @@ private:
     struct trendinfo tp;
     Ui::Form *m_ui;
     QStack<QString> alertList;
+    Report *rep;
 };
 

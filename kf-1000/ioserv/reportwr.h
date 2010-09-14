@@ -20,7 +20,7 @@ private:
     QVector<IoDev*> &src;
 
     QVector<int> lastState;
-    QVector<QVector<int> > data;
+    QVector<QVector<double> > data;
 
 };
 

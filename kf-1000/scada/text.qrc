@@ -5,6 +5,10 @@
     </qresource>
     <qresource>
         <file>text/reg.txt</file>
+        <file>text/presh</file>
+        <file>text/susp</file>
+        <file>text/voda</file>
+        <file>text/amvoda</file>
     </qresource>
 
 </RCC>

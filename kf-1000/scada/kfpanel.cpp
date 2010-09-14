@@ -85,12 +85,12 @@ void KfPanel::updateDataRaw()
             ui->le_State->setText(tState[i]);
     }
 
-    ui->le_Tall->setText(QString("%1").arg(src[Nf]->getValue32("Tall")/1000));
-    ui->le_Tf->setText(QString("%1").arg(src[Nf]->getValue32("Tf")/1000));
-    ui->le_Tfilt->setText(QString("%1").arg(src[Nf]->getValue32("Tfilt")/1000));
-    ui->le_Tvs->setText(QString("%1").arg(src[Nf]->getValue32("Tvs")/1000));
-    ui->le_Tvw->setText(QString("%1").arg(src[Nf]->getValue32("Tvw")/1000));
-    ui->le_t_Tp->setText(QString("%1").arg(src[Nf]->getValue32("t_Tp")/1000));
+    ui->le_Tall->setText(QString("%1").arg((double)src[Nf]->getValue32("Tall")/60000.0,4,'f',1));
+    ui->le_Tf->setText(QString("%1").arg(src[Nf]->getValue32("Tf")/60000.0,4,'f',1));
+    ui->le_Tfilt->setText(QString("%1").arg(src[Nf]->getValue32("Tfilt")/60000.0,4,'f',1));
+    ui->le_Tvs->setText(QString("%1").arg(src[Nf]->getValue32("Tvs")/60000.0,4,'f',1));
+    ui->le_Tvw->setText(QString("%1").arg(src[Nf]->getValue32("Tvw")/60000.0,4,'f',1));
+    ui->le_t_Tp->setText(QString("%1").arg(src[Nf]->getValue32("t_Tp")/60000.0,4,'f',1));
 
     if(src[Nf]->getValue16("State")==11)
         ui->sw->setCurrentIndex(1);
@@ -103,9 +103,9 @@ void KfPanel::updateDataRaw()
 void KfPanel::updateDataScaled()
 {
     //qDebug() << "Nf=" << Nf;
-    ui->le_Qsusp->setText(QString("%1").arg(src[Nf]->getValueScaled("Qsusp")));
-    ui->le_Qvs->setText(QString("%1").arg(src[Nf]->getValueScaled("Qvs")));
-    ui->le_Qvw->setText(QString("%1").arg(src[Nf]->getValueScaled("Qvw")));
+    ui->le_Qsusp->setText(QString("%1").arg(src[Nf]->getValueScaled("Qsusp"),5,'f',2));
+    ui->le_Qvs->setText(QString("%1").arg(src[Nf]->getValueScaled("Qvs"),5,'f',2));
+    ui->le_Qvw->setText(QString("%1").arg(src[Nf]->getValueScaled("Qvw"),5,'f',2));
 
 }
 

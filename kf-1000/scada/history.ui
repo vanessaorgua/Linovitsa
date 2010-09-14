@@ -33,6 +33,34 @@
         </property>
         <layout class="QVBoxLayout" name="verticalLayout">
          <item>
+          <widget class="QLabel" name="label">
+           <property name="text">
+            <string>Тиски</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QPushButton" name="kf_10presh1">
+           <property name="text">
+            <string>Фільтр №1</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QPushButton" name="kf_20presh2">
+           <property name="text">
+            <string>Фільтр №2</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QPushButton" name="kf_30presh3">
+           <property name="text">
+            <string>Фільтр №3</string>
+           </property>
+          </widget>
+         </item>
+         <item>
           <spacer name="verticalSpacer">
            <property name="orientation">
             <enum>Qt::Vertical</enum>
@@ -82,6 +110,34 @@
          <enum>QFrame::Sunken</enum>
         </property>
         <layout class="QVBoxLayout" name="verticalLayout_3">
+         <item>
+          <widget class="QLabel" name="label_2">
+           <property name="text">
+            <string>Регулятори</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QPushButton" name="trend0susp4">
+           <property name="text">
+            <string>Подача суспензії</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QPushButton" name="trend0voda4">
+           <property name="text">
+            <string>Подача води</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QPushButton" name="trend0amvoda4">
+           <property name="text">
+            <string>Збірник ам. води</string>
+           </property>
+          </widget>
+         </item>
          <item>
           <spacer name="verticalSpacer_3">
            <property name="orientation">

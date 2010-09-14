@@ -33,6 +33,9 @@ Mnemo::Mnemo(IoNetClient &src, QWidget *p) : QLabel(p), m_ui(new Ui::mnemo),s(sr
     QVBoxLayout *vbl=new QVBoxLayout(m_ui->frameTr);
     vbl->addWidget(trC);
     m_ui->frameTr->setLayout(vbl);
+    QVector<QColor> clr;
+    clr << QColor(255,24,237) << QColor(66,168,255)<< QColor(255,39,0)<< QColor(100,255,0)<< QColor(Qt::yellow)<< QColor(90,0,113)<< QColor(0,9,137)<< QColor(0,89,0);
+    trC->setColor(clr);
 
     QTimer *t=new QTimer(this);
     t->setInterval(5000);

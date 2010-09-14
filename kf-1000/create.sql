@@ -260,5 +260,21 @@ Nf smallint default '0',
 primary key(Dt)) Engine=Innodb;
 
 
+create table report(
+id integer unsigned not null auto_increment,
+Dt timestamp default '2000/01/01 00:00:00',
+Nf smallint default '0',
+Nc smallint default '0',
+Qsusp float default '0',
+Qvs float default '0',
+Qvw float default '0',
+Tall float default '0',
+Tfilt float default '0',
+Tvs float default '0',
+tvw float default '0',
+Tf float default '0',
+primary key(id),
+key f(Dt,Nf)
+) Engine=InnoDb;
 
 grant INSERT,SELECT,UPDATE,DELETE on centrif.* to 'scada'@'%';

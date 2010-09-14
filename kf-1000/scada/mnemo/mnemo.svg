@@ -2017,9 +2017,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.7"
-     inkscape:cx="1005.0179"
-     inkscape:cy="256.93151"
+     inkscape:zoom="1.4"
+     inkscape:cx="1210.0202"
+     inkscape:cy="617.95117"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="true"
@@ -2941,5 +2941,77 @@
          d="m 1205.4233,558.60766 80,0"
          id="path5547" />
     </g>
+    <rect
+       y="-1220"
+       x="-377.36218"
+       height="25"
+       width="3"
+       id="rect3701"
+       style="fill:#ff18ed;fill-opacity:1;fill-rule:evenodd;stroke:none"
+       transform="matrix(0,-1,-1,0,0,0)" />
+    <rect
+       transform="matrix(0,-1,-1,0,0,0)"
+       style="fill:#42a8ff;fill-opacity:1;fill-rule:evenodd;stroke:none"
+       id="rect4477"
+       width="3"
+       height="25"
+       x="-399.36218"
+       y="-1220" />
+    <rect
+       y="-1220"
+       x="-419.36218"
+       height="25"
+       width="3"
+       id="rect4479"
+       style="fill:#ff2700;fill-opacity:1;fill-rule:evenodd;stroke:none"
+       transform="matrix(0,-1,-1,0,0,0)" />
+    <rect
+       transform="matrix(0,-1,-1,0,0,0)"
+       style="fill:#64ff00;fill-opacity:1;fill-rule:evenodd;stroke:none"
+       id="rect4481"
+       width="3"
+       height="25"
+       x="-439.36218"
+       y="-1220" />
+    <rect
+       y="-1220"
+       x="-439.36218"
+       height="25"
+       width="3"
+       id="rect4483"
+       style="fill:#64ff00;fill-opacity:1;fill-rule:evenodd;stroke:none"
+       transform="matrix(0,-1,-1,0,0,0)" />
+    <rect
+       transform="matrix(0,-1,-1,0,0,0)"
+       style="fill:#ffff00;fill-opacity:1;fill-rule:evenodd;stroke:none"
+       id="rect4485"
+       width="3"
+       height="25"
+       x="-459.36218"
+       y="-1220" />
+    <rect
+       y="-1220"
+       x="-479.36218"
+       height="25"
+       width="3"
+       id="rect4487"
+       style="fill:#5a0071;fill-opacity:1;fill-rule:evenodd;stroke:none"
+       transform="matrix(0,-1,-1,0,0,0)" />
+    <rect
+       transform="matrix(0,-1,-1,0,0,0)"
+       style="fill:#000989;fill-opacity:1;fill-rule:evenodd;stroke:none"
+       id="rect4489"
+       width="3"
+       height="25"
+       x="-499.36218"
+       y="-1220" />
+    <rect
+       y="-1220"
+       x="-519.36218"
+       height="25"
+       width="3"
+       id="rect4491"
+       style="fill:#005900;fill-opacity:1;fill-rule:evenodd;stroke:none"
+       transform="matrix(0,-1,-1,0,0,0)" />
   </g>
 </svg>

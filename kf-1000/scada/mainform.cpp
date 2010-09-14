@@ -12,6 +12,7 @@
 #include "history.h"
 #include "alertviewdialog.h"
 #include "dlgptsctrl.h"
+#include "report.h"
 
 mMainForm::mMainForm(IoNetClient &source,QWidget *p): QWidget(p)
 ,src(source),m_ui(new Ui::Form)
@@ -35,11 +36,14 @@ mMainForm::mMainForm(IoNetClient &source,QWidget *p): QWidget(p)
 
     connect(m_ui->TrCtrl,SIGNAL(clicked()),this,SLOT(slotTrCtrl()));
     // відобразити мнемосхему
-    m_ui->scrollArea->setWidget(new Mnemo(src,this));
+    //m_ui->scrollArea->setWidget(new Mnemo(src,this));
+    m_ui->sW->addWidget(new Mnemo(src,this));
 
     // відображення свіжих алертів
     connect(&src,SIGNAL(Alert(QString)),this,SLOT(slotAlert(QString)));
 
+     // відображення звітів
+    connect(m_ui->bnReport,SIGNAL(clicked()),this,SLOT(showReport()));
     
     t->start();
 
@@ -78,7 +82,7 @@ void mMainForm::trRun()
     int nHeight=4000;
 
 //    qDebug() << sender()->objectName();
-    RHistorySelect *trd = new RHistorySelect(*src[0],&tp,this);
+    RHistorySelect *trd = new RHistorySelect(src,&tp,this);
 
     if(trd->exec()==QDialog::Accepted)
     {
@@ -142,3 +146,20 @@ void mMainForm::slotTrCtrl()
     p.exec();
 }
 
+void mMainForm::showReport() // показати сторінку звітів
+{
+
+    if(m_ui->sW->currentIndex()==1) // якщо кнопка повернення схована тоді
+    {
+        m_ui->sW->setCurrentIndex(0);
+        m_ui->sW->removeWidget(rep);
+        delete rep;
+    }
+    else
+    {
+        // створити та відобразити сторінку звітів... тможе треба б додати менеджер розміщення
+        rep=new  Report(this);
+        m_ui->sW->addWidget(rep);
+        m_ui->sW->setCurrentWidget(rep);
+    }
+}

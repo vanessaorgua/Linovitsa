@@ -19,7 +19,8 @@ HEADERS += mainform.h \
     dlgkfmenu.h \
     dlgkfparam.h \
     dlgvodactrl.h \
-    dlgptsctrl.h
+    dlgptsctrl.h \
+    report.h
 FORMS += mainform.ui \
     mnemo.ui \
     sparamdialog.ui \
@@ -32,7 +33,9 @@ FORMS += mainform.ui \
     dlgkfmenu.ui \
     dlgkfparam.ui \
     dlgvodactrl.ui \
-    dlgptsctrl.ui
+    dlgptsctrl.ui \
+    report.ui \
+    ../../../lib/trend/datetime.ui
 SOURCES += main.cpp \
     mainform.cpp \
     mnemo.cpp \
@@ -45,7 +48,8 @@ SOURCES += main.cpp \
     dlgkfmenu.cpp \
     dlgkfparam.cpp \
     dlgvodactrl.cpp \
-    dlgptsctrl.cpp
+    dlgptsctrl.cpp \
+    report.cpp
 RESOURCES += mnemo/mnemo.qrc \
     ../../../lib/picture.qrc \
     ../../../pict/lib/valves.qrc \

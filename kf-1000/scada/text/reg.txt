@@ -1,2 +1,2 @@
-Psusp				Xv_01	Psusp_zd			AM_01		Rev_01	KP_01	TI_01	TD_01	Xmin_01	Xmax_01						Подача суспензії
-Psusp				Xv_02	Psusp_zd			AM_02		Rev_02	KP_02	TI_02	TD_02	Xmin_02	Xmax_02						Подача води
+Psusp	Gsusp	Lsusp		Xv_01	Psusp_zd			AM_01		Name	KP_01	TI_01	TD_01	Xmin_01	Xmax_01						Подача суспензії
+Pvoda	Gvoda	Lvoda		Xv_02	Pvoda_zd			AM_02		Rev_01	KP_02	TI_02	TD_02	Xmin_02	Xmax_02						Подача води
