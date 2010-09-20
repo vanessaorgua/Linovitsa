@@ -656,7 +656,7 @@ QCheckBox:indicator
     <rect>
      <x>20</x>
      <y>99</y>
-     <width>34</width>
+     <width>40</width>
      <height>20</height>
     </rect>
    </property>
@@ -675,7 +675,7 @@ QCheckBox:indicator
     <rect>
      <x>240</x>
      <y>142</y>
-     <width>34</width>
+     <width>40</width>
      <height>20</height>
     </rect>
    </property>

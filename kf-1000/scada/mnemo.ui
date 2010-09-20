@@ -71,7 +71,7 @@
     <rect>
      <x>103</x>
      <y>40</y>
-     <width>34</width>
+     <width>40</width>
      <height>19</height>
     </rect>
    </property>
@@ -93,7 +93,7 @@
     <rect>
      <x>1100</x>
      <y>30</y>
-     <width>34</width>
+     <width>40</width>
      <height>19</height>
     </rect>
    </property>
@@ -101,7 +101,7 @@
     <string>Тиск води</string>
    </property>
    <property name="text">
-    <string>999</string>
+    <string>450</string>
    </property>
    <property name="alignment">
     <set>Qt::AlignCenter</set>
@@ -113,9 +113,9 @@
   <widget class="QLineEdit" name="le_Gsusp">
    <property name="geometry">
     <rect>
-     <x>110</x>
+     <x>106</x>
      <y>480</y>
-     <width>34</width>
+     <width>40</width>
      <height>19</height>
     </rect>
    </property>
@@ -135,8 +135,8 @@
   <widget class="QLineEdit" name="le_Gvoda">
    <property name="geometry">
     <rect>
-     <x>1120</x>
-     <y>380</y>
+     <x>1146</x>
+     <y>319</y>
      <width>40</width>
      <height>24</height>
     </rect>
@@ -1468,8 +1468,8 @@ QCheckBox:indicator
   <widget class="QLabel" name="label_37">
    <property name="geometry">
     <rect>
-     <x>1124</x>
-     <y>401</y>
+     <x>1150</x>
+     <y>340</y>
      <width>31</width>
      <height>16</height>
     </rect>
@@ -1515,7 +1515,7 @@ p, li { white-space: pre-wrap; }
   <widget class="QLabel" name="label_13">
    <property name="geometry">
     <rect>
-     <x>140</x>
+     <x>147</x>
      <y>43</y>
      <width>30</width>
      <height>16</height>
