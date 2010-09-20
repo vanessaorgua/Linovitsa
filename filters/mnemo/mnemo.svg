@@ -1028,7 +1028,7 @@
        xlink:href="#linearGradient6613"
        id="linearGradient9474"
        gradientUnits="userSpaceOnUse"
-       gradientTransform="matrix(0.04578174,0,0,1.2855616,1347.0612,373.83665)"
+       gradientTransform="matrix(0.04578174,0,0,1.2855616,1332.0612,373.83665)"
        x1="257.42029"
        y1="404.41205"
        x2="322.94861"
@@ -1047,7 +1047,7 @@
        xlink:href="#linearGradient6613"
        id="linearGradient9482"
        gradientUnits="userSpaceOnUse"
-       gradientTransform="matrix(0.04578174,0,0,0.14652835,-974.85,1258.9598)"
+       gradientTransform="matrix(0.04578174,0,0,0.03894093,-974.85,1297.5588)"
        x1="257.42029"
        y1="404.41205"
        x2="322.94861"
@@ -1057,7 +1057,7 @@
        xlink:href="#linearGradient6613"
        id="linearGradient9486"
        gradientUnits="userSpaceOnUse"
-       gradientTransform="matrix(0.04578174,0,0,0.12501087,-967.1714,1305.6082)"
+       gradientTransform="matrix(0.04578174,0,0,0.06968302,-967.1714,1315.5088)"
        x1="257.42029"
        y1="404.41205"
        x2="322.94861"
@@ -2299,14 +2299,14 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.7"
-     inkscape:cx="891.02127"
-     inkscape:cy="433.77862"
+     inkscape:zoom="0.98994949"
+     inkscape:cx="960.49992"
+     inkscape:cy="352.33644"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
      inkscape:window-width="1680"
-     inkscape:window-height="1003"
+     inkscape:window-height="1000"
      inkscape:window-x="1276"
      inkscape:window-y="-3"
      inkscape:window-maximized="1" />
@@ -2696,7 +2696,7 @@
     </g>
     <g
        id="g9252"
-       transform="matrix(-0.2992822,0,0,0.2992822,1429.5718,802.10804)">
+       transform="matrix(-0.2992822,0,0,0.2992822,1419.5718,802.10804)">
       <path
          i:knockout="Off"
          d="m 302.83302,583.50567 -23.56666,0 0,-4.00798 23.56666,0 0,4.00798 z"
@@ -3087,13 +3087,13 @@
        y="1254.4905" />
     <rect
        y="835.05524"
-       x="1358.8462"
+       x="1343.8462"
        height="117.35621"
        width="3"
        id="rect9472"
        style="fill:url(#linearGradient9474);fill-opacity:1;fill-rule:evenodd;stroke:none" />
     <path
-       transform="matrix(0.17555941,0,0,-0.20271854,1347.7177,893.96523)"
+       transform="matrix(0.17555941,0,0,-0.20271854,1332.7177,893.96523)"
        d="m 72.009698,338.35589 -28.480388,-49.32947 56.96077,-10e-6 -28.480382,49.32948 z"
        inkscape:randomized="0"
        inkscape:rounded="0"
@@ -3112,15 +3112,15 @@
        style="fill:url(#linearGradient9482);fill-opacity:1;fill-rule:evenodd;stroke:none"
        id="rect9480"
        width="3"
-       height="13.376264"
+       height="3.5548351"
        x="-963.065"
        y="1311.5295"
        transform="matrix(0,-1,1,0,0,0)" />
     <rect
        transform="matrix(0,-1,1,0,0,0)"
-       y="1350.4581"
+       y="1340.5089"
        x="-955.38641"
-       height="11.411978"
+       height="6.3612151"
        width="3"
        id="rect9484"
        style="fill:url(#linearGradient9486);fill-opacity:1;fill-rule:evenodd;stroke:none" />

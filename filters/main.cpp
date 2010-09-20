@@ -17,6 +17,7 @@ int main(int argc,char **argv)
 
     QCoreApplication::setOrganizationName("Rabitsa");
     QCoreApplication::setApplicationName("filters");
+    QApplication::setStyle(new QPlastiqueStyle);
 
     QSettings s;
     

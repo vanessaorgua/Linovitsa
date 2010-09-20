@@ -6,7 +6,7 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>1304</width>
+    <width>1290</width>
     <height>708</height>
    </rect>
   </property>
@@ -18,7 +18,7 @@
   </property>
   <property name="minimumSize">
    <size>
-    <width>1304</width>
+    <width>1290</width>
     <height>708</height>
    </size>
   </property>
@@ -69,10 +69,10 @@
   <widget class="QLineEdit" name="le_Pair">
    <property name="geometry">
     <rect>
-     <x>100</x>
+     <x>103</x>
      <y>40</y>
-     <width>41</width>
-     <height>24</height>
+     <width>34</width>
+     <height>19</height>
     </rect>
    </property>
    <property name="toolTip">
@@ -93,8 +93,8 @@
     <rect>
      <x>1100</x>
      <y>30</y>
-     <width>41</width>
-     <height>24</height>
+     <width>34</width>
+     <height>19</height>
     </rect>
    </property>
    <property name="toolTip">
@@ -115,8 +115,8 @@
     <rect>
      <x>110</x>
      <y>480</y>
-     <width>41</width>
-     <height>24</height>
+     <width>34</width>
+     <height>19</height>
     </rect>
    </property>
    <property name="toolTip">
@@ -158,9 +158,9 @@
    <property name="geometry">
     <rect>
      <x>30</x>
-     <y>590</y>
-     <width>41</width>
-     <height>24</height>
+     <y>580</y>
+     <width>34</width>
+     <height>19</height>
     </rect>
    </property>
    <property name="toolTip">
@@ -180,9 +180,9 @@
    <property name="geometry">
     <rect>
      <x>220</x>
-     <y>595</y>
-     <width>41</width>
-     <height>24</height>
+     <y>585</y>
+     <width>34</width>
+     <height>19</height>
     </rect>
    </property>
    <property name="toolTip">
@@ -202,9 +202,9 @@
    <property name="geometry">
     <rect>
      <x>1060</x>
-     <y>596</y>
-     <width>41</width>
-     <height>24</height>
+     <y>586</y>
+     <width>34</width>
+     <height>19</height>
     </rect>
    </property>
    <property name="toolTip">
@@ -223,10 +223,10 @@
   <widget class="QLineEdit" name="le_Lvoda">
    <property name="geometry">
     <rect>
-     <x>1183</x>
-     <y>598</y>
-     <width>41</width>
-     <height>24</height>
+     <x>1163</x>
+     <y>588</y>
+     <width>34</width>
+     <height>19</height>
     </rect>
    </property>
    <property name="toolTip">
@@ -246,7 +246,7 @@
    <property name="geometry">
     <rect>
      <x>65</x>
-     <y>620</y>
+     <y>610</y>
      <width>17</width>
      <height>67</height>
     </rect>
@@ -335,7 +335,7 @@
    <property name="geometry">
     <rect>
      <x>204</x>
-     <y>620</y>
+     <y>610</y>
      <width>17</width>
      <height>67</height>
     </rect>
@@ -424,7 +424,7 @@
    <property name="geometry">
     <rect>
      <x>1105</x>
-     <y>620</y>
+     <y>610</y>
      <width>17</width>
      <height>67</height>
     </rect>
@@ -512,8 +512,8 @@
   <widget class="QProgressBar" name="pb_Lvoda">
    <property name="geometry">
     <rect>
-     <x>1236</x>
-     <y>620</y>
+     <x>1216</x>
+     <y>610</y>
      <width>17</width>
      <height>67</height>
     </rect>
@@ -601,10 +601,10 @@
   <widget class="QLineEdit" name="le_Tvoda">
    <property name="geometry">
     <rect>
-     <x>1266</x>
-     <y>620</y>
-     <width>40</width>
-     <height>24</height>
+     <x>1248</x>
+     <y>610</y>
+     <width>34</width>
+     <height>19</height>
     </rect>
    </property>
    <property name="toolTip">
@@ -624,9 +624,9 @@
    <property name="geometry">
     <rect>
      <x>127</x>
-     <y>670</y>
-     <width>41</width>
-     <height>24</height>
+     <y>660</y>
+     <width>34</width>
+     <height>19</height>
     </rect>
    </property>
    <property name="toolTip">
@@ -645,10 +645,10 @@
   <widget class="QLineEdit" name="le_Npv">
    <property name="geometry">
     <rect>
-     <x>1154</x>
-     <y>670</y>
-     <width>41</width>
-     <height>24</height>
+     <x>1134</x>
+     <y>660</y>
+     <width>34</width>
+     <height>19</height>
     </rect>
    </property>
    <property name="toolTip">
@@ -667,10 +667,10 @@
   <widget class="QLineEdit" name="le_Xv_01">
    <property name="geometry">
     <rect>
-     <x>93</x>
-     <y>630</y>
-     <width>40</width>
-     <height>24</height>
+     <x>97</x>
+     <y>620</y>
+     <width>34</width>
+     <height>19</height>
     </rect>
    </property>
    <property name="text">
@@ -686,10 +686,10 @@
   <widget class="QLineEdit" name="le_Xv_02">
    <property name="geometry">
     <rect>
-     <x>1183</x>
-     <y>635</y>
-     <width>40</width>
-     <height>24</height>
+     <x>1165</x>
+     <y>625</y>
+     <width>34</width>
+     <height>19</height>
     </rect>
    </property>
    <property name="text">
@@ -705,7 +705,7 @@
   <widget class="QCheckBox" name="cb_Y_08">
    <property name="geometry">
     <rect>
-     <x>1198</x>
+     <x>1178</x>
      <y>554</y>
      <width>16</width>
      <height>16</height>
@@ -743,7 +743,7 @@ QCheckBox:indicator
   <widget class="QCheckBox" name="cb_Y_09">
    <property name="geometry">
     <rect>
-     <x>1271</x>
+     <x>1251</x>
      <y>555</y>
      <width>16</width>
      <height>16</height>
@@ -782,7 +782,7 @@ QCheckBox:indicator
    <property name="geometry">
     <rect>
      <x>320</x>
-     <y>430</y>
+     <y>420</y>
      <width>711</width>
      <height>271</height>
     </rect>
@@ -800,7 +800,7 @@ QCheckBox:indicator
      <x>190</x>
      <y>20</y>
      <width>141</width>
-     <height>24</height>
+     <height>20</height>
     </rect>
    </property>
    <property name="text">
@@ -819,7 +819,7 @@ QCheckBox:indicator
      <x>560</x>
      <y>20</y>
      <width>141</width>
-     <height>24</height>
+     <height>20</height>
     </rect>
    </property>
    <property name="text">
@@ -836,9 +836,9 @@ QCheckBox:indicator
    <property name="geometry">
     <rect>
      <x>920</x>
-     <y>10</y>
+     <y>20</y>
      <width>141</width>
-     <height>24</height>
+     <height>20</height>
     </rect>
    </property>
    <property name="text">
@@ -855,7 +855,7 @@ QCheckBox:indicator
    <property name="geometry">
     <rect>
      <x>130</x>
-     <y>640</y>
+     <y>630</y>
      <width>18</width>
      <height>20</height>
     </rect>
@@ -891,7 +891,7 @@ QCheckBox:indicator
    <property name="geometry">
     <rect>
      <x>103</x>
-     <y>657</y>
+     <y>647</y>
      <width>26</width>
      <height>30</height>
     </rect>
@@ -921,8 +921,8 @@ QPushButton:pressed
   <widget class="QCheckBox" name="cb_AM_02">
    <property name="geometry">
     <rect>
-     <x>1168</x>
-     <y>640</y>
+     <x>1148</x>
+     <y>630</y>
      <width>18</width>
      <height>20</height>
     </rect>
@@ -957,8 +957,8 @@ QCheckBox:indicator
   <widget class="QPushButton" name="cX_02">
    <property name="geometry">
     <rect>
-     <x>1189</x>
-     <y>659</y>
+     <x>1169</x>
+     <y>649</y>
      <width>26</width>
      <height>30</height>
     </rect>
@@ -988,7 +988,7 @@ QPushButton:pressed
   <widget class="QCheckBox" name="cb_AM_Tv">
    <property name="geometry">
     <rect>
-     <x>1234</x>
+     <x>1214</x>
      <y>520</y>
      <width>18</width>
      <height>20</height>
@@ -1024,7 +1024,7 @@ QCheckBox:indicator
   <widget class="QPushButton" name="bnY_08">
    <property name="geometry">
     <rect>
-     <x>1213</x>
+     <x>1193</x>
      <y>541</y>
      <width>27</width>
      <height>40</height>
@@ -1047,7 +1047,7 @@ QCheckBox:indicator
   <widget class="QPushButton" name="bnY_09">
    <property name="geometry">
     <rect>
-     <x>1246</x>
+     <x>1226</x>
      <y>542</y>
      <width>27</width>
      <height>40</height>
@@ -1070,7 +1070,7 @@ QCheckBox:indicator
   <widget class="QCheckBox" name="cc_X_02">
    <property name="geometry">
     <rect>
-     <x>1248</x>
+     <x>1228</x>
      <y>492</y>
      <width>14</width>
      <height>14</height>
@@ -1107,7 +1107,7 @@ QCheckBox:indicator
   <widget class="QCheckBox" name="cc_X_01">
    <property name="geometry">
     <rect>
-     <x>1230</x>
+     <x>1210</x>
      <y>492</y>
      <width>14</width>
      <height>14</height>
@@ -1146,7 +1146,7 @@ QCheckBox:indicator
   <widget class="QCheckBox" name="cc_X_03">
    <property name="geometry">
     <rect>
-     <x>1230</x>
+     <x>1210</x>
      <y>445</y>
      <width>14</width>
      <height>14</height>
@@ -1185,7 +1185,7 @@ QCheckBox:indicator
   <widget class="QCheckBox" name="cc_X_04">
    <property name="geometry">
     <rect>
-     <x>1248</x>
+     <x>1228</x>
      <y>445</y>
      <width>14</width>
      <height>14</height>
@@ -1222,7 +1222,7 @@ QCheckBox:indicator
   <widget class="QCheckBox" name="cc_X_06">
    <property name="geometry">
     <rect>
-     <x>1250</x>
+     <x>1230</x>
      <y>399</y>
      <width>14</width>
      <height>14</height>
@@ -1262,7 +1262,7 @@ QCheckBox:indicator
   <widget class="QCheckBox" name="cc_X_05">
    <property name="geometry">
     <rect>
-     <x>1232</x>
+     <x>1212</x>
      <y>399</y>
      <width>14</width>
      <height>14</height>
@@ -1301,7 +1301,7 @@ QCheckBox:indicator
   <widget class="QLabel" name="label">
    <property name="geometry">
     <rect>
-     <x>1190</x>
+     <x>1170</x>
      <y>470</y>
      <width>131</width>
      <height>20</height>
@@ -1319,7 +1319,7 @@ QCheckBox:indicator
   <widget class="QLabel" name="label_2">
    <property name="geometry">
     <rect>
-     <x>1190</x>
+     <x>1170</x>
      <y>424</y>
      <width>131</width>
      <height>20</height>
@@ -1337,7 +1337,7 @@ QCheckBox:indicator
   <widget class="QLabel" name="label_3">
    <property name="geometry">
     <rect>
-     <x>1190</x>
+     <x>1170</x>
      <y>379</y>
      <width>131</width>
      <height>20</height>
@@ -1355,10 +1355,10 @@ QCheckBox:indicator
   <widget class="QFrame" name="frame">
    <property name="geometry">
     <rect>
-     <x>1188</x>
-     <y>18</y>
+     <x>1174</x>
+     <y>15</y>
      <width>106</width>
-     <height>170</height>
+     <height>175</height>
     </rect>
    </property>
    <property name="frameShape">
@@ -1455,8 +1455,8 @@ QCheckBox:indicator
   <widget class="QLabel" name="label_39">
    <property name="geometry">
     <rect>
-     <x>1280</x>
-     <y>643</y>
+     <x>1260</x>
+     <y>633</y>
      <width>16</width>
      <height>16</height>
     </rect>
@@ -1529,7 +1529,7 @@ p, li { white-space: pre-wrap; }
    <property name="geometry">
     <rect>
      <x>20</x>
-     <y>690</y>
+     <y>680</y>
      <width>111</width>
      <height>16</height>
     </rect>
@@ -1542,7 +1542,7 @@ p, li { white-space: pre-wrap; }
    <property name="geometry">
     <rect>
      <x>170</x>
-     <y>690</y>
+     <y>680</y>
      <width>101</width>
      <height>16</height>
     </rect>
@@ -1555,7 +1555,7 @@ p, li { white-space: pre-wrap; }
    <property name="geometry">
     <rect>
      <x>1070</x>
-     <y>690</y>
+     <y>680</y>
      <width>71</width>
      <height>16</height>
     </rect>
@@ -1567,8 +1567,8 @@ p, li { white-space: pre-wrap; }
   <widget class="QLabel" name="label_17">
    <property name="geometry">
     <rect>
-     <x>1200</x>
-     <y>690</y>
+     <x>1180</x>
+     <y>680</y>
      <width>101</width>
      <height>16</height>
     </rect>

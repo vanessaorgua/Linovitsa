@@ -655,9 +655,9 @@ QCheckBox:indicator
    <property name="geometry">
     <rect>
      <x>20</x>
-     <y>100</y>
-     <width>41</width>
-     <height>24</height>
+     <y>99</y>
+     <width>34</width>
+     <height>20</height>
     </rect>
    </property>
    <property name="text">
@@ -674,9 +674,9 @@ QCheckBox:indicator
    <property name="geometry">
     <rect>
      <x>240</x>
-     <y>140</y>
-     <width>41</width>
-     <height>24</height>
+     <y>142</y>
+     <width>34</width>
+     <height>20</height>
     </rect>
    </property>
    <property name="text">
