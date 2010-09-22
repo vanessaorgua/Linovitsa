@@ -120,7 +120,7 @@ void SParamDialog::slotSet(QString v )
     {
         s.sendValue(QString("Fs_%1").arg((s.getAddress(tag_name[m_ui->bx_Teg->currentIndex()])-38)/2+1,2,10,QChar('0')),v.toDouble());
 
-      //  qDebug() << QString("Fs_%1").arg((s.getAddress(tag_name[m_ui->bx_Teg->currentIndex()])-38)/2+1,2,10,QChar('0'))<< v.toDouble() ;
+        qDebug() << QString("Fs_%1").arg((s.getAddress(tag_name[m_ui->bx_Teg->currentIndex()])-38)/2+1,2,10,QChar('0'))<< v.toDouble() ;
     }
 
 }
