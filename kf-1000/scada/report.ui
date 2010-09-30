@@ -141,6 +141,28 @@
      </property>
     </widget>
    </item>
+   <item row="5" column="0" colspan="8">
+    <widget class="QTableView" name="twReportAgr">
+     <property name="minimumSize">
+      <size>
+       <width>0</width>
+       <height>33</height>
+      </size>
+     </property>
+     <property name="maximumSize">
+      <size>
+       <width>16777215</width>
+       <height>33</height>
+      </size>
+     </property>
+     <attribute name="horizontalHeaderVisible">
+      <bool>false</bool>
+     </attribute>
+     <attribute name="horizontalHeaderVisible">
+      <bool>false</bool>
+     </attribute>
+    </widget>
+   </item>
   </layout>
  </widget>
  <resources/>

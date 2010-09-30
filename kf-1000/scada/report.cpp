@@ -21,7 +21,8 @@ Report::Report(QWidget *parent) :
     connect(m_ui->bnStart,SIGNAL(clicked()),this,SLOT(slotCallCalendar()));
     connect(m_ui->bnStop,SIGNAL(clicked()),this,SLOT(slotCallCalendar()));
     connect(m_ui->cbSelZm,SIGNAL(currentIndexChanged(int)),this,SLOT(slotChangeZm(int)));
-
+    connect(m_ui->sbStart,SIGNAL(dateTimeChanged(QDateTime)),this,SLOT(slotChangeDate()));
+    connect(m_ui->sbStop,SIGNAL(dateTimeChanged(QDateTime)),this,SLOT(slotChangeDate()));
 
 
     QDateTime cdt=QDateTime::currentDateTime(); // визначити поточний час
@@ -52,49 +53,85 @@ Report::Report(QWidget *parent) :
     }
 
 
-    mRepModel = new QSqlQueryModel(this);
+    //mRepModel = new QSqlQueryModel();
+    //mRepAgrModel = new QSqlQueryModel();
 
-    mRepModel->setQuery(QString("SELECT Dt,Nf,Nc,Tall,Qsusp,Tfilt,Qvs,Tvs,Qvw,tvw,Tf FROM report WHERE Dt BETWEEN \'%1\' AND \'%2\'")
+    mRepModel.setQuery(QString("SELECT Dt,Nf,Nc,Tall,Qsusp,Tfilt,Qvs,Tvs,Qvw,tvw,Tf FROM report WHERE Dt BETWEEN \'%1\' AND \'%2\'")
                         .arg(m_ui->sbStart->dateTime().toString("yyyy/MM/dd hh:mm:ss"))
                         .arg(m_ui->sbStop->dateTime().toString("yyyy/MM/dd hh:mm:ss")),dbs);
 
-    qDebug() << mRepModel->query().lastQuery();
 
-    if(mRepModel->lastError().isValid())
+    mRepAgrModel.setQuery(QString("SELECT \"%0\",\" \",count(*),avg(Tall),sum(Qsusp),avg(Tfilt),sum(Qvs),avg(Tvs),sum(Qvw),avg(tvw),avg(Tf) FROM report WHERE Dt BETWEEN \'%1\' AND \'%2\'")
+                           .arg(tr("Загалом"))
+                        .arg(m_ui->sbStart->dateTime().toString("yyyy/MM/dd hh:mm:ss"))
+                        .arg(m_ui->sbStop->dateTime().toString("yyyy/MM/dd hh:mm:ss")),dbs);
+
+    if(mRepModel.lastError().isValid())
     {
-        qDebug() << mRepModel->lastError();
+        qDebug() << mRepModel.lastError();
     }
 
-    mRepModel->setHeaderData(0,Qt::Horizontal,tr("Час та дата"));
-    mRepModel->setHeaderData(1,Qt::Horizontal,tr("№ фільтра"));
-    mRepModel->setHeaderData(2,Qt::Horizontal,tr("№ циклу"));
-    mRepModel->setHeaderData(3,Qt::Horizontal,tr("Час циклу (хв)"));
-    mRepModel->setHeaderData(4,Qt::Horizontal,tr("Q суспензії (м3)"));
-    mRepModel->setHeaderData(5,Qt::Horizontal,tr("Час фільт.(хв)"));
-    mRepModel->setHeaderData(6,Qt::Horizontal,tr("Q висол. (м3)"));
-    mRepModel->setHeaderData(7,Qt::Horizontal,tr("Час висол.(хв)"));
-    mRepModel->setHeaderData(8,Qt::Horizontal,tr("Q пром. (м3)"));
-    mRepModel->setHeaderData(9,Qt::Horizontal,tr("Час пром.(хв)"));
-    mRepModel->setHeaderData(10,Qt::Horizontal,tr("Час сушіння (хв)"));
+    mRepAgrModel.setQuery(QString("SELECT \"%0\",\" \",count(*),avg(Tall),sum(Qsusp),avg(Tfilt),sum(Qvs),avg(Tvs),sum(Qvw),avg(tvw),avg(Tf) FROM report WHERE Dt BETWEEN \'%1\' AND \'%2\'")
+                           .arg(tr("Загалом"))
+                        .arg(m_ui->sbStart->dateTime().toString("yyyy/MM/dd hh:mm:ss"))
+                        .arg(m_ui->sbStop->dateTime().toString("yyyy/MM/dd hh:mm:ss")),dbs);
+
+    if(mRepAgrModel.lastError().isValid())
+    {
+        qDebug() << mRepAgrModel.query().lastQuery();
+        qDebug() << mRepAgrModel.lastError();
+    }
 
 
-    m_ui->twReport->setModel(mRepModel);
+    mRepModel.setHeaderData(0,Qt::Horizontal,tr("Час та дата"));
+    mRepModel.setHeaderData(1,Qt::Horizontal,tr("№ фільтра"));
+    mRepModel.setHeaderData(2,Qt::Horizontal,tr("№ циклу"));
+    mRepModel.setHeaderData(3,Qt::Horizontal,tr("Час циклу (хв)"));
+    mRepModel.setHeaderData(4,Qt::Horizontal,tr("Q суспензії (м3)"));
+    mRepModel.setHeaderData(5,Qt::Horizontal,tr("Час фільт.(хв)"));
+    mRepModel.setHeaderData(6,Qt::Horizontal,tr("Q висол. (м3)"));
+    mRepModel.setHeaderData(7,Qt::Horizontal,tr("Час висол.(хв)"));
+    mRepModel.setHeaderData(8,Qt::Horizontal,tr("Q пром. (м3)"));
+    mRepModel.setHeaderData(9,Qt::Horizontal,tr("Час пром.(хв)"));
+    mRepModel.setHeaderData(10,Qt::Horizontal,tr("Час сушіння (хв)"));
 
-    m_ui->twReport->setColumnWidth(0, 180 );
-    m_ui->twReport->setColumnWidth(1 , 100 );
-    m_ui->twReport->setColumnWidth(2 , 100 );
-    m_ui->twReport->setColumnWidth(3 , 100 );
-    m_ui->twReport->setColumnWidth(4 , 100 );
-    m_ui->twReport->setColumnWidth(5 , 100 );
-    m_ui->twReport->setColumnWidth(6 , 100 );
-    m_ui->twReport->setColumnWidth(7 , 100 );
-    m_ui->twReport->setColumnWidth(8 , 100 );
-    m_ui->twReport->setColumnWidth(9 , 100 );
-    m_ui->twReport->setColumnWidth(10 , 100 );
+
+    m_ui->twReport->setModel(&mRepModel);
+
+    m_ui->twReport->setColumnWidth(0, 160 );
+    m_ui->twReport->setColumnWidth(1 , 105 );
+    m_ui->twReport->setColumnWidth(2 , 105 );
+    m_ui->twReport->setColumnWidth(3 , 105 );
+    m_ui->twReport->setColumnWidth(4 , 105 );
+    m_ui->twReport->setColumnWidth(5 , 105 );
+    m_ui->twReport->setColumnWidth(6 , 105 );
+    m_ui->twReport->setColumnWidth(7 , 105 );
+    m_ui->twReport->setColumnWidth(8 , 105 );
+    m_ui->twReport->setColumnWidth(9 , 105 );
+    m_ui->twReport->setColumnWidth(10 , 105 );
+
+    m_ui->twReportAgr->setModel(&mRepAgrModel);
+
+
+    m_ui->twReportAgr->setColumnWidth(0, 166 );
+    m_ui->twReportAgr->setColumnWidth(1 , 105 );
+    m_ui->twReportAgr->setColumnWidth(2 , 105 );
+    m_ui->twReportAgr->setColumnWidth(3 , 105 );
+    m_ui->twReportAgr->setColumnWidth(4 , 105 );
+    m_ui->twReportAgr->setColumnWidth(5 , 105 );
+    m_ui->twReportAgr->setColumnWidth(6 , 105 );
+    m_ui->twReportAgr->setColumnWidth(7 , 105 );
+    m_ui->twReportAgr->setColumnWidth(8 , 105 );
+    m_ui->twReportAgr->setColumnWidth(9 , 105 );
+    m_ui->twReportAgr->setColumnWidth(10 , 105 );
+
 }
 
 Report::~Report()
 {
+    //delete mRepModel;
+    //delete mRepAgrModel;
+
     {
         QSqlDatabase dbs=QSqlDatabase::database("report");
         dbs.close();
@@ -122,22 +159,36 @@ void  Report::slotChangeCfN(int v)
     {
         if(v==0)
         {
-            mRepModel->setQuery(QString("SELECT Dt,Nf,Nc,Tall,Qsusp,Tfilt,Qvs,Tvs,Qvw,tvw,Tf FROM report WHERE Dt BETWEEN \'%1\' AND \'%2\'")
+            mRepModel.setQuery(QString("SELECT Dt,Nf,Nc,Tall,Qsusp,Tfilt,Qvs,Tvs,Qvw,tvw,Tf FROM report WHERE Dt BETWEEN \'%1\' AND \'%2\'")
                             .arg(m_ui->sbStart->dateTime().toString("yyyy/MM/dd hh:mm:ss"))
                             .arg(m_ui->sbStop->dateTime().toString("yyyy/MM/dd hh:mm:ss")),dbs);
+
+            mRepAgrModel.setQuery(QString("SELECT \"%0\",\" \",count(*),avg(Tall),sum(Qsusp),avg(Tfilt),sum(Qvs),avg(Tvs),sum(Qvw),avg(tvw),avg(Tf) FROM report WHERE Dt BETWEEN \'%1\' AND \'%2\'")
+                                   .arg(tr("Загалом"))
+                                .arg(m_ui->sbStart->dateTime().toString("yyyy/MM/dd hh:mm:ss"))
+                                .arg(m_ui->sbStop->dateTime().toString("yyyy/MM/dd hh:mm:ss")),dbs);
+
         }
         else
         {
-            mRepModel->setQuery(QString("Dt,Nf,Nc,Tall,Qsusp,Tfilt,Qvs,Tvs,Qvw,tvw,Tf FROM report WHERE cft BETWEEN \'%1\' AND \'%2\' and Nf=%3")
+            mRepModel.setQuery(QString("SELECT Dt,Nf,Nc,Tall,Qsusp,Tfilt,Qvs,Tvs,Qvw,tvw,Tf FROM report WHERE Dt BETWEEN \'%1\' AND \'%2\' and Nf=\'%3\'")
                         .arg(m_ui->sbStart->dateTime().toString("yyyy/MM/dd hh:mm:ss"))
                         .arg(m_ui->sbStop->dateTime().toString("yyyy/MM/dd hh:mm:ss"))
                         .arg(v),dbs);
+
+            mRepAgrModel.setQuery(QString("SELECT \"%0\",\" \",count(*),avg(Tall),sum(Qsusp),avg(Tfilt),sum(Qvs),avg(Tvs),sum(Qvw),avg(tvw),avg(Tf) FROM report WHERE Dt BETWEEN \'%1\' AND \'%2\'  and Nf=\'%3\'")
+                                   .arg(tr("Загалом"))
+                                .arg(m_ui->sbStart->dateTime().toString("yyyy/MM/dd hh:mm:ss"))
+                                .arg(m_ui->sbStop->dateTime().toString("yyyy/MM/dd hh:mm:ss"))
+                                .arg(v),dbs);
+
         }
     }
     else
     {
         qDebug() << dbs.lastError().databaseText();
     }
+    //qDebug() << mRepModel->query().lastQuery();
 }
 
 void Report::slotCallCalendar()
@@ -173,7 +224,7 @@ void Report::slotChangeZm(int v)
     }
     else
     {
-        m_ui->sbStart->setDate(QDate(cdt.date().year(),cdt.date().month(),cdt.date().day() -(cdt.time().hour()>=0 ?-1:0)));
+        m_ui->sbStart->setDate(QDate(cdt.date().year(),cdt.date().month(),cdt.date().day()).addDays(cdt.time().hour()>19?0:-1));
         m_ui->sbStart->setTime(QTime(20,0,0,0));
     }
     m_ui->sbStop->setDateTime(m_ui->sbStart->dateTime().addSecs(12*3600));
@@ -192,5 +243,11 @@ void Report::slotChangeZm(int v)
             break;
     }
 
+
+    slotChangeCfN(m_ui->cf_no->currentIndex());
+}
+
+void Report::slotChangeDate()
+{
     slotChangeCfN(m_ui->cf_no->currentIndex());
 }

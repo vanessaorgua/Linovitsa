@@ -75,6 +75,7 @@ void KfPanel::changeEvent(QEvent *e)
 void KfPanel::updateDataRaw()
 {
     kfo->updateData(*src[Nf]);
+    kfu->updateData(*src[Nf]);
 
     ui->le_Nc->setText(QString("%1").arg(src[Nf]->getValue32("Nc")));
     ui->le_Nf->setText(QString("%1").arg(src[Nf]->getValue32("Nf")));
@@ -83,6 +84,13 @@ void KfPanel::updateDataRaw()
         int i =src[Nf]->getValue16("State")+1;
         if(i>-1 && i<tState.size())
             ui->le_State->setText(tState[i]);
+        else if(i==64)
+            ui->le_State->setText(tr("Мало суспензії для пуску"));
+        else if(i==32)
+            ui->le_State->setText(tr("Не запустилися транспортери"));
+        else
+            ui->le_State->setText(tr(""));
+
     }
 
     ui->le_Tall->setText(QString("%1").arg((double)src[Nf]->getValue32("Tall")/60000.0,4,'f',1));
@@ -117,7 +125,22 @@ void KfPanel::slotAlarm()
 
 void KfPanel::slotStart()
 {
-    src[Nf]->sendValue("State", qint16(1));
+    switch(src[Nf]->getValue16("State"))
+    {
+    case 0: // Запит на запуск фільтра в роботу
+        src[Nf]->sendValue("State", qint16(1));
+        break;
+
+    case 64: // Запит на запуск фільтра в роботу при малому рівні суспензії
+        src[Nf]->sendValue("State", qint16(4));
+        break;
+
+    case 32: // Запит на запуск вивантаження без запущеної ПТС
+        src[Nf]->sendValue("State", qint16(11));
+        break;
+    default:
+        break;
+    }
 }
 
 void KfPanel::slotMenu()

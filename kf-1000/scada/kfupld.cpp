@@ -57,5 +57,5 @@ void KfUpld::updateData(IoDev &src)
     }
     ui->cb_Y_1->setChecked(src.getValue16("Y_pump")!=0 && src.getValue16("Y_zol")==0);
     ui->cb_Y_2->setChecked(src.getValue16("Y_pump")!=0 && src.getValue16("Y_zol")!=0);
-
+    ui->pb_Rc->setValue(src.getValue16("Rc"));
 }

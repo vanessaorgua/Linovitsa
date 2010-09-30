@@ -2,8 +2,9 @@
 #define REPORT_H
 
 #include <QtGui/QWidget>
+#include <QSqlQueryModel>
 
-class QSqlQueryModel;
+//class QSqlQueryModel;
 
 namespace Ui {
     class Report;
@@ -18,13 +19,15 @@ public slots:
        void slotChangeCfN(int);
        void slotCallCalendar();
        void slotChangeZm(int);
+       void slotChangeDate();
 
 protected:
     void changeEvent(QEvent *e);
 
 private:
     Ui::Report *m_ui;
-    QSqlQueryModel *mRepModel;
+    //QSqlQueryModel *mRepModel,*mRepAgrModel;
+    QSqlQueryModel mRepModel,mRepAgrModel;
 
 };
 

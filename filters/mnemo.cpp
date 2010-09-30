@@ -22,6 +22,10 @@ Mnemo::Mnemo(IoNetClient &src, QWidget *p) : QLabel(p), m_ui(new Ui::mnemo),s(sr
     vbl1->addWidget(trc);
     m_ui->Trend->setLayout(vbl1);
 
+    QVector<QColor> clr;
+    clr << QColor(255,24,237) << QColor(66,168,255)<< QColor(255,39,0)<< QColor(100,255,0)<< QColor(Qt::yellow)<< QColor(90,0,113)<< QColor(0,9,137)<< QColor(0,89,0);
+    trc->setColor(clr);
+
     connect(&s,SIGNAL(updateDataRaw()),this,SLOT(updateDataRaw())); // при отриманні нових даних, засвітити їх на картинці
     connect(&s,SIGNAL(updateDataScaled()),this,SLOT(updateDataScaled())); // при отриманні нових даних, засвітити їх на картинці
 

@@ -158,7 +158,7 @@ void mMainForm::showReport() // показати сторінку звітів
     else
     {
         // створити та відобразити сторінку звітів... тможе треба б додати менеджер розміщення
-        rep=new  Report(this);
+        rep=new  Report();
         m_ui->sW->addWidget(rep);
         m_ui->sW->setCurrentWidget(rep);
     }
