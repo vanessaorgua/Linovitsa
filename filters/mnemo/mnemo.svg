@@ -16,7 +16,7 @@
    height="708"
    id="svg4130"
    version="1.1"
-   inkscape:version="0.47 r22583"
+   inkscape:version="0.48.1 r9760"
    sodipodi:docname="mnemo.svg">
   <defs
      id="defs4132">
@@ -2306,15 +2306,15 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.98994949"
-     inkscape:cx="960.49992"
-     inkscape:cy="635.17915"
+     inkscape:zoom="1.979899"
+     inkscape:cx="217.32143"
+     inkscape:cy="231.51846"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
-     inkscape:window-width="993"
-     inkscape:window-height="580"
-     inkscape:window-x="-4"
+     inkscape:window-width="1680"
+     inkscape:window-height="999"
+     inkscape:window-x="1276"
      inkscape:window-y="-3"
      inkscape:window-maximized="1" />
   <metadata
@@ -2364,7 +2364,7 @@
        inkscape:flatsided="true"
        inkscape:rounded="0"
        inkscape:randomized="0"
-       d="m 72.009698,338.35589 -28.480388,-49.32947 56.96077,-10e-6 -28.480382,49.32948 z"
+       d="m 72.009698,338.35589 -28.480388,-49.32947 56.96077,-10e-6 z"
        transform="matrix(0,-0.17555941,0.20271854,0,137.67424,424.47835)" />
     <rect
        style="fill:url(#linearGradient9418);fill-opacity:1;fill-rule:evenodd;stroke:none"
@@ -2387,11 +2387,11 @@
        inkscape:flatsided="true"
        inkscape:rounded="0"
        inkscape:randomized="0"
-       d="m 72.009698,338.35589 -28.480388,-49.32947 56.96077,-10e-6 -28.480382,49.32948 z"
+       d="m 72.009698,338.35589 -28.480388,-49.32947 56.96077,-10e-6 z"
        transform="matrix(0.17555941,0,0,0.20271854,1276.9152,837.82039)" />
     <path
        transform="matrix(0.17555941,0,0,0.20271854,240.7466,837.94204)"
-       d="m 72.009698,338.35589 -28.480388,-49.32947 56.96077,-10e-6 -28.480382,49.32948 z"
+       d="m 72.009698,338.35589 -28.480388,-49.32947 56.96077,-10e-6 z"
        inkscape:randomized="0"
        inkscape:rounded="0"
        inkscape:flatsided="true"
@@ -2419,7 +2419,7 @@
        inkscape:flatsided="true"
        inkscape:rounded="0"
        inkscape:randomized="0"
-       d="m 72.009698,338.35589 -28.480388,-49.32947 56.96077,-10e-6 -28.480382,49.32948 z"
+       d="m 72.009698,338.35589 -28.480388,-49.32947 56.96077,-10e-6 z"
        transform="matrix(0.17555941,0,0,0.20271854,1166.4364,838.43179)" />
     <rect
        style="fill:url(#linearGradient5265);fill-opacity:1;fill-rule:evenodd;stroke:none"
@@ -2552,80 +2552,6 @@
          id="path13543"
          d="m 316.32105,532.50966 c 0,1.90995 -1.32792,3.45754 -2.96675,3.45754 -1.63883,0 -2.96675,-1.54759 -2.96675,-3.45754 0,-1.90995 1.32792,-3.45755 2.96675,-3.45755 1.63883,0 2.96675,1.5476 2.96675,3.45755 z"
          i:knockout="Off" />
-    </g>
-    <g
-       id="g9180"
-       transform="matrix(0.2992822,0,0,0.2992822,120.05135,802.10804)">
-      <path
-         i:knockout="Off"
-         d="m 302.83302,583.50567 -23.56666,0 0,-4.00798 23.56666,0 0,4.00798 z"
-         id="path9182"
-         style="fill:#7f7f7f;stroke:#000000;stroke-width:2.1402936" />
-      <path
-         i:knockout="Off"
-         d="m 347.9276,583.50567 -23.56666,0 0,-4.00798 23.56666,0 0,4.00798 z"
-         id="path9184"
-         style="fill:#7f7f7f;stroke:#000000;stroke-width:2.1402936" />
-      <path
-         i:knockout="Off"
-         d="m 304.10754,574.30169 -12.73922,-9.6507 -4.57235,14.90064 16.03705,-0.0553 1.27452,-5.19461 z"
-         id="path9186"
-         style="fill:#7f7f7f;stroke:#000000;stroke-width:2.1402936" />
-      <path
-         i:knockout="Off"
-         d="m 323.0888,574.18552 12.73922,-9.6507 4.57235,14.90063 -16.03706,-0.0553 -1.27451,-5.19461 z"
-         id="path9188"
-         style="fill:#7f7f7f;stroke:#000000;stroke-width:2.1402936" />
-      <path
-         i:knockout="Off"
-         d="m 348.51027,533.2883 c 0,23.34395 -15.5066,42.26917 -34.63738,42.26917 -19.13078,0 -34.63739,-18.92383 -34.63739,-42.26917 0,-23.34534 15.50661,-42.26918 34.63739,-42.26918 19.13078,0 34.63738,18.92384 34.63738,42.26918 z"
-         id="path9190"
-         style="fill:url(#radialGradient9210);stroke:#000000;stroke-width:2.1402936" />
-      <path
-         i:knockout="Off"
-         d="m 314.04615,492.17118 0.0985,1.15205 0.79153,1.61398 0.69185,2.42028 1.58187,5.64687 -43.70971,20.32759 0,-32.31283 40.37271,0 0.17326,1.15206 z"
-         id="path9192"
-         style="fill:url(#linearGradient9212)" />
-      <path
-         i:knockout="Off"
-         d="m 273.53697,526.97759 -8.54067,0 0,-40.10752 8.54067,0 0,40.10752 z"
-         id="path9194"
-         style="fill:url(#linearGradient9214);stroke:#000000;stroke-width:2.1402936" />
-      <path
-         i:knockout="Off"
-         d="m 328.78139,533.37404 c 0,9.64379 -6.90659,17.4606 -15.42709,17.4606 -8.5205,0 -15.42709,-7.81681 -15.42709,-17.4606 0,-9.64378 6.90659,-17.4606 15.42709,-17.4606 8.5205,0 15.42709,7.81682 15.42709,17.4606 z"
-         id="path9196"
-         style="fill:none;stroke:#000000;stroke-width:2.1402936" />
-      <path
-         i:knockout="Off"
-         d="m 297.92721,537.00447 29.96416,-8.64387"
-         id="path9198"
-         style="fill:none;stroke:#000000;stroke-width:2.1402936" />
-      <path
-         i:knockout="Off"
-         d="m 300.00393,524.55731 27.88744,15.55895"
-         id="path9200"
-         style="fill:none;stroke:#000000;stroke-width:2.1402936" />
-      <path
-         i:knockout="Off"
-         d="M 302.97068,545.99408 322.8479,520.0625"
-         id="path9202"
-         style="fill:none;stroke:#000000;stroke-width:2.1402936" />
-      <path
-         i:knockout="Off"
-         d="m 310.09088,550.14313 5.93349,-34.22969"
-         id="path9204"
-         style="fill:none;stroke:#000000;stroke-width:2.1402936" />
-      <path
-         i:knockout="Off"
-         d="M 319.88115,549.45163 307.12413,516.95071"
-         id="path9206"
-         style="fill:none;stroke:#000000;stroke-width:2.1402936" />
-      <path
-         i:knockout="Off"
-         d="m 316.32105,532.50966 c 0,1.90995 -1.32792,3.45754 -2.96675,3.45754 -1.63883,0 -2.96675,-1.54759 -2.96675,-3.45754 0,-1.90995 1.32792,-3.45755 2.96675,-3.45755 1.63883,0 2.96675,1.5476 2.96675,3.45755 z"
-         id="path9208"
-         style="fill:#ffffff" />
     </g>
     <g
        transform="matrix(-0.2992822,0,0,0.2992822,1333.6073,802.10804)"
@@ -2818,7 +2744,7 @@
        y="-896.75574" />
     <path
        transform="matrix(0.17555941,0,0,0.20271854,136.44494,838.26935)"
-       d="m 72.009698,338.35589 -28.480388,-49.32947 56.96077,-10e-6 -28.480382,49.32948 z"
+       d="m 72.009698,338.35589 -28.480388,-49.32947 56.96077,-10e-6 z"
        inkscape:randomized="0"
        inkscape:rounded="0"
        inkscape:flatsided="true"
@@ -2846,7 +2772,7 @@
        inkscape:flatsided="true"
        inkscape:rounded="0"
        inkscape:randomized="0"
-       d="m 72.009698,338.35589 -28.480388,-49.32947 56.96077,-10e-6 -28.480382,49.32948 z"
+       d="m 72.009698,338.35589 -28.480388,-49.32947 56.96077,-10e-6 z"
        transform="matrix(0,-0.17555941,0.20271854,0,137.67424,449.56185)" />
     <rect
        style="fill:url(#linearGradient9390);fill-opacity:1;fill-rule:evenodd;stroke:none"
@@ -2915,7 +2841,7 @@
          y="-144.9946" />
       <path
          transform="matrix(0,-0.17555941,0.20271854,0,86.508214,666.48335)"
-         d="m 72.009698,338.35589 -28.480388,-49.32947 56.96077,-10e-6 -28.480382,49.32948 z"
+         d="m 72.009698,338.35589 -28.480388,-49.32947 56.96077,-10e-6 z"
          inkscape:randomized="0"
          inkscape:rounded="0"
          inkscape:flatsided="true"
@@ -2939,7 +2865,7 @@
          style="fill:url(#linearGradient10016);fill-opacity:1;fill-rule:evenodd;stroke:none" />
       <path
          transform="matrix(0,-0.17555941,0.20271854,0,173.57465,662.13746)"
-         d="m 72.009698,338.35589 -28.480388,-49.32947 56.96077,-10e-6 -28.480382,49.32948 z"
+         d="m 72.009698,338.35589 -28.480388,-49.32947 56.96077,-10e-6 z"
          inkscape:randomized="0"
          inkscape:rounded="0"
          inkscape:flatsided="true"
@@ -2974,7 +2900,7 @@
          inkscape:flatsided="true"
          inkscape:rounded="0"
          inkscape:randomized="0"
-         d="m 72.009698,338.35589 -28.480388,-49.32947 56.96077,-10e-6 -28.480382,49.32948 z"
+         d="m 72.009698,338.35589 -28.480388,-49.32947 56.96077,-10e-6 z"
          transform="matrix(0.17555941,0,0,0.20271854,124.72719,686.78632)" />
       <rect
          y="699.64478"
@@ -2985,7 +2911,7 @@
          style="fill:url(#linearGradient10008);fill-opacity:1;fill-rule:evenodd;stroke:none" />
       <path
          transform="matrix(0.17555941,0,0,0.20271854,174.23305,686.53378)"
-         d="m 72.009698,338.35589 -28.480388,-49.32947 56.96077,-10e-6 -28.480382,49.32948 z"
+         d="m 72.009698,338.35589 -28.480388,-49.32947 56.96077,-10e-6 z"
          inkscape:randomized="0"
          inkscape:rounded="0"
          inkscape:flatsided="true"
@@ -3055,7 +2981,7 @@
     </g>
     <path
        transform="matrix(0.17555941,0,0,-0.20271854,1245.9859,893.89294)"
-       d="m 72.009698,338.35589 -28.480388,-49.32947 56.96077,-10e-6 -28.480382,49.32948 z"
+       d="m 72.009698,338.35589 -28.480388,-49.32947 56.96077,-10e-6 z"
        inkscape:randomized="0"
        inkscape:rounded="0"
        inkscape:flatsided="true"
@@ -3101,7 +3027,7 @@
        style="fill:url(#linearGradient9474);fill-opacity:1;fill-rule:evenodd;stroke:none" />
     <path
        transform="matrix(0.17555941,0,0,-0.20271854,1332.7177,893.96523)"
-       d="m 72.009698,338.35589 -28.480388,-49.32947 56.96077,-10e-6 -28.480382,49.32948 z"
+       d="m 72.009698,338.35589 -28.480388,-49.32947 56.96077,-10e-6 z"
        inkscape:randomized="0"
        inkscape:rounded="0"
        inkscape:flatsided="true"
@@ -3231,7 +3157,7 @@
          inkscape:flatsided="true"
          inkscape:rounded="0"
          inkscape:randomized="0"
-         d="m 72.009698,338.35589 -28.480388,-49.32947 56.96077,-10e-6 -28.480382,49.32948 z"
+         d="m 72.009698,338.35589 -28.480388,-49.32947 56.96077,-10e-6 z"
          transform="matrix(0,-0.17555941,0.20271854,0,86.508214,666.48335)" />
       <rect
          style="fill:url(#linearGradient3406);fill-opacity:1;fill-rule:evenodd;stroke:none"
@@ -3255,7 +3181,7 @@
          inkscape:flatsided="true"
          inkscape:rounded="0"
          inkscape:randomized="0"
-         d="m 72.009698,338.35589 -28.480388,-49.32947 56.96077,-10e-6 -28.480382,49.32948 z"
+         d="m 72.009698,338.35589 -28.480388,-49.32947 56.96077,-10e-6 z"
          transform="matrix(0,-0.17555941,0.20271854,0,173.57465,662.13746)" />
       <rect
          y="679.10901"
@@ -3266,7 +3192,7 @@
          style="fill:url(#linearGradient3410);fill-opacity:1;fill-rule:evenodd;stroke:none" />
       <path
          transform="matrix(0.17555941,0,0,0.20271854,124.72719,686.78632)"
-         d="m 72.009698,338.35589 -28.480388,-49.32947 56.96077,-10e-6 -28.480382,49.32948 z"
+         d="m 72.009698,338.35589 -28.480388,-49.32947 56.96077,-10e-6 z"
          inkscape:randomized="0"
          inkscape:rounded="0"
          inkscape:flatsided="true"
@@ -3301,7 +3227,7 @@
          inkscape:flatsided="true"
          inkscape:rounded="0"
          inkscape:randomized="0"
-         d="m 72.009698,338.35589 -28.480388,-49.32947 56.96077,-10e-6 -28.480382,49.32948 z"
+         d="m 72.009698,338.35589 -28.480388,-49.32947 56.96077,-10e-6 z"
          transform="matrix(0.17555941,0,0,0.20271854,174.23305,686.53378)" />
       <rect
          style="fill:url(#linearGradient3418);fill-opacity:1;fill-rule:evenodd;stroke:none"
@@ -3385,7 +3311,7 @@
          y="-144.9946" />
       <path
          transform="matrix(0,-0.17555941,0.20271854,0,86.508214,666.48335)"
-         d="m 72.009698,338.35589 -28.480388,-49.32947 56.96077,-10e-6 -28.480382,49.32948 z"
+         d="m 72.009698,338.35589 -28.480388,-49.32947 56.96077,-10e-6 z"
          inkscape:randomized="0"
          inkscape:rounded="0"
          inkscape:flatsided="true"
@@ -3409,7 +3335,7 @@
          style="fill:url(#linearGradient3474);fill-opacity:1;fill-rule:evenodd;stroke:none" />
       <path
          transform="matrix(0,-0.17555941,0.20271854,0,173.57465,662.13746)"
-         d="m 72.009698,338.35589 -28.480388,-49.32947 56.96077,-10e-6 -28.480382,49.32948 z"
+         d="m 72.009698,338.35589 -28.480388,-49.32947 56.96077,-10e-6 z"
          inkscape:randomized="0"
          inkscape:rounded="0"
          inkscape:flatsided="true"
@@ -3444,7 +3370,7 @@
          inkscape:flatsided="true"
          inkscape:rounded="0"
          inkscape:randomized="0"
-         d="m 72.009698,338.35589 -28.480388,-49.32947 56.96077,-10e-6 -28.480382,49.32948 z"
+         d="m 72.009698,338.35589 -28.480388,-49.32947 56.96077,-10e-6 z"
          transform="matrix(0.17555941,0,0,0.20271854,124.72719,686.78632)" />
       <rect
          y="699.64478"
@@ -3455,7 +3381,7 @@
          style="fill:url(#linearGradient3482);fill-opacity:1;fill-rule:evenodd;stroke:none" />
       <path
          transform="matrix(0.17555941,0,0,0.20271854,174.23305,686.53378)"
-         d="m 72.009698,338.35589 -28.480388,-49.32947 56.96077,-10e-6 -28.480382,49.32948 z"
+         d="m 72.009698,338.35589 -28.480388,-49.32947 56.96077,-10e-6 z"
          inkscape:randomized="0"
          inkscape:rounded="0"
          inkscape:flatsided="true"
@@ -3563,7 +3489,7 @@
          inkscape:flatsided="true"
          inkscape:rounded="0"
          inkscape:randomized="0"
-         d="m 72.009698,338.35589 -28.480388,-49.32947 56.96077,-10e-6 -28.480382,49.32948 z"
+         d="m 72.009698,338.35589 -28.480388,-49.32947 56.96077,-10e-6 z"
          transform="matrix(0,-0.17555941,0.20271854,0,86.508214,666.48335)" />
       <rect
          style="fill:url(#linearGradient3542);fill-opacity:1;fill-rule:evenodd;stroke:none"
@@ -3587,7 +3513,7 @@
          inkscape:flatsided="true"
          inkscape:rounded="0"
          inkscape:randomized="0"
-         d="m 72.009698,338.35589 -28.480388,-49.32947 56.96077,-10e-6 -28.480382,49.32948 z"
+         d="m 72.009698,338.35589 -28.480388,-49.32947 56.96077,-10e-6 z"
          transform="matrix(0,-0.17555941,0.20271854,0,173.57465,662.13746)" />
       <rect
          y="679.10901"
@@ -3598,7 +3524,7 @@
          style="fill:url(#linearGradient3546);fill-opacity:1;fill-rule:evenodd;stroke:none" />
       <path
          transform="matrix(0.17555941,0,0,0.20271854,124.72719,686.78632)"
-         d="m 72.009698,338.35589 -28.480388,-49.32947 56.96077,-10e-6 -28.480382,49.32948 z"
+         d="m 72.009698,338.35589 -28.480388,-49.32947 56.96077,-10e-6 z"
          inkscape:randomized="0"
          inkscape:rounded="0"
          inkscape:flatsided="true"
@@ -3633,7 +3559,7 @@
          inkscape:flatsided="true"
          inkscape:rounded="0"
          inkscape:randomized="0"
-         d="m 72.009698,338.35589 -28.480388,-49.32947 56.96077,-10e-6 -28.480382,49.32948 z"
+         d="m 72.009698,338.35589 -28.480388,-49.32947 56.96077,-10e-6 z"
          transform="matrix(0.17555941,0,0,0.20271854,174.23305,686.53378)" />
       <rect
          style="fill:url(#linearGradient3554);fill-opacity:1;fill-rule:evenodd;stroke:none"
@@ -3729,7 +3655,7 @@
          inkscape:flatsided="true"
          inkscape:rounded="0"
          inkscape:randomized="0"
-         d="m 72.009698,338.35589 -28.480388,-49.32947 56.96077,-10e-6 -28.480382,49.32948 z"
+         d="m 72.009698,338.35589 -28.480388,-49.32947 56.96077,-10e-6 z"
          transform="matrix(0,-0.17555941,0.20271854,0,86.508214,666.48335)" />
       <rect
          style="fill:url(#linearGradient3718);fill-opacity:1;fill-rule:evenodd;stroke:none"
@@ -3753,7 +3679,7 @@
          inkscape:flatsided="true"
          inkscape:rounded="0"
          inkscape:randomized="0"
-         d="m 72.009698,338.35589 -28.480388,-49.32947 56.96077,-10e-6 -28.480382,49.32948 z"
+         d="m 72.009698,338.35589 -28.480388,-49.32947 56.96077,-10e-6 z"
          transform="matrix(0,-0.17555941,0.20271854,0,173.57465,662.13746)" />
       <rect
          y="679.10901"
@@ -3764,7 +3690,7 @@
          style="fill:url(#linearGradient3722);fill-opacity:1;fill-rule:evenodd;stroke:none" />
       <path
          transform="matrix(0.17555941,0,0,0.20271854,124.72719,686.78632)"
-         d="m 72.009698,338.35589 -28.480388,-49.32947 56.96077,-10e-6 -28.480382,49.32948 z"
+         d="m 72.009698,338.35589 -28.480388,-49.32947 56.96077,-10e-6 z"
          inkscape:randomized="0"
          inkscape:rounded="0"
          inkscape:flatsided="true"
@@ -3799,7 +3725,7 @@
          inkscape:flatsided="true"
          inkscape:rounded="0"
          inkscape:randomized="0"
-         d="m 72.009698,338.35589 -28.480388,-49.32947 56.96077,-10e-6 -28.480382,49.32948 z"
+         d="m 72.009698,338.35589 -28.480388,-49.32947 56.96077,-10e-6 z"
          transform="matrix(0.17555941,0,0,0.20271854,174.23305,686.53378)" />
       <rect
          style="fill:url(#linearGradient3730);fill-opacity:1;fill-rule:evenodd;stroke:none"
@@ -3883,7 +3809,7 @@
          y="-144.9946" />
       <path
          transform="matrix(0,-0.17555941,0.20271854,0,86.508214,666.48335)"
-         d="m 72.009698,338.35589 -28.480388,-49.32947 56.96077,-10e-6 -28.480382,49.32948 z"
+         d="m 72.009698,338.35589 -28.480388,-49.32947 56.96077,-10e-6 z"
          inkscape:randomized="0"
          inkscape:rounded="0"
          inkscape:flatsided="true"
@@ -3907,7 +3833,7 @@
          style="fill:url(#linearGradient3750);fill-opacity:1;fill-rule:evenodd;stroke:none" />
       <path
          transform="matrix(0,-0.17555941,0.20271854,0,173.57465,662.13746)"
-         d="m 72.009698,338.35589 -28.480388,-49.32947 56.96077,-10e-6 -28.480382,49.32948 z"
+         d="m 72.009698,338.35589 -28.480388,-49.32947 56.96077,-10e-6 z"
          inkscape:randomized="0"
          inkscape:rounded="0"
          inkscape:flatsided="true"
@@ -3942,7 +3868,7 @@
          inkscape:flatsided="true"
          inkscape:rounded="0"
          inkscape:randomized="0"
-         d="m 72.009698,338.35589 -28.480388,-49.32947 56.96077,-10e-6 -28.480382,49.32948 z"
+         d="m 72.009698,338.35589 -28.480388,-49.32947 56.96077,-10e-6 z"
          transform="matrix(0.17555941,0,0,0.20271854,124.72719,686.78632)" />
       <rect
          y="699.64478"
@@ -3953,7 +3879,7 @@
          style="fill:url(#linearGradient3758);fill-opacity:1;fill-rule:evenodd;stroke:none" />
       <path
          transform="matrix(0.17555941,0,0,0.20271854,174.23305,686.53378)"
-         d="m 72.009698,338.35589 -28.480388,-49.32947 56.96077,-10e-6 -28.480382,49.32948 z"
+         d="m 72.009698,338.35589 -28.480388,-49.32947 56.96077,-10e-6 z"
          inkscape:randomized="0"
          inkscape:rounded="0"
          inkscape:flatsided="true"
@@ -4061,7 +3987,7 @@
          inkscape:flatsided="true"
          inkscape:rounded="0"
          inkscape:randomized="0"
-         d="m 72.009698,338.35589 -28.480388,-49.32947 56.96077,-10e-6 -28.480382,49.32948 z"
+         d="m 72.009698,338.35589 -28.480388,-49.32947 56.96077,-10e-6 z"
          transform="matrix(0,-0.17555941,0.20271854,0,86.508214,666.48335)" />
       <rect
          style="fill:url(#linearGradient3782);fill-opacity:1;fill-rule:evenodd;stroke:none"
@@ -4085,7 +4011,7 @@
          inkscape:flatsided="true"
          inkscape:rounded="0"
          inkscape:randomized="0"
-         d="m 72.009698,338.35589 -28.480388,-49.32947 56.96077,-10e-6 -28.480382,49.32948 z"
+         d="m 72.009698,338.35589 -28.480388,-49.32947 56.96077,-10e-6 z"
          transform="matrix(0,-0.17555941,0.20271854,0,173.57465,662.13746)" />
       <rect
          y="679.10901"
@@ -4096,7 +4022,7 @@
          style="fill:url(#linearGradient3786);fill-opacity:1;fill-rule:evenodd;stroke:none" />
       <path
          transform="matrix(0.17555941,0,0,0.20271854,124.72719,686.78632)"
-         d="m 72.009698,338.35589 -28.480388,-49.32947 56.96077,-10e-6 -28.480382,49.32948 z"
+         d="m 72.009698,338.35589 -28.480388,-49.32947 56.96077,-10e-6 z"
          inkscape:randomized="0"
          inkscape:rounded="0"
          inkscape:flatsided="true"
@@ -4131,7 +4057,7 @@
          inkscape:flatsided="true"
          inkscape:rounded="0"
          inkscape:randomized="0"
-         d="m 72.009698,338.35589 -28.480388,-49.32947 56.96077,-10e-6 -28.480382,49.32948 z"
+         d="m 72.009698,338.35589 -28.480388,-49.32947 56.96077,-10e-6 z"
          transform="matrix(0.17555941,0,0,0.20271854,174.23305,686.53378)" />
       <rect
          style="fill:url(#linearGradient3794);fill-opacity:1;fill-rule:evenodd;stroke:none"
@@ -4215,7 +4141,7 @@
          y="-144.9946" />
       <path
          transform="matrix(0,-0.17555941,0.20271854,0,86.508214,666.48335)"
-         d="m 72.009698,338.35589 -28.480388,-49.32947 56.96077,-10e-6 -28.480382,49.32948 z"
+         d="m 72.009698,338.35589 -28.480388,-49.32947 56.96077,-10e-6 z"
          inkscape:randomized="0"
          inkscape:rounded="0"
          inkscape:flatsided="true"
@@ -4239,7 +4165,7 @@
          style="fill:url(#linearGradient3814);fill-opacity:1;fill-rule:evenodd;stroke:none" />
       <path
          transform="matrix(0,-0.17555941,0.20271854,0,173.57465,662.13746)"
-         d="m 72.009698,338.35589 -28.480388,-49.32947 56.96077,-10e-6 -28.480382,49.32948 z"
+         d="m 72.009698,338.35589 -28.480388,-49.32947 56.96077,-10e-6 z"
          inkscape:randomized="0"
          inkscape:rounded="0"
          inkscape:flatsided="true"
@@ -4274,7 +4200,7 @@
          inkscape:flatsided="true"
          inkscape:rounded="0"
          inkscape:randomized="0"
-         d="m 72.009698,338.35589 -28.480388,-49.32947 56.96077,-10e-6 -28.480382,49.32948 z"
+         d="m 72.009698,338.35589 -28.480388,-49.32947 56.96077,-10e-6 z"
          transform="matrix(0.17555941,0,0,0.20271854,124.72719,686.78632)" />
       <rect
          y="699.64478"
@@ -4285,7 +4211,7 @@
          style="fill:url(#linearGradient3822);fill-opacity:1;fill-rule:evenodd;stroke:none" />
       <path
          transform="matrix(0.17555941,0,0,0.20271854,174.23305,686.53378)"
-         d="m 72.009698,338.35589 -28.480388,-49.32947 56.96077,-10e-6 -28.480382,49.32948 z"
+         d="m 72.009698,338.35589 -28.480388,-49.32947 56.96077,-10e-6 z"
          inkscape:randomized="0"
          inkscape:rounded="0"
          inkscape:flatsided="true"

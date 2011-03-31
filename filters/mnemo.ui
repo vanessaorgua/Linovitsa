@@ -3087,8 +3087,8 @@ QCheckBox:indicator
   <widget class="QLineEdit" name="le_L_ho">
    <property name="geometry">
     <rect>
-     <x>130</x>
-     <y>583</y>
+     <x>207</x>
+     <y>580</y>
      <width>29</width>
      <height>20</height>
     </rect>
@@ -3774,8 +3774,8 @@ QCheckBox:indicator
   <widget class="QCheckBox" name="di_2">
    <property name="geometry">
     <rect>
-     <x>135</x>
-     <y>631</y>
+     <x>1050</x>
+     <y>630</y>
      <width>16</width>
      <height>16</height>
     </rect>
@@ -3850,7 +3850,7 @@ QCheckBox:indicator
   <widget class="QCheckBox" name="di_4">
    <property name="geometry">
     <rect>
-     <x>1257</x>
+     <x>1248</x>
      <y>630</y>
      <width>16</width>
      <height>16</height>
@@ -3926,8 +3926,8 @@ QCheckBox:indicator
   <widget class="QCheckBox" name="cAM_01">
    <property name="geometry">
     <rect>
-     <x>1245</x>
-     <y>500</y>
+     <x>143</x>
+     <y>600</y>
      <width>18</width>
      <height>20</height>
     </rect>
@@ -3959,42 +3959,11 @@ QCheckBox:indicator
     <bool>true</bool>
    </property>
   </widget>
-  <widget class="QPushButton" name="bnX_01">
-   <property name="geometry">
-    <rect>
-     <x>1241</x>
-     <y>520</y>
-     <width>41</width>
-     <height>28</height>
-    </rect>
-   </property>
-   <property name="styleSheet">
-    <string notr="true">QPushButton{
-min-width: 41px;
-min-height: 28px;
-max-width: 41px;
-max-height: 28px;
-}
-
-QPushButton
-{
-	border-image: url(:/butons/pict/klapan_analog_horiz_off_28x41.png);
-}
-QPushButton:pressed
-{
-	border-image: url(:/butons/pict/klapan_analog_horiz_on_28x41.png);
-}
-</string>
-   </property>
-   <property name="text">
-    <string/>
-   </property>
-  </widget>
   <widget class="QLCDNumber" name="lX_01">
    <property name="geometry">
     <rect>
-     <x>1240</x>
-     <y>550</y>
+     <x>112</x>
+     <y>600</y>
      <width>31</width>
      <height>23</height>
     </rect>
@@ -4324,28 +4293,6 @@ QCheckBox:indicator
     <string>CheckBox</string>
    </property>
   </widget>
-  <widget class="QLCDNumber" name="ld_G_cs_r">
-   <property name="geometry">
-    <rect>
-     <x>1245</x>
-     <y>467</y>
-     <width>39</width>
-     <height>28</height>
-    </rect>
-   </property>
-   <property name="numDigits">
-    <number>3</number>
-   </property>
-   <property name="mode">
-    <enum>QLCDNumber::Dec</enum>
-   </property>
-   <property name="segmentStyle">
-    <enum>QLCDNumber::Flat</enum>
-   </property>
-   <property name="intValue" stdset="0">
-    <number>123</number>
-   </property>
-  </widget>
   <widget class="QFrame" name="frame_5">
    <property name="geometry">
     <rect>
@@ -4439,6 +4386,29 @@ QCheckBox:indicator
     </item>
    </layout>
   </widget>
+  <widget class="QPushButton" name="bnX_01">
+   <property name="geometry">
+    <rect>
+     <x>115</x>
+     <y>620</y>
+     <width>41</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="icon">
+    <iconset resource="../../lib/picture.qrc">
+     <normaloff>:/butons/pict/lib/pump_off_l_26x30.png</normaloff>:/butons/pict/lib/pump_off_l_26x30.png</iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>26</width>
+     <height>30</height>
+    </size>
+   </property>
+  </widget>
  </widget>
  <customwidgets>
   <customwidget>
@@ -4451,6 +4421,7 @@ QCheckBox:indicator
   <include location="mnemo/mnemo.qrc"/>
   <include location="../../pict/lib/valves.qrc"/>
   <include location="../../lib/picture.qrc"/>
+  <include location="../../../QT4/src/lib/picture.qrc"/>
  </resources>
  <connections/>
 </ui>

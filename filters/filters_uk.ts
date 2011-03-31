@@ -162,52 +162,57 @@ p, li { white-space: pre-wrap; }
 <context>
     <name>Mnemo</name>
     <message>
-        <location filename="mnemo.cpp" line="137"/>
+        <location filename="mnemo.cpp" line="141"/>
         <source>Full</source>
         <translation>Повн</translation>
     </message>
     <message>
-        <location filename="mnemo.cpp" line="141"/>
+        <location filename="mnemo.cpp" line="145"/>
         <source>Half</source>
         <translation>Част</translation>
     </message>
     <message>
-        <location filename="mnemo.cpp" line="209"/>
+        <location filename="mnemo.cpp" line="165"/>
+        <source>Not partial</source>
+        <translation>Без вивантаж.</translation>
+    </message>
+    <message>
+        <location filename="mnemo.cpp" line="216"/>
         <source>Off-line</source>
         <translation>Від’єднано</translation>
     </message>
     <message>
-        <location filename="mnemo.cpp" line="218"/>
+        <location filename="mnemo.cpp" line="225"/>
         <source>Manual</source>
         <translation>Ручне</translation>
     </message>
     <message>
-        <location filename="mnemo.cpp" line="225"/>
+        <location filename="mnemo.cpp" line="232"/>
         <source>Off</source>
         <translation>Вимкнено</translation>
     </message>
     <message>
-        <location filename="mnemo.cpp" line="228"/>
+        <location filename="mnemo.cpp" line="235"/>
         <source>Start</source>
         <translation>Старт</translation>
     </message>
     <message>
-        <location filename="mnemo.cpp" line="231"/>
+        <location filename="mnemo.cpp" line="238"/>
         <source>Filtering</source>
         <translation>Фільтрування</translation>
     </message>
     <message>
-        <location filename="mnemo.cpp" line="236"/>
+        <location filename="mnemo.cpp" line="243"/>
         <source>Upload</source>
         <translation>Вивант.</translation>
     </message>
     <message>
-        <location filename="mnemo.cpp" line="239"/>
+        <location filename="mnemo.cpp" line="246"/>
         <source>Unknown</source>
         <translation>Невідомо</translation>
     </message>
     <message>
-        <location filename="mnemo.cpp" line="247"/>
+        <location filename="mnemo.cpp" line="254"/>
         <source>Local</source>
         <translation>Місцеве</translation>
     </message>
@@ -396,48 +401,53 @@ p, li { white-space: pre-wrap; }
         <translation></translation>
     </message>
     <message>
-        <location filename="tparamdialog.ui" line="76"/>
+        <location filename="tparamdialog.ui" line="73"/>
+        <source>Not partial</source>
+        <translation>Без вивантаж.</translation>
+    </message>
+    <message>
+        <location filename="tparamdialog.ui" line="81"/>
         <source>Time</source>
         <translation>Час фільтрування</translation>
     </message>
     <message>
-        <location filename="tparamdialog.ui" line="83"/>
+        <location filename="tparamdialog.ui" line="88"/>
         <source>Volume</source>
         <translation>Об’єм</translation>
     </message>
     <message>
-        <location filename="tparamdialog.ui" line="97"/>
+        <location filename="tparamdialog.ui" line="102"/>
         <source>Partial time</source>
         <translation>Час част. вивант.</translation>
     </message>
     <message>
-        <location filename="tparamdialog.ui" line="114"/>
+        <location filename="tparamdialog.ui" line="119"/>
         <source>Upload time</source>
         <translation>Час вивантаження</translation>
     </message>
     <message>
-        <location filename="tparamdialog.ui" line="131"/>
+        <location filename="tparamdialog.ui" line="136"/>
         <source>Start time</source>
         <translation>Час пропуску</translation>
     </message>
     <message>
-        <location filename="tparamdialog.ui" line="141"/>
-        <location filename="tparamdialog.ui" line="151"/>
+        <location filename="tparamdialog.ui" line="146"/>
+        <location filename="tparamdialog.ui" line="156"/>
         <source>mm:ss</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="tparamdialog.ui" line="158"/>
+        <location filename="tparamdialog.ui" line="163"/>
         <source>Min diff level</source>
         <translation>Мін. приріст рівн. сусп.</translation>
     </message>
     <message>
-        <location filename="tparamdialog.ui" line="191"/>
+        <location filename="tparamdialog.ui" line="196"/>
         <source>Ok</source>
         <translation></translation>
     </message>
     <message>
-        <location filename="tparamdialog.ui" line="198"/>
+        <location filename="tparamdialog.ui" line="203"/>
         <source>Cancel</source>
         <translation>Відмінити</translation>
     </message>
@@ -517,19 +527,19 @@ p, li { white-space: pre-wrap; }
         <location filename="mnemo.ui" line="2205"/>
         <location filename="mnemo.ui" line="2246"/>
         <location filename="mnemo.ui" line="2284"/>
-        <location filename="mnemo.ui" line="3758"/>
-        <location filename="mnemo.ui" line="3796"/>
-        <location filename="mnemo.ui" line="3834"/>
-        <location filename="mnemo.ui" line="3872"/>
-        <location filename="mnemo.ui" line="3910"/>
-        <location filename="mnemo.ui" line="4038"/>
-        <location filename="mnemo.ui" line="4077"/>
-        <location filename="mnemo.ui" line="4116"/>
-        <location filename="mnemo.ui" line="4155"/>
-        <location filename="mnemo.ui" line="4194"/>
-        <location filename="mnemo.ui" line="4233"/>
-        <location filename="mnemo.ui" line="4272"/>
-        <location filename="mnemo.ui" line="4311"/>
+        <location filename="mnemo.ui" line="3771"/>
+        <location filename="mnemo.ui" line="3809"/>
+        <location filename="mnemo.ui" line="3847"/>
+        <location filename="mnemo.ui" line="3885"/>
+        <location filename="mnemo.ui" line="3923"/>
+        <location filename="mnemo.ui" line="4020"/>
+        <location filename="mnemo.ui" line="4059"/>
+        <location filename="mnemo.ui" line="4098"/>
+        <location filename="mnemo.ui" line="4137"/>
+        <location filename="mnemo.ui" line="4176"/>
+        <location filename="mnemo.ui" line="4215"/>
+        <location filename="mnemo.ui" line="4254"/>
+        <location filename="mnemo.ui" line="4293"/>
         <source>CheckBox</source>
         <translation type="unfinished"></translation>
     </message>
@@ -599,63 +609,102 @@ p, li { white-space: pre-wrap; }
         <translation>Час між регенераціями</translation>
     </message>
     <message>
-        <location filename="mnemo.ui" line="2504"/>
+        <location filename="mnemo.ui" line="2517"/>
         <source>Filter regeneration</source>
         <translation>№ фільтра</translation>
     </message>
     <message>
-        <location filename="mnemo.ui" line="2530"/>
+        <location filename="mnemo.ui" line="2543"/>
         <source>Type of regeneration</source>
         <translation>Тип регенерації</translation>
     </message>
     <message>
-        <location filename="mnemo.ui" line="2568"/>
+        <location filename="mnemo.ui" line="2581"/>
         <source>Partial emptying time</source>
         <translation>Час часткового</translation>
     </message>
     <message>
-        <location filename="mnemo.ui" line="2582"/>
+        <location filename="mnemo.ui" line="2595"/>
         <source>Unloading time</source>
         <translation>Час вивантаження</translation>
     </message>
     <message>
-        <location filename="mnemo.ui" line="2821"/>
-        <location filename="mnemo.ui" line="2842"/>
-        <location filename="mnemo.ui" line="3089"/>
-        <location filename="mnemo.ui" line="3223"/>
-        <location filename="mnemo.ui" line="3330"/>
+        <location filename="mnemo.ui" line="2834"/>
+        <location filename="mnemo.ui" line="2855"/>
+        <location filename="mnemo.ui" line="3102"/>
+        <location filename="mnemo.ui" line="3236"/>
         <source>12.3</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="mnemo.ui" line="3527"/>
+        <location filename="mnemo.ui" line="3343"/>
+        <source>99</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="mnemo.ui" line="3540"/>
         <source>Juice</source>
         <translation>Сік І сат.</translation>
     </message>
     <message>
-        <location filename="mnemo.ui" line="3540"/>
+        <location filename="mnemo.ui" line="3553"/>
         <source>Pressure coll.</source>
         <translation>Напірний збірник</translation>
     </message>
     <message>
-        <location filename="mnemo.ui" line="3559"/>
+        <location filename="mnemo.ui" line="3572"/>
         <source>Coll suspension</source>
         <translation>Зб. суспензії</translation>
     </message>
     <message>
-        <location filename="mnemo.ui" line="3575"/>
+        <location filename="mnemo.ui" line="3588"/>
         <source>coll. of partial emptying</source>
         <translation>Зб. част. вивантаження</translation>
     </message>
     <message>
-        <location filename="mnemo.ui" line="3594"/>
+        <location filename="mnemo.ui" line="3607"/>
         <source>coll. of pure juice</source>
         <translation>Зб. чистого соку</translation>
     </message>
     <message>
-        <location filename="mnemo.ui" line="3616"/>
+        <location filename="mnemo.ui" line="3629"/>
         <source>In filtering sediment</source>
         <translation>На фільтрацію осаду</translation>
+    </message>
+    <message utf8="true">
+        <location filename="mnemo.ui" line="4328"/>
+        <source>L нф. соку</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message utf8="true">
+        <location filename="mnemo.ui" line="4335"/>
+        <source>L нап. зб.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message utf8="true">
+        <location filename="mnemo.ui" line="4355"/>
+        <source>L частк.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message utf8="true">
+        <location filename="mnemo.ui" line="4362"/>
+        <source>L ч. соку</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message utf8="true">
+        <location filename="mnemo.ui" line="4369"/>
+        <source>L сусп.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message utf8="true">
+        <location filename="mnemo.ui" line="4376"/>
+        <source>F соку</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message utf8="true">
+        <location filename="mnemo.ui" line="4383"/>
+        <source>T соку</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 </TS>

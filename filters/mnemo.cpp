@@ -161,6 +161,9 @@ void Mnemo::updateDataRaw()
     case 2:
         leNc_zd="1/3";
         break;
+    case 3:
+        leNc_zd=tr("Not partial");
+        break;
     default:
         leNc_zd="?";
     }
@@ -274,7 +277,6 @@ void Mnemo::updateDataScaled() // слот обновляє дані на мне
 
     m_ui->ld_T_s->display(s[0]->getValueScaled("T_s"));
     m_ui->ld_G_cs->display(s[0]->getValueScaled("G_cs"));
-    m_ui->ld_G_cs_r->display(s[0]->getValueScaled("G_cs_r"));
 
     m_ui->lX_01->display(s[0]->getValueScaled("X_01"));
 
