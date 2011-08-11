@@ -18,13 +18,13 @@ int main(int argc, char *argv[])
     QCoreApplication::setApplicationName("test");
 
     QSettings set;
-    set.setValue("/db/db","lynovycya");
+    set.setValue("/db/db","filter1s");
 
 
     RxModbus r;
 
     r.loadList(":/text/list.txt");
-    r.setHostName("192.168.1.51");
+    r.setHostName("10.0.3.1");
     r.setPort(502);
 
     QVector<IoDev*> src; // джерела даних.
@@ -36,7 +36,7 @@ int main(int argc, char *argv[])
     IoNetServer s(src);
 
     Alert al(&r);
-    al.loadList(":/text/Linovitsa/filters/text/alert.txt");
+    al.loadList(":/text/alert.txt");
 
     QObject::connect(&r,SIGNAL(updateData()),&al,SLOT(checkAlert()));
     QObject::connect(&al,SIGNAL(newAlert(QString)),&s,SLOT(sendAlert(QString)));

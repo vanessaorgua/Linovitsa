@@ -141,7 +141,7 @@ p, li { white-space: pre-wrap; }
     <message>
         <location filename="history.ui" line="140"/>
         <source>Reg s2</source>
-        <translation>Сік на деф. 2с.</translation>
+        <translation>Регулятор рівня</translation>
     </message>
     <message>
         <source>Control</source>

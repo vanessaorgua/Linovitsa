@@ -1,1 +1,1 @@
-Витрата на деф. ІІ сат.	L_ho_l				X_01	SP_01			Am_01	Rej_01	Rev_01	Kp_01	Ti_01	Td_01	Xmin_01	Xmax_01	K_01					Mode_01	P0_01
+Регулювання рівня	L_ho_l				X_01	SP_01			Am_01	Rej_01	Rev_01	Kp_01	Ti_01	Td_01	Xmin_01	Xmax_01	K_01					Mode_01	P0_01

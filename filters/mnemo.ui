@@ -3374,28 +3374,6 @@ QCheckBox:indicator
     <number>123</number>
    </property>
   </widget>
-  <widget class="QLCDNumber" name="ld_G_cs">
-   <property name="geometry">
-    <rect>
-     <x>1190</x>
-     <y>400</y>
-     <width>39</width>
-     <height>28</height>
-    </rect>
-   </property>
-   <property name="numDigits">
-    <number>3</number>
-   </property>
-   <property name="mode">
-    <enum>QLCDNumber::Dec</enum>
-   </property>
-   <property name="segmentStyle">
-    <enum>QLCDNumber::Flat</enum>
-   </property>
-   <property name="intValue" stdset="0">
-    <number>123</number>
-   </property>
-  </widget>
   <widget class="QLineEdit" name="le_State_1">
    <property name="geometry">
     <rect>
@@ -4399,7 +4377,7 @@ QCheckBox:indicator
     <string/>
    </property>
    <property name="icon">
-    <iconset resource="../../lib/picture.qrc">
+    <iconset resource="../../../lib/picture.qrc">
      <normaloff>:/butons/pict/lib/pump_off_l_26x30.png</normaloff>:/butons/pict/lib/pump_off_l_26x30.png</iconset>
    </property>
    <property name="iconSize">
@@ -4418,10 +4396,8 @@ QCheckBox:indicator
   </customwidget>
  </customwidgets>
  <resources>
+  <include location="../../../lib/picture.qrc"/>
   <include location="mnemo/mnemo.qrc"/>
-  <include location="../../pict/lib/valves.qrc"/>
-  <include location="../../lib/picture.qrc"/>
-  <include location="../../../QT4/src/lib/picture.qrc"/>
  </resources>
  <connections/>
 </ui>

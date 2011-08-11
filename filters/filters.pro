@@ -36,8 +36,8 @@ SOURCES += main.cpp \
     history.cpp \
     alertviewdialog.cpp
 RESOURCES += mnemo/mnemo.qrc \
-    ../../lib/picture.qrc \
-    ../../pict/lib/valves.qrc \
+    ../../../lib/picture.qrc \
+    ../../../pict/lib/valves.qrc \
     text.qrc
 MOC_DIR = build
 OBJECTS_DIR = build
@@ -47,13 +47,13 @@ RCC_DIR = build
 # OTHER_FILES += test_map.txt \
 # list.txt \
 # filters_uk.qm
-QMAKE_LIBDIR += ../../lib
+QMAKE_LIBDIR += ../../../lib
 LIBS += -lrcada_client
-INCLUDEPATH += ../../lib/include
+INCLUDEPATH += ../../../lib/include
 OTHER_FILES += text/alert.txt \
     text/reg.txt
 
-PRE_TARGETDEPS +=../../lib/librcada_client.a
+PRE_TARGETDEPS +=../../../lib/librcada_client.a
 
 win32:QTPLUGIN += qsvg
 win32:CONFIG += static

@@ -16,10 +16,11 @@ Mnemo::Mnemo(IoNetClient &src, QWidget *p) : QLabel(p), m_ui(new Ui::mnemo),s(sr
 {
     m_ui->setupUi(this);
 
-    trc= new TrendChart(m_ui->Trend,600); // на десять хвилин
+    trc= new TrendChart(m_ui->Trend,600,1); // на десять хвилин
 
     QVBoxLayout *vbl1=new QVBoxLayout(m_ui->Trend);
     vbl1->addWidget(trc);
+    vbl1->setMargin(1);
     m_ui->Trend->setLayout(vbl1);
 
     QVector<QColor> clr;
@@ -30,7 +31,7 @@ Mnemo::Mnemo(IoNetClient &src, QWidget *p) : QLabel(p), m_ui(new Ui::mnemo),s(sr
     connect(&s,SIGNAL(updateDataScaled()),this,SLOT(updateDataScaled())); // при отриманні нових даних, засвітити їх на картинці
 
     QTimer* t=new QTimer(this);
-    t->setInterval(5000);
+    t->setInterval(1000);
     t->start();
     connect(t,SIGNAL(timeout()),this,SLOT(updateTrChart()));
 
@@ -276,10 +277,9 @@ void Mnemo::updateDataScaled() // слот обновляє дані на мне
     m_ui->le_L_ho->setText(QString("%1").arg(s[0]->getValueScaled("L_ho"),3,'f',0));
 
     m_ui->ld_T_s->display(s[0]->getValueScaled("T_s"));
-    m_ui->ld_G_cs->display(s[0]->getValueScaled("G_cs"));
+    //m_ui->ld_G_cs->display(s[0]->getValueScaled("G_cs"));
 
     m_ui->lX_01->display(s[0]->getValueScaled("X_01"));
-
 }
 
 void Mnemo::updateTrChart() // малюваня графіка раз в 5 секунд

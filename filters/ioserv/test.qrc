@@ -1,6 +1,6 @@
 <RCC>
     <qresource prefix="/text">
         <file>list.txt</file>
-	<file>../text/alert.txt</file>
+        <file>alert.txt</file>
     </qresource>
 </RCC>
