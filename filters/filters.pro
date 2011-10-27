@@ -55,5 +55,5 @@ OTHER_FILES += text/alert.txt \
 
 PRE_TARGETDEPS +=../../../lib/librcada_client.a
 
-win32:QTPLUGIN += qsvg
+win32:QTPLUGIN += qsvg qsqlmysql
 win32:CONFIG += static

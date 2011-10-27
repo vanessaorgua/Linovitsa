@@ -9,6 +9,7 @@
 #ifdef WIN32
 #include <QtPlugin>
 Q_IMPORT_PLUGIN(qsvg)
+Q_IMPORT_PLUGIN(qsqlmysql)
 #endif
 
 int main(int argc,char **argv)
@@ -22,7 +23,13 @@ int main(int argc,char **argv)
     QSettings s;
     
     IoNetClient net( s.value("/ioserv/hostname","localhost").toString());
-
+    net.setCmode(
+#ifdef WIN32
+                false
+#else
+                s.value("/ioserv/cmode",true).toBool()
+#endif
+    );
     QStackedWidget main;
     QColor cl;
     QPalette pal;
